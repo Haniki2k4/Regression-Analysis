@@ -1,0 +1,1601 @@
+"id","tuoi","gioi","tinh_trang_kinh_te","tinh_trang_nha_o","mac_benh_khac","thoi_gian_nam_vien","ho_tro_phuc_hoi_CN","chi_so_dinh_duong","so_lan_tai_kham","bien_chung_som","thoi_gian_phuc_hoi","trang_thai_su_kien"
+1,87,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",8.1,1,"Co",6.57,1
+2,75,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Khong",10,1,"Khong",12,0
+3,85,"Nu","Cao","Song voi nguoi than","Khong",10,"Khong",5.9,1,"Khong",0.07,1
+4,81,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.6,1,"Khong",12,0
+5,64,"Nu","Trung Binh","Khac","Co",6,"Co",4.6,4,"Khong",12,0
+6,71,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.3,3,"Khong",1.72,1
+7,74,"Nam","Ngheo","Khac","Khong",5,"Co",6.1,2,"Khong",7.38,1
+8,68,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,2,"Khong",8.77,1
+9,64,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Khong",3.2,0,"Co",12,0
+10,65,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",5.8,5,"Khong",1.67,1
+11,75,"Nu","Trung Binh","Song mot minh","Co",9,"Khong",8,5,"Co",7.57,1
+12,63,"Nam","Trung Binh","Khac","Khong",6,"Co",9.9,3,"Khong",12,0
+13,61,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",10,3,"Khong",0.49,1
+14,66,"Nam","Cao","Song voi nguoi than","Co",7,"Co",5.9,2,"Khong",0.28,1
+15,81,"Nu","Cao","Khac","Co",10,"Co",8.9,2,"Khong",12,0
+16,85,"Nam","Cao","Song mot minh","Khong",8,"Co",9.2,5,"Khong",5.1,1
+17,65,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Khong",5.8,1,"Khong",12,0
+18,74,"Nu","Cao","Song voi nguoi than","Co",4,"Co",7.4,3,"Khong",10.6,1
+19,73,"Nu","Ngheo","Song voi nguoi than","Co",4,"Co",5.4,1,"Khong",1.43,1
+20,79,"Nu","Trung Binh","Song mot minh","Khong",9,"Khong",3.9,1,"Khong",12,0
+21,73,"Nu","Trung Binh","Song mot minh","Khong",7,"Co",8.3,1,"Khong",0.89,1
+22,89,"Nu","Trung Binh","Song mot minh","Khong",9,"Khong",5.4,5,"Khong",10.03,0
+23,83,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",10,3,"Khong",4.9,1
+24,89,"Nam","Cao","Song voi nguoi than","Co",3,"Co",6.1,5,"Khong",4.83,0
+25,63,"Nu","Trung Binh","Song voi nguoi than","Khong",14,"Co",6.4,1,"Khong",0.78,1
+26,63,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",8.7,0,"Khong",4.15,1
+27,80,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,3,"Khong",3.31,1
+28,67,"Nam","Trung Binh","Song voi nguoi than","Co",13,"Co",8.6,3,"Co",10.84,1
+29,79,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Khong",9.8,2,"Co",10.42,1
+30,83,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",7.4,2,"Khong",8.47,1
+31,62,"Nam","Trung Binh","Khac","Khong",8,"Co",7.9,4,"Khong",12,0
+32,63,"Nu","Ngheo","Khac","Co",6,"Khong",6.6,3,"Khong",6.68,1
+33,90,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",8.3,1,"Co",0.01,1
+34,90,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",6.9,3,"Khong",3.32,1
+35,88,"Nam","Ngheo","Song mot minh","Co",5,"Co",7.8,2,"Co",12,0
+36,85,"Nu","Ngheo","Song voi nguoi than","Co",3,"Co",6.1,1,"Khong",9.61,1
+37,64,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.5,1,"Khong",8.06,0
+38,61,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.1,2,"Khong",12,0
+39,89,"Nu","Ngheo","Khac","Khong",6,"Co",4.3,0,"Khong",8.79,0
+40,74,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Khong",5.4,1,"Khong",3.29,0
+41,67,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,3,"Khong",1.93,1
+42,86,"Nu","Trung Binh","Khac","Co",7,"Co",8.6,5,"Khong",5.25,1
+43,79,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.7,1,"Co",0.83,0
+44,75,"Nam","Trung Binh","Song mot minh","Co",12,"Khong",5.6,0,"Khong",6.67,0
+45,71,"Nu","Ngheo","Song mot minh","Co",8,"Co",5.8,3,"Khong",2.45,1
+46,62,"Nu","Trung Binh","Khac","Khong",8,"Co",9,1,"Khong",1.1,0
+47,82,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",7.4,3,"Khong",12,0
+48,68,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Khong",4.9,1,"Khong",6.52,1
+49,78,"Nam","Ngheo","Song voi nguoi than","Co",4,"Co",9.2,5,"Khong",0.03,1
+50,81,"Nu","Trung Binh","Song mot minh","Co",11,"Khong",7.9,2,"Khong",2.89,1
+51,63,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",9.7,2,"Khong",1.01,1
+52,67,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.3,3,"Khong",2.48,0
+53,69,"Nu","Cao","Song voi nguoi than","Co",5,"Co",5.9,3,"Khong",10.91,1
+54,70,"Nam","Trung Binh","Song mot minh","Khong",8,"Khong",6.9,4,"Khong",8.2,1
+55,61,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",4.2,1,"Khong",1.27,1
+56,80,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.8,2,"Khong",5.88,1
+57,74,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Khong",7,0,"Co",1.03,0
+58,81,"Nu","Trung Binh","Song mot minh","Khong",7,"Co",6.5,4,"Khong",7.54,1
+59,76,"Nu","Trung Binh","Song mot minh","Khong",5,"Co",6.2,1,"Khong",1.35,1
+60,65,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.9,2,"Khong",7.96,1
+61,83,"Nu","Cao","Song mot minh","Khong",3,"Co",8.4,3,"Khong",0.61,1
+62,78,"Nu","Ngheo","Song voi nguoi than","Co",5,"Co",7.9,2,"Co",8.35,1
+63,65,"Nu","Ngheo","Song voi nguoi than","Co",4,"Co",5.7,3,"Khong",2.77,1
+64,76,"Nam","Cao","Khac","Co",3,"Co",6.2,1,"Khong",12,0
+65,88,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",8.7,2,"Khong",12,0
+66,76,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",4.6,3,"Khong",12,0
+67,84,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.1,2,"Khong",1.18,1
+68,67,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Khong",5,0,"Co",4.51,1
+69,85,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",8.2,2,"Khong",2.37,0
+70,76,"Nu","Trung Binh","Song mot minh","Khong",12,"Co",7.4,0,"Khong",9.24,1
+71,90,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",9.3,1,"Khong",8.56,1
+72,86,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.4,1,"Khong",7.23,1
+73,67,"Nam","Cao","Song voi nguoi than","Co",4,"Co",6.3,1,"Khong",4.72,1
+74,69,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Khong",7.3,5,"Khong",6.55,1
+75,74,"Nam","Cao","Song voi nguoi than","Co",13,"Co",8.6,0,"Co",2.38,1
+76,81,"Nu","Ngheo","Song mot minh","Khong",7,"Co",4.4,5,"Khong",12,0
+77,62,"Nu","Cao","Song voi nguoi than","Co",11,"Khong",9.9,3,"Co",3.77,0
+78,68,"Nu","Trung Binh","Khac","Co",6,"Co",6.3,1,"Khong",2.29,1
+79,75,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",7,0,"Khong",1.19,0
+80,62,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.8,3,"Khong",11.53,1
+81,81,"Nam","Trung Binh","Khac","Co",7,"Co",7.5,1,"Co",7.13,1
+82,84,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",7,2,"Khong",2.39,1
+83,69,"Nu","Cao","Song voi nguoi than","Co",4,"Co",7,3,"Khong",12,0
+84,82,"Nu","Ngheo","Khac","Co",14,"Co",9.4,2,"Khong",12,0
+85,81,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",8.6,1,"Co",3.45,1
+86,83,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",6.4,2,"Khong",8.97,1
+87,72,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",5.9,2,"Khong",12,0
+88,84,"Nam","Cao","Song voi nguoi than","Co",3,"Co",6.5,3,"Khong",2.17,1
+89,62,"Nu","Cao","Song voi nguoi than","Khong",7,"Khong",8.1,2,"Co",7.13,0
+90,78,"Nu","Cao","Song voi nguoi than","Co",3,"Khong",9.1,5,"Khong",3.56,1
+91,77,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.3,1,"Khong",10.48,1
+92,80,"Nam","Trung Binh","Song mot minh","Co",8,"Co",7.6,4,"Khong",6.42,0
+93,83,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.5,2,"Khong",12,0
+94,85,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.3,0,"Co",12,0
+95,82,"Nam","Cao","Khac","Khong",5,"Co",6.3,1,"Khong",3.49,1
+96,65,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",7.4,3,"Khong",10.9,1
+97,87,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Khong",7.8,4,"Khong",12,0
+98,79,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.4,4,"Co",12,0
+99,68,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",8.2,2,"Co",2.78,1
+100,90,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",6.9,3,"Khong",6.23,1
+101,66,"Nam","Cao","Khac","Khong",6,"Co",5,5,"Co",11.38,1
+102,88,"Nu","Trung Binh","Song mot minh","Khong",4,"Khong",6.8,3,"Co",12,0
+103,78,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",9.2,2,"Khong",6.61,1
+104,65,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",5.8,3,"Khong",2.43,1
+105,90,"Nu","Trung Binh","Khac","Co",5,"Co",8.7,2,"Khong",1.91,1
+106,64,"Nu","Cao","Song voi nguoi than","Khong",6,"Khong",5.2,1,"Khong",2.09,0
+107,86,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",4.9,5,"Khong",12,0
+108,71,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",6.6,2,"Khong",3.99,1
+109,67,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.7,0,"Co",5.02,1
+110,75,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Khong",6.5,0,"Khong",12,0
+111,87,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.7,3,"Khong",7.03,1
+112,60,"Nam","Cao","Song voi nguoi than","Co",5,"Khong",8.5,0,"Khong",12,0
+113,63,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.8,5,"Co",4.49,1
+114,82,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.9,4,"Khong",12,0
+115,87,"Nu","Cao","Song voi nguoi than","Khong",10,"Co",5,2,"Khong",2.81,1
+116,78,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Co",7.2,3,"Khong",5.95,1
+117,68,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",3.9,1,"Khong",7.69,1
+118,89,"Nam","Cao","Song voi nguoi than","Co",6,"Khong",8.1,4,"Khong",12,0
+119,89,"Nu","Trung Binh","Song mot minh","Khong",7,"Co",5.8,2,"Khong",0.88,1
+120,90,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",5.9,2,"Khong",12,0
+121,79,"Nam","Trung Binh","Song mot minh","Co",8,"Khong",8.5,2,"Khong",12,0
+122,76,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",8.6,2,"Khong",1.66,1
+123,65,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",5.4,5,"Khong",12,0
+124,81,"Nam","Cao","Song mot minh","Khong",6,"Khong",5.6,2,"Khong",12,0
+125,85,"Nu","Cao","Khac","Khong",3,"Co",5,2,"Khong",1.95,1
+126,65,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Khong",5.6,2,"Khong",12,0
+127,80,"Nu","Ngheo","Khac","Khong",6,"Khong",7.1,2,"Khong",7.9,1
+128,80,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",7,4,"Khong",5.01,1
+129,72,"Nu","Ngheo","Song mot minh","Khong",14,"Khong",7.9,2,"Khong",0,0
+130,76,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",10,2,"Khong",12,0
+131,61,"Nu","Ngheo","Song voi nguoi than","Co",10,"Co",9.3,5,"Khong",6.3,1
+132,89,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.5,0,"Khong",2.63,1
+133,65,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",6.8,3,"Co",5.17,0
+134,85,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Khong",6.6,4,"Khong",12,0
+135,61,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",8.4,3,"Khong",12,0
+136,80,"Nu","Cao","Song voi nguoi than","Co",4,"Co",6.1,2,"Khong",9.53,0
+137,75,"Nam","Cao","Song voi nguoi than","Khong",4,"Co",6.6,0,"Khong",11.61,1
+138,70,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Khong",8.6,1,"Khong",12,0
+139,87,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",10,2,"Khong",1.24,1
+140,63,"Nam","Trung Binh","Song mot minh","Co",10,"Co",7.9,2,"Khong",12,0
+141,62,"Nu","Ngheo","Song mot minh","Khong",7,"Co",5.9,4,"Khong",12,0
+142,85,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",6.3,0,"Khong",4.34,1
+143,63,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Khong",8.1,3,"Khong",12,0
+144,80,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",7.8,3,"Khong",9.12,1
+145,69,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",7.9,4,"Co",7.94,1
+146,65,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Co",8.9,5,"Khong",3.96,1
+147,65,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.1,5,"Khong",0.21,1
+148,68,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.6,3,"Co",6.59,1
+149,70,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",8.4,3,"Khong",1.41,1
+150,78,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",7.3,5,"Khong",12,0
+151,84,"Nam","Trung Binh","Khac","Co",9,"Khong",10,2,"Khong",1.71,1
+152,81,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",8,3,"Co",12,0
+153,73,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Khong",8.6,0,"Khong",12,0
+154,67,"Nam","Cao","Song voi nguoi than","Khong",11,"Co",7.8,5,"Co",2.2,1
+155,88,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.7,5,"Co",5.6,1
+156,76,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",8.8,0,"Khong",3.8,1
+157,72,"Nu","Trung Binh","Song mot minh","Co",10,"Khong",10,2,"Khong",2.48,1
+158,84,"Nu","Cao","Song voi nguoi than","Khong",9,"Khong",6.4,5,"Khong",12,0
+159,75,"Nam","Cao","Song voi nguoi than","Khong",5,"Khong",7.6,2,"Khong",12,0
+160,61,"Nu","Ngheo","Song mot minh","Khong",9,"Khong",9.5,2,"Khong",4.47,1
+161,65,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",6,2,"Khong",3.05,1
+162,83,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.3,4,"Khong",12,0
+163,89,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",5.7,5,"Khong",4.27,1
+164,70,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",7.7,2,"Co",3.52,1
+165,65,"Nu","Ngheo","Song mot minh","Co",10,"Co",6.1,3,"Khong",1.76,1
+166,89,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6.4,2,"Khong",1.82,1
+167,78,"Nam","Cao","Song voi nguoi than","Co",7,"Co",6.9,3,"Khong",7.83,1
+168,82,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",7.2,0,"Khong",0.39,1
+169,74,"Nam","Trung Binh","Khac","Co",7,"Co",9.2,3,"Khong",10.2,1
+170,80,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",6.5,3,"Khong",9.26,1
+171,81,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",7.2,1,"Khong",10.65,1
+172,73,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",9.4,0,"Khong",10.02,1
+173,82,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.5,4,"Khong",12,0
+174,87,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6,4,"Khong",5.25,0
+175,78,"Nam","Cao","Song voi nguoi than","Co",5,"Khong",7.4,3,"Khong",12,0
+176,78,"Nu","Cao","Song voi nguoi than","Khong",5,"Co",8.3,2,"Khong",2.54,1
+177,66,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",4.9,4,"Khong",12,0
+178,68,"Nu","Cao","Song voi nguoi than","Khong",7,"Co",4.9,5,"Khong",1.53,1
+179,86,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.1,5,"Khong",2.12,1
+180,87,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",7.8,2,"Khong",12,0
+181,75,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",8.5,5,"Khong",6.47,1
+182,86,"Nu","Ngheo","Song voi nguoi than","Co",7,"Co",6.8,3,"Khong",3.32,1
+183,67,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.2,2,"Khong",0.8,1
+184,62,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",8,1,"Khong",1.17,1
+185,85,"Nu","Cao","Song mot minh","Khong",3,"Co",8.7,0,"Khong",1.91,0
+186,75,"Nam","Ngheo","Song voi nguoi than","Khong",12,"Co",6,1,"Khong",10.64,1
+187,81,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.4,1,"Khong",12,0
+188,82,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",6,4,"Co",12,0
+189,87,"Nu","Cao","Song mot minh","Khong",6,"Khong",7.2,3,"Khong",4.67,1
+190,61,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",10,3,"Khong",4.97,1
+191,64,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",6.8,2,"Khong",1.58,1
+192,75,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.9,2,"Khong",6.84,1
+193,80,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",8.2,2,"Khong",6.36,0
+194,68,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.3,5,"Khong",0.46,1
+195,62,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",8.1,2,"Khong",0.95,1
+196,67,"Nam","Trung Binh","Song mot minh","Co",9,"Khong",5.1,5,"Khong",12,0
+197,62,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Co",5.3,5,"Khong",8.75,1
+198,67,"Nu","Trung Binh","Song mot minh","Khong",7,"Co",6.9,1,"Khong",7.15,1
+199,78,"Nu","Trung Binh","Song mot minh","Co",7,"Co",5.5,2,"Khong",0.68,1
+200,88,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",7,3,"Khong",5.53,1
+201,84,"Nam","Trung Binh","Khac","Khong",10,"Co",6.4,2,"Khong",12,0
+202,63,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",8,2,"Co",8.75,1
+203,83,"Nam","Cao","Song mot minh","Khong",8,"Khong",5.5,1,"Khong",2.48,1
+204,79,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Khong",7.2,4,"Khong",7.57,1
+205,78,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",5.8,3,"Khong",12,0
+206,85,"Nu","Trung Binh","Song mot minh","Khong",12,"Co",5,2,"Khong",1.28,1
+207,66,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Khong",9,1,"Khong",3.86,1
+208,76,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.7,1,"Khong",1.37,1
+209,84,"Nu","Trung Binh","Song mot minh","Khong",8,"Co",5.3,3,"Co",12,0
+210,62,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.9,2,"Khong",11.91,1
+211,61,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",10,2,"Co",12,0
+212,64,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",7.5,1,"Khong",12,0
+213,74,"Nu","Ngheo","Song voi nguoi than","Khong",12,"Co",7.7,2,"Co",7.74,1
+214,74,"Nu","Trung Binh","Song mot minh","Khong",9,"Co",5.7,1,"Khong",2.31,1
+215,89,"Nu","Cao","Song voi nguoi than","Co",4,"Co",6.3,5,"Khong",12,0
+216,69,"Nam","Ngheo","Song voi nguoi than","Co",3,"Co",6.4,0,"Khong",5.32,1
+217,81,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.3,2,"Khong",2.75,1
+218,84,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",6.3,2,"Khong",12,0
+219,76,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Khong",9.1,2,"Khong",12,0
+220,62,"Nu","Ngheo","Song voi nguoi than","Co",8,"Co",7,1,"Khong",12,0
+221,84,"Nam","Trung Binh","Khac","Co",6,"Co",7.1,5,"Khong",1.06,1
+222,75,"Nam","Ngheo","Khac","Co",10,"Khong",8.7,2,"Khong",12,0
+223,68,"Nam","Ngheo","Khac","Khong",10,"Co",4.2,3,"Co",12,0
+224,79,"Nu","Trung Binh","Khac","Co",6,"Co",6.7,2,"Khong",7.65,1
+225,71,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.4,2,"Khong",12,0
+226,64,"Nam","Trung Binh","Khac","Co",6,"Co",5.8,0,"Khong",12,0
+227,76,"Nu","Cao","Song voi nguoi than","Co",8,"Co",7.4,4,"Khong",1.04,1
+228,62,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",6.5,2,"Khong",1.37,1
+229,74,"Nu","Ngheo","Song voi nguoi than","Co",7,"Co",6.7,1,"Khong",3.61,1
+230,81,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",5.1,2,"Co",1.1,1
+231,64,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",6.4,3,"Khong",2.26,1
+232,65,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.1,5,"Khong",2.33,1
+233,77,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",7.4,3,"Khong",5,0
+234,89,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",5.6,1,"Khong",6.75,1
+235,78,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Khong",8,5,"Khong",12,0
+236,77,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",7.2,1,"Khong",3.13,1
+237,82,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",6.3,0,"Khong",5.02,1
+238,70,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",4.5,3,"Khong",10.75,1
+239,75,"Nam","Cao","Khac","Khong",7,"Co",4.5,5,"Khong",3.02,1
+240,90,"Nu","Ngheo","Song voi nguoi than","Co",8,"Khong",6.8,3,"Khong",12,0
+241,65,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",7.8,5,"Khong",4.01,1
+242,66,"Nu","Ngheo","Song voi nguoi than","Co",7,"Co",6.6,3,"Khong",9.32,1
+243,67,"Nam","Trung Binh","Song voi nguoi than","Co",13,"Co",8.7,1,"Khong",2.27,0
+244,63,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",6.1,1,"Khong",1.53,1
+245,70,"Nam","Ngheo","Song mot minh","Khong",7,"Co",8.2,2,"Khong",4.02,1
+246,88,"Nu","Trung Binh","Khac","Khong",7,"Khong",2.6,2,"Khong",12,0
+247,74,"Nu","Trung Binh","Khac","Khong",7,"Co",9.2,3,"Khong",0.45,1
+248,76,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Co",8.9,3,"Khong",4.49,1
+249,70,"Nam","Trung Binh","Song mot minh","Co",5,"Khong",7.5,0,"Khong",10.02,1
+250,66,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",7.5,4,"Khong",7.16,0
+251,69,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.3,3,"Khong",4.13,0
+252,83,"Nam","Cao","Song voi nguoi than","Co",7,"Khong",5.1,1,"Khong",12,0
+253,70,"Nu","Trung Binh","Khac","Co",10,"Co",6,1,"Co",12,0
+254,62,"Nu","Cao","Song mot minh","Khong",3,"Co",7.5,3,"Khong",0.44,1
+255,85,"Nu","Cao","Song voi nguoi than","Co",8,"Co",6.6,1,"Khong",3.84,1
+256,77,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Co",8.8,3,"Khong",0.23,0
+257,70,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Khong",7.1,3,"Khong",7.24,1
+258,83,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.9,5,"Khong",3.14,1
+259,60,"Nu","Cao","Song voi nguoi than","Co",6,"Co",7.3,3,"Khong",3.14,1
+260,67,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",8.1,1,"Khong",3.36,1
+261,67,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.1,2,"Khong",8.91,1
+262,81,"Nam","Ngheo","Song voi nguoi than","Co",10,"Co",5.9,2,"Khong",5.63,0
+263,69,"Nam","Trung Binh","Song mot minh","Khong",7,"Co",7.9,2,"Khong",1.09,1
+264,64,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Khong",10,5,"Khong",6.88,1
+265,79,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.9,4,"Khong",4.12,1
+266,71,"Nam","Ngheo","Song voi nguoi than","Co",7,"Khong",4.4,3,"Khong",12,0
+267,90,"Nu","Cao","Song voi nguoi than","Khong",6,"Co",8.5,2,"Co",2.43,1
+268,69,"Nu","Cao","Song mot minh","Khong",10,"Co",8.3,4,"Khong",1.15,1
+269,79,"Nu","Cao","Song voi nguoi than","Khong",3,"Khong",6.9,2,"Khong",6.42,1
+270,60,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Co",6.3,5,"Khong",2.47,1
+271,88,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",6.9,2,"Khong",12,0
+272,81,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",9,2,"Khong",12,0
+273,65,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",8.6,0,"Co",12,0
+274,86,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Khong",6,4,"Co",12,0
+275,62,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",9.5,0,"Co",12,0
+276,63,"Nam","Trung Binh","Song mot minh","Khong",12,"Co",3.9,2,"Khong",2.69,1
+277,63,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",7.8,2,"Khong",12,0
+278,70,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",6.6,1,"Khong",1.45,1
+279,62,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",5.9,3,"Khong",1.8,1
+280,60,"Nu","Cao","Song mot minh","Khong",4,"Co",6.7,0,"Khong",8.75,1
+281,78,"Nu","Cao","Song voi nguoi than","Khong",7,"Co",4.5,1,"Khong",0.18,1
+282,88,"Nu","Ngheo","Khac","Khong",6,"Co",7.1,3,"Co",2.3,1
+283,60,"Nu","Cao","Song voi nguoi than","Co",10,"Khong",7.2,3,"Khong",12,0
+284,89,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Khong",5.8,2,"Khong",12,0
+285,84,"Nu","Trung Binh","Song mot minh","Co",8,"Co",4.3,4,"Khong",4.96,0
+286,87,"Nam","Cao","Song voi nguoi than","Khong",11,"Co",6,2,"Co",12,0
+287,71,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",8.7,3,"Khong",12,0
+288,88,"Nam","Ngheo","Song voi nguoi than","Khong",12,"Khong",6.7,1,"Khong",11.26,0
+289,78,"Nam","Trung Binh","Khac","Co",5,"Co",7.2,1,"Khong",0.3,0
+290,69,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",9.3,2,"Khong",0.95,1
+291,80,"Nu","Cao","Song voi nguoi than","Khong",8,"Co",5.9,4,"Khong",1.65,1
+292,72,"Nam","Cao","Song voi nguoi than","Co",7,"Co",7.7,0,"Khong",5.97,1
+293,71,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",3.3,3,"Khong",7.17,1
+294,88,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",8.8,3,"Co",8.69,1
+295,90,"Nam","Cao","Song mot minh","Co",4,"Co",7.3,2,"Co",8.04,1
+296,60,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",7.1,1,"Khong",2.82,1
+297,80,"Nam","Ngheo","Song voi nguoi than","Co",11,"Co",4.1,4,"Khong",12,0
+298,72,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",7.4,2,"Co",1.41,1
+299,69,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",7.1,2,"Khong",3.84,1
+300,81,"Nu","Cao","Song voi nguoi than","Khong",9,"Khong",5.7,2,"Khong",10.15,1
+301,72,"Nam","Trung Binh","Khac","Khong",4,"Khong",6.5,1,"Khong",12,0
+302,86,"Nam","Trung Binh","Song voi nguoi than","Co",13,"Co",9.7,3,"Khong",12,0
+303,67,"Nam","Cao","Song voi nguoi than","Co",9,"Co",6.2,0,"Khong",12,0
+304,77,"Nam","Cao","Song voi nguoi than","Co",6,"Co",6.8,2,"Khong",1.02,0
+305,82,"Nam","Trung Binh","Song mot minh","Khong",4,"Co",6,3,"Khong",12,0
+306,90,"Nam","Cao","Song mot minh","Co",12,"Khong",9.2,1,"Khong",12,0
+307,61,"Nam","Trung Binh","Song mot minh","Co",9,"Co",4.3,0,"Co",12,0
+308,83,"Nam","Trung Binh","Khac","Khong",4,"Co",7.9,5,"Khong",2.07,1
+309,65,"Nu","Trung Binh","Song mot minh","Co",7,"Co",8.2,4,"Khong",3.66,1
+310,84,"Nam","Trung Binh","Song mot minh","Khong",6,"Co",8.3,5,"Khong",6.25,1
+311,80,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.2,4,"Khong",9.04,1
+312,73,"Nam","Cao","Song voi nguoi than","Co",6,"Co",7.9,1,"Khong",1.31,1
+313,65,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",5.4,5,"Khong",4.8,1
+314,64,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Khong",7,2,"Khong",3.85,1
+315,70,"Nam","Cao","Song voi nguoi than","Co",3,"Co",7.3,0,"Khong",9.81,1
+316,73,"Nam","Ngheo","Khac","Khong",6,"Co",6.9,0,"Khong",7.46,1
+317,87,"Nam","Trung Binh","Song mot minh","Co",11,"Co",6.5,2,"Khong",1.75,1
+318,87,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",8.1,5,"Khong",2.02,1
+319,68,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",6.1,4,"Khong",4.45,1
+320,79,"Nu","Cao","Song voi nguoi than","Khong",3,"Co",5.9,3,"Khong",4.97,1
+321,79,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",7.5,2,"Khong",3.53,1
+322,60,"Nam","Trung Binh","Khac","Khong",8,"Co",8,5,"Khong",6.5,0
+323,60,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",7.1,4,"Khong",4.78,1
+324,74,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7,2,"Co",6,1
+325,65,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",6.9,1,"Khong",7.47,1
+326,89,"Nam","Cao","Song voi nguoi than","Co",10,"Co",6.9,5,"Khong",12,0
+327,80,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.8,1,"Khong",5.77,1
+328,69,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",6.8,2,"Khong",12,0
+329,61,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8,3,"Co",3.54,0
+330,70,"Nu","Cao","Song voi nguoi than","Co",8,"Co",6.7,1,"Khong",9.79,1
+331,84,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.9,1,"Khong",9.83,0
+332,77,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",8.2,1,"Khong",6.38,1
+333,71,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",9.4,4,"Khong",3.44,1
+334,70,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.3,3,"Khong",3.2,1
+335,78,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.3,5,"Khong",0.45,1
+336,64,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Khong",6.3,3,"Khong",12,0
+337,84,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.4,3,"Khong",9.92,0
+338,61,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6,3,"Khong",4.79,1
+339,65,"Nam","Ngheo","Song mot minh","Co",13,"Co",8,1,"Khong",5.97,1
+340,61,"Nu","Trung Binh","Song mot minh","Co",3,"Co",9.7,2,"Khong",8.73,1
+341,64,"Nam","Trung Binh","Khac","Khong",4,"Khong",9.5,2,"Khong",10.16,1
+342,89,"Nu","Trung Binh","Khac","Khong",9,"Co",10,5,"Khong",6.98,1
+343,82,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",9,1,"Khong",0.42,0
+344,72,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7,3,"Khong",5.08,0
+345,85,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Co",8.1,5,"Co",3.68,1
+346,79,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",7.1,4,"Khong",12,0
+347,64,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",5.9,4,"Khong",12,0
+348,68,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",7.8,1,"Khong",12,0
+349,82,"Nu","Cao","Song voi nguoi than","Co",9,"Co",4.2,0,"Co",12,0
+350,86,"Nam","Cao","Song voi nguoi than","Co",4,"Co",7.3,3,"Khong",12,0
+351,65,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Khong",4.5,1,"Khong",12,0
+352,74,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Khong",6.3,5,"Khong",12,0
+353,81,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",10,1,"Khong",2.13,1
+354,79,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.2,2,"Khong",2.11,1
+355,68,"Nu","Ngheo","Song voi nguoi than","Khong",12,"Khong",7.3,3,"Khong",4.2,0
+356,61,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Khong",6.3,2,"Khong",12,0
+357,70,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",6.9,1,"Khong",12,0
+358,83,"Nu","Cao","Song voi nguoi than","Khong",8,"Co",7.3,4,"Khong",8.19,1
+359,71,"Nam","Trung Binh","Song mot minh","Co",9,"Khong",6.4,5,"Khong",5.36,1
+360,83,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.4,2,"Khong",12,0
+361,64,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",5.2,1,"Khong",3.02,1
+362,78,"Nam","Trung Binh","Song mot minh","Khong",4,"Khong",9,0,"Khong",4.72,1
+363,90,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.7,0,"Khong",12,0
+364,86,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",5.9,4,"Co",12,0
+365,66,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.1,2,"Co",2.24,1
+366,79,"Nu","Cao","Song voi nguoi than","Co",8,"Khong",7.5,2,"Khong",12,0
+367,65,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",7.5,4,"Co",4.22,1
+368,64,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",8,4,"Khong",4.21,1
+369,74,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",5.5,1,"Co",0.77,1
+370,90,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Co",5.4,5,"Khong",10.2,1
+371,63,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Co",6.3,5,"Khong",12,0
+372,82,"Nam","Ngheo","Song mot minh","Khong",10,"Co",6.1,4,"Khong",12,0
+373,87,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",6.6,2,"Khong",1.74,1
+374,72,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",5.9,1,"Khong",10.83,1
+375,87,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.6,0,"Khong",1.9,1
+376,61,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Khong",4.9,0,"Khong",12,0
+377,86,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",8.6,2,"Khong",2.44,1
+378,69,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",4.2,5,"Khong",5.01,0
+379,86,"Nu","Cao","Song mot minh","Khong",7,"Co",4,1,"Khong",12,0
+380,63,"Nu","Cao","Song voi nguoi than","Khong",13,"Co",8.3,5,"Khong",2.22,1
+381,77,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",7.4,1,"Khong",7.2,1
+382,79,"Nu","Trung Binh","Song mot minh","Khong",11,"Co",5.6,2,"Khong",4.4,0
+383,69,"Nam","Cao","Song voi nguoi than","Khong",9,"Khong",7,0,"Khong",12,0
+384,61,"Nu","Trung Binh","Song mot minh","Co",12,"Co",8,2,"Khong",10.55,0
+385,76,"Nam","Ngheo","Song voi nguoi than","Co",7,"Khong",7.7,2,"Khong",12,0
+386,63,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Khong",7.6,4,"Khong",2.29,1
+387,81,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,5,"Co",12,0
+388,69,"Nu","Cao","Song voi nguoi than","Co",10,"Co",6.5,2,"Co",11.24,0
+389,83,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",8.5,3,"Khong",3.22,1
+390,78,"Nu","Trung Binh","Khac","Co",8,"Co",7.5,0,"Khong",4.65,1
+391,72,"Nam","Trung Binh","Song mot minh","Co",7,"Co",8,4,"Co",12,0
+392,73,"Nu","Trung Binh","Song mot minh","Co",8,"Co",6.1,2,"Khong",12,0
+393,68,"Nam","Ngheo","Song voi nguoi than","Khong",10,"Co",7.2,1,"Co",1.03,0
+394,72,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",7.9,4,"Khong",3.71,1
+395,86,"Nu","Cao","Song voi nguoi than","Khong",11,"Co",7.1,1,"Khong",12,0
+396,82,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.8,0,"Khong",3.84,1
+397,74,"Nam","Trung Binh","Song mot minh","Co",3,"Khong",5.2,2,"Co",12,0
+398,89,"Nu","Cao","Song voi nguoi than","Khong",5,"Khong",8,1,"Khong",4.1,0
+399,86,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",6,1,"Khong",9.78,1
+400,78,"Nu","Ngheo","Song voi nguoi than","Co",8,"Khong",9,5,"Khong",2.61,0
+401,85,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",9.6,1,"Khong",8.49,1
+402,69,"Nam","Cao","Song voi nguoi than","Co",5,"Co",7.7,3,"Khong",6.41,1
+403,72,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.2,3,"Khong",12,0
+404,60,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Khong",6.5,2,"Khong",5.48,1
+405,65,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",10,1,"Khong",12,0
+406,80,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Khong",10,3,"Khong",9.91,1
+407,87,"Nam","Trung Binh","Khac","Khong",7,"Co",5.1,0,"Khong",12,0
+408,81,"Nu","Cao","Song mot minh","Khong",10,"Co",7.1,2,"Khong",2.44,1
+409,62,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Co",7,0,"Khong",12,0
+410,74,"Nu","Trung Binh","Khac","Khong",5,"Khong",7.9,0,"Khong",1.41,1
+411,78,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.3,1,"Co",11.88,1
+412,87,"Nu","Ngheo","Song mot minh","Khong",12,"Khong",7.8,2,"Khong",12,0
+413,60,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",5.2,3,"Khong",2.64,1
+414,76,"Nam","Ngheo","Song mot minh","Co",8,"Khong",9.6,5,"Khong",7.69,1
+415,77,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Co",8.5,5,"Khong",2.74,1
+416,74,"Nu","Trung Binh","Song mot minh","Co",5,"Khong",8.1,2,"Khong",12,0
+417,74,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Khong",5.7,2,"Co",12,0
+418,80,"Nu","Ngheo","Song mot minh","Khong",9,"Co",6.6,5,"Khong",0.12,1
+419,63,"Nam","Trung Binh","Khac","Khong",4,"Co",9.1,1,"Khong",5.26,1
+420,87,"Nam","Trung Binh","Khac","Khong",5,"Khong",6.8,2,"Khong",2.72,0
+421,73,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",7.3,2,"Khong",5.15,1
+422,86,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Khong",9.5,2,"Khong",12,0
+423,73,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",8.2,1,"Khong",3.66,1
+424,76,"Nu","Trung Binh","Song voi nguoi than","Khong",14,"Co",7.6,3,"Khong",1.17,1
+425,69,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",5.6,1,"Khong",0.28,1
+426,75,"Nu","Trung Binh","Khac","Co",9,"Co",8.6,2,"Khong",2.75,1
+427,82,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",7.6,1,"Khong",12,0
+428,86,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Khong",7.4,1,"Khong",12,0
+429,81,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",7.2,1,"Co",12,0
+430,69,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Khong",7.8,4,"Khong",5.34,0
+431,76,"Nu","Trung Binh","Song mot minh","Khong",9,"Co",8.1,3,"Co",8.65,1
+432,73,"Nam","Cao","Song voi nguoi than","Co",5,"Co",7.2,1,"Khong",1.85,1
+433,65,"Nam","Trung Binh","Song mot minh","Khong",4,"Khong",4,2,"Khong",8.5,1
+434,81,"Nam","Trung Binh","Song mot minh","Khong",9,"Khong",8.7,1,"Khong",3.31,1
+435,81,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",5.8,4,"Khong",12,0
+436,74,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",7.1,4,"Co",12,0
+437,66,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Khong",6.7,1,"Khong",0.68,1
+438,80,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",8,1,"Khong",0.14,1
+439,64,"Nam","Cao","Song voi nguoi than","Khong",11,"Co",8.8,1,"Khong",12,0
+440,87,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",9.2,0,"Khong",0.93,1
+441,86,"Nu","Cao","Khac","Khong",6,"Khong",8,3,"Khong",2.93,1
+442,80,"Nu","Cao","Song mot minh","Khong",9,"Co",5.1,2,"Khong",0.08,1
+443,65,"Nam","Cao","Song voi nguoi than","Khong",8,"Khong",7.1,1,"Khong",12,0
+444,72,"Nam","Cao","Song voi nguoi than","Co",3,"Co",9.7,4,"Khong",5.25,1
+445,70,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Khong",6.3,5,"Khong",9.46,1
+446,88,"Nam","Ngheo","Song mot minh","Co",9,"Co",6.2,2,"Khong",12,0
+447,81,"Nam","Trung Binh","Song voi nguoi than","Co",15,"Co",6.3,4,"Khong",12,0
+448,79,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Khong",7.6,1,"Khong",11.48,1
+449,67,"Nam","Trung Binh","Song mot minh","Khong",5,"Co",7.3,2,"Khong",2.82,1
+450,75,"Nam","Ngheo","Song mot minh","Khong",10,"Co",7.2,3,"Khong",1.61,1
+451,78,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.5,2,"Khong",0.58,1
+452,77,"Nam","Trung Binh","Song mot minh","Khong",5,"Co",9.7,4,"Khong",0.61,1
+453,75,"Nu","Ngheo","Song voi nguoi than","Co",8,"Khong",8.2,2,"Khong",3.68,1
+454,71,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.7,3,"Khong",3.4,1
+455,82,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",9.3,2,"Khong",4.55,1
+456,74,"Nu","Trung Binh","Song mot minh","Khong",7,"Khong",5.4,2,"Khong",0.64,1
+457,67,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",5.7,5,"Khong",0.71,1
+458,63,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Co",6,1,"Khong",5.47,1
+459,72,"Nu","Trung Binh","Khac","Khong",7,"Co",7.6,3,"Khong",0.97,1
+460,88,"Nu","Cao","Song voi nguoi than","Khong",11,"Co",6,3,"Khong",4.96,1
+461,73,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.4,3,"Khong",2.74,1
+462,68,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",8.1,2,"Co",8.37,1
+463,78,"Nu","Cao","Song voi nguoi than","Khong",10,"Co",6.4,1,"Co",12,0
+464,60,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.6,3,"Khong",3.89,0
+465,63,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",5.7,2,"Co",12,0
+466,83,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Khong",7.6,0,"Khong",12,0
+467,73,"Nam","Ngheo","Song mot minh","Co",6,"Khong",7.5,4,"Khong",3.98,1
+468,90,"Nu","Ngheo","Song voi nguoi than","Khong",12,"Co",7,2,"Co",11.47,1
+469,69,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",7,2,"Khong",5.94,1
+470,83,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",5.9,1,"Khong",1.79,1
+471,72,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",7.7,2,"Khong",12,0
+472,72,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.2,0,"Khong",0.82,1
+473,86,"Nu","Trung Binh","Song mot minh","Khong",3,"Khong",8.6,5,"Khong",5.51,1
+474,69,"Nu","Cao","Song voi nguoi than","Khong",14,"Khong",5.8,5,"Khong",4.2,1
+475,78,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.4,5,"Khong",2.83,0
+476,70,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",7.8,5,"Khong",12,0
+477,74,"Nam","Ngheo","Song voi nguoi than","Khong",10,"Co",6.3,2,"Khong",12,0
+478,80,"Nu","Trung Binh","Khac","Co",7,"Co",6.6,2,"Khong",7.4,1
+479,74,"Nam","Trung Binh","Song mot minh","Co",12,"Khong",10,1,"Khong",12,0
+480,70,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",4.8,2,"Khong",2.32,1
+481,63,"Nam","Trung Binh","Khac","Khong",9,"Khong",6.7,0,"Khong",2.99,1
+482,86,"Nu","Trung Binh","Song mot minh","Co",8,"Co",9.2,4,"Co",8.61,1
+483,81,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",9.2,4,"Khong",2.94,1
+484,86,"Nu","Ngheo","Song voi nguoi than","Co",9,"Khong",7.5,4,"Khong",12,0
+485,76,"Nu","Cao","Song mot minh","Co",3,"Co",7.2,5,"Khong",0.53,0
+486,90,"Nu","Cao","Song voi nguoi than","Co",10,"Co",10,5,"Khong",12,0
+487,73,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",7.8,5,"Khong",3.52,0
+488,73,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.5,4,"Khong",10.01,1
+489,90,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",8.4,1,"Khong",12,0
+490,77,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",7.8,1,"Khong",2.34,1
+491,81,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",7.9,0,"Khong",12,0
+492,67,"Nam","Ngheo","Song voi nguoi than","Khong",10,"Co",7.6,3,"Khong",12,0
+493,72,"Nam","Trung Binh","Song mot minh","Co",5,"Co",7.1,3,"Khong",12,0
+494,79,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6,1,"Khong",12,0
+495,90,"Nam","Cao","Song voi nguoi than","Co",5,"Khong",9.2,2,"Khong",12,0
+496,90,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.8,0,"Khong",12,0
+497,70,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Co",7.6,1,"Khong",0.09,1
+498,62,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",5.2,2,"Khong",7.43,1
+499,81,"Nu","Trung Binh","Song mot minh","Khong",3,"Khong",8.9,5,"Co",5.89,1
+500,90,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",5.5,2,"Co",11.54,1
+501,70,"Nu","Cao","Song voi nguoi than","Co",8,"Co",7.2,2,"Khong",2.2,1
+502,69,"Nam","Cao","Song voi nguoi than","Khong",10,"Khong",6.8,2,"Khong",12,0
+503,69,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",8.4,2,"Khong",5.92,1
+504,77,"Nam","Cao","Song mot minh","Khong",5,"Khong",6.2,2,"Khong",8.13,1
+505,85,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",9.3,0,"Khong",8.11,1
+506,62,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",7.9,2,"Co",0.19,1
+507,63,"Nam","Trung Binh","Song mot minh","Khong",7,"Co",8.5,2,"Khong",9.44,1
+508,90,"Nu","Ngheo","Khac","Co",6,"Co",7.8,4,"Co",12,0
+509,74,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",6,2,"Khong",12,0
+510,80,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.4,3,"Khong",10.97,1
+511,81,"Nam","Trung Binh","Song mot minh","Khong",9,"Co",6.3,0,"Khong",5.88,1
+512,61,"Nam","Trung Binh","Song mot minh","Co",6,"Co",4.6,1,"Khong",4.16,1
+513,74,"Nam","Cao","Song voi nguoi than","Co",12,"Co",7.8,0,"Co",0.58,0
+514,83,"Nam","Trung Binh","Song mot minh","Co",7,"Co",6.2,1,"Khong",1.94,1
+515,77,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",6.3,5,"Khong",5.78,1
+516,74,"Nu","Cao","Song voi nguoi than","Co",3,"Co",9.2,0,"Khong",6.13,1
+517,80,"Nu","Cao","Song mot minh","Khong",11,"Co",8.8,2,"Co",9.81,1
+518,65,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Khong",6.1,3,"Khong",12,0
+519,67,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.8,1,"Khong",6.11,1
+520,87,"Nu","Cao","Song mot minh","Khong",5,"Co",7,1,"Khong",12,0
+521,68,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Co",6.5,0,"Co",12,0
+522,78,"Nam","Trung Binh","Song mot minh","Co",6,"Co",6.6,0,"Co",5.21,0
+523,83,"Nu","Cao","Song voi nguoi than","Khong",3,"Co",6.3,4,"Khong",8.33,1
+524,89,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",8.5,2,"Khong",1.29,1
+525,82,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",8.8,4,"Khong",0.88,1
+526,86,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",7.3,1,"Khong",3.44,0
+527,67,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",8,4,"Khong",12,0
+528,89,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Khong",6.6,3,"Khong",12,0
+529,90,"Nu","Cao","Song mot minh","Co",3,"Co",6.3,2,"Co",12,0
+530,71,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",8.2,2,"Khong",3.49,1
+531,62,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Khong",8.1,3,"Co",12,0
+532,74,"Nam","Cao","Song mot minh","Co",11,"Co",7,3,"Khong",4.61,1
+533,76,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",4.5,2,"Khong",12,0
+534,90,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",8.3,2,"Khong",0.14,1
+535,62,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",4.1,1,"Co",12,0
+536,79,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Co",10,2,"Khong",0.62,1
+537,87,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",6.2,1,"Khong",1.47,1
+538,70,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",8.8,1,"Khong",3.67,1
+539,79,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Khong",7.7,1,"Khong",10.7,0
+540,66,"Nu","Trung Binh","Song mot minh","Khong",9,"Khong",7.3,0,"Khong",12,0
+541,63,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",5.9,3,"Khong",12,0
+542,72,"Nam","Ngheo","Khac","Khong",12,"Co",6.3,1,"Co",0.18,1
+543,75,"Nu","Cao","Song voi nguoi than","Co",9,"Khong",7.5,4,"Co",1.29,1
+544,90,"Nu","Cao","Song mot minh","Khong",8,"Co",6.6,2,"Khong",3.59,1
+545,76,"Nu","Trung Binh","Khac","Co",7,"Khong",4.5,0,"Khong",12,0
+546,70,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,3,"Khong",10.12,1
+547,80,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",6.5,5,"Co",12,0
+548,63,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.8,2,"Khong",0.85,1
+549,89,"Nu","Cao","Song voi nguoi than","Co",9,"Khong",6.4,3,"Khong",12,0
+550,74,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",6.9,1,"Khong",0.84,1
+551,88,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",8.6,2,"Khong",3.93,0
+552,89,"Nam","Trung Binh","Khac","Khong",8,"Co",6.5,0,"Khong",12,0
+553,77,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",6.9,4,"Khong",12,0
+554,66,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",4.3,3,"Khong",12,0
+555,61,"Nu","Trung Binh","Khac","Khong",10,"Co",8.5,1,"Khong",0.74,1
+556,64,"Nu","Cao","Song voi nguoi than","Khong",4,"Khong",6.6,2,"Co",12,0
+557,81,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",4.6,4,"Khong",0.52,1
+558,78,"Nam","Trung Binh","Song mot minh","Khong",5,"Khong",4.8,1,"Khong",1.53,1
+559,74,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",3,2,"Khong",1.94,1
+560,85,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",7.2,0,"Co",12,0
+561,68,"Nam","Ngheo","Song mot minh","Khong",6,"Co",5.1,2,"Co",4.03,1
+562,66,"Nu","Ngheo","Song mot minh","Co",8,"Khong",4.1,2,"Khong",12,0
+563,75,"Nam","Cao","Song voi nguoi than","Khong",15,"Co",7.2,2,"Khong",4.78,1
+564,71,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Khong",8.6,0,"Khong",4.28,1
+565,83,"Nu","Cao","Song voi nguoi than","Co",6,"Khong",5.7,0,"Khong",12,0
+566,80,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.4,4,"Khong",1.7,1
+567,70,"Nu","Ngheo","Song voi nguoi than","Co",6,"Khong",5.1,2,"Khong",3.35,1
+568,85,"Nu","Cao","Song voi nguoi than","Co",7,"Co",6.8,0,"Khong",4.51,1
+569,84,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",5.8,2,"Khong",0.93,1
+570,88,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",5.2,1,"Khong",4.68,1
+571,84,"Nam","Cao","Song voi nguoi than","Co",10,"Khong",7.1,4,"Khong",12,0
+572,66,"Nam","Cao","Song voi nguoi than","Khong",10,"Co",6.7,2,"Co",12,0
+573,87,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",7.3,2,"Khong",3.4,1
+574,83,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",7.4,1,"Khong",7.72,1
+575,85,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",5.8,1,"Khong",0.07,1
+576,90,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",5.2,5,"Khong",12,0
+577,82,"Nam","Cao","Song voi nguoi than","Co",3,"Co",9.1,0,"Khong",10.94,1
+578,66,"Nam","Trung Binh","Khac","Co",8,"Co",7.6,1,"Khong",12,0
+579,83,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",6.8,3,"Khong",12,0
+580,64,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",7.6,2,"Khong",5.43,1
+581,65,"Nam","Trung Binh","Song mot minh","Co",4,"Co",3.7,2,"Co",3.68,0
+582,60,"Nu","Trung Binh","Song mot minh","Khong",10,"Co",6.2,3,"Khong",12,0
+583,65,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",7.8,3,"Co",12,0
+584,72,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Co",6.4,4,"Co",6.97,1
+585,69,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.5,3,"Co",12,0
+586,73,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Khong",5.4,3,"Khong",12,0
+587,83,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",7.8,3,"Co",7.91,1
+588,79,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",10,3,"Khong",0.16,1
+589,65,"Nam","Trung Binh","Khac","Khong",5,"Khong",5.9,1,"Khong",3.85,1
+590,61,"Nu","Trung Binh","Song voi nguoi than","Khong",12,"Co",6.3,3,"Khong",0.14,1
+591,89,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",7.5,2,"Khong",12,0
+592,79,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.3,5,"Khong",7.94,1
+593,69,"Nu","Trung Binh","Song mot minh","Co",8,"Co",8,2,"Khong",3.03,1
+594,88,"Nu","Cao","Song voi nguoi than","Khong",6,"Co",5.3,0,"Khong",1.02,1
+595,82,"Nu","Trung Binh","Song mot minh","Khong",8,"Co",8.3,3,"Khong",0.21,1
+596,74,"Nu","Ngheo","Song voi nguoi than","Co",10,"Co",7,1,"Khong",2.01,1
+597,83,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",6.4,2,"Khong",10.82,0
+598,60,"Nam","Ngheo","Song mot minh","Khong",3,"Co",6,2,"Khong",6.65,1
+599,60,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",4.1,1,"Khong",4.25,1
+600,76,"Nu","Ngheo","Song voi nguoi than","Co",3,"Co",8.2,5,"Khong",0.44,1
+601,79,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",8,3,"Khong",4.21,1
+602,78,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.7,3,"Khong",3.71,0
+603,90,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Khong",7.6,2,"Khong",12,0
+604,75,"Nam","Ngheo","Song voi nguoi than","Co",13,"Khong",8.5,2,"Khong",8.18,0
+605,76,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",8,3,"Khong",1.11,1
+606,65,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",6.8,4,"Khong",12,0
+607,90,"Nu","Cao","Song voi nguoi than","Co",11,"Khong",9.2,1,"Khong",6.5,1
+608,80,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.8,0,"Khong",4.95,1
+609,72,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Khong",8.4,3,"Khong",7.67,0
+610,84,"Nam","Trung Binh","Khac","Khong",6,"Khong",8.1,2,"Khong",2.01,1
+611,70,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",6.4,4,"Co",5.3,1
+612,76,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",9.2,3,"Khong",12,0
+613,74,"Nam","Cao","Song voi nguoi than","Khong",4,"Khong",8.3,0,"Khong",12,0
+614,87,"Nu","Cao","Khac","Khong",7,"Co",6.8,2,"Khong",0.56,0
+615,65,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",5.2,2,"Co",8.95,0
+616,88,"Nu","Cao","Song voi nguoi than","Khong",5,"Co",5.6,1,"Khong",10.5,1
+617,68,"Nam","Ngheo","Song voi nguoi than","Co",9,"Khong",5.1,3,"Khong",12,0
+618,60,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.8,1,"Co",1.46,1
+619,90,"Nam","Ngheo","Khac","Khong",10,"Co",4.2,0,"Khong",9.32,1
+620,62,"Nam","Trung Binh","Song mot minh","Khong",8,"Co",4.1,1,"Khong",4.26,1
+621,65,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.2,4,"Khong",11.05,1
+622,79,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Khong",4.9,1,"Khong",1.77,1
+623,90,"Nam","Trung Binh","Song mot minh","Co",5,"Co",8.4,5,"Khong",1.26,1
+624,77,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.7,2,"Khong",5.01,1
+625,84,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.8,3,"Co",12,0
+626,84,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",6.1,2,"Khong",2.24,1
+627,80,"Nam","Ngheo","Song mot minh","Co",4,"Co",7.7,5,"Khong",8.01,1
+628,81,"Nam","Ngheo","Khac","Khong",3,"Co",9,1,"Khong",12,0
+629,81,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",5.5,2,"Khong",12,0
+630,76,"Nu","Cao","Song voi nguoi than","Khong",10,"Co",6.9,0,"Khong",2.41,1
+631,89,"Nam","Trung Binh","Song mot minh","Co",14,"Co",6.8,2,"Khong",0.12,0
+632,77,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",7.9,3,"Khong",8.25,1
+633,61,"Nam","Cao","Song voi nguoi than","Co",8,"Khong",9.3,2,"Khong",7.98,1
+634,60,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.5,3,"Khong",8.03,1
+635,80,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Co",9.7,4,"Khong",2.58,1
+636,70,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",6.9,3,"Khong",5.11,1
+637,89,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",8.1,2,"Khong",0.74,1
+638,89,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",6.3,2,"Co",12,0
+639,85,"Nam","Cao","Song voi nguoi than","Co",3,"Khong",7.3,3,"Co",12,0
+640,85,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",9.7,3,"Khong",1.35,1
+641,66,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",5.1,5,"Khong",4.37,1
+642,82,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",6.2,4,"Khong",5.37,1
+643,64,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",9.1,0,"Khong",12,0
+644,79,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.5,2,"Khong",0.28,1
+645,79,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",7.9,1,"Khong",12,0
+646,70,"Nam","Cao","Song voi nguoi than","Khong",6,"Co",6.5,4,"Khong",9.95,1
+647,73,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Khong",7.7,4,"Khong",11.28,0
+648,81,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",7.6,1,"Khong",12,0
+649,86,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",6.9,1,"Khong",3.32,1
+650,66,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",7.6,1,"Khong",11.42,1
+651,85,"Nu","Trung Binh","Song mot minh","Co",4,"Khong",7.3,1,"Khong",5.61,0
+652,73,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",5,1,"Khong",12,0
+653,73,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",6.7,2,"Khong",2.6,1
+654,66,"Nam","Ngheo","Khac","Khong",6,"Co",7.6,5,"Khong",0.05,0
+655,66,"Nu","Trung Binh","Song mot minh","Khong",9,"Khong",7.2,3,"Khong",5.87,1
+656,82,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.2,5,"Co",4.89,1
+657,72,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",7.4,1,"Khong",2.9,1
+658,66,"Nam","Ngheo","Khac","Khong",7,"Co",6.5,2,"Khong",9.02,1
+659,72,"Nam","Cao","Song voi nguoi than","Khong",7,"Co",9.9,1,"Khong",0.32,1
+660,60,"Nam","Cao","Song voi nguoi than","Co",3,"Khong",8.5,0,"Khong",12,0
+661,88,"Nam","Trung Binh","Khac","Co",8,"Co",7,3,"Khong",12,0
+662,87,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Khong",8.1,2,"Khong",1.48,1
+663,89,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Co",7.2,3,"Khong",6.86,1
+664,62,"Nu","Trung Binh","Khac","Co",6,"Co",5,1,"Khong",3.21,1
+665,74,"Nu","Ngheo","Song voi nguoi than","Co",3,"Co",5.5,2,"Khong",4.35,1
+666,81,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.9,3,"Khong",10.18,1
+667,69,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Khong",7.5,2,"Khong",3.46,0
+668,78,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",6.5,1,"Khong",6.69,1
+669,87,"Nu","Cao","Song voi nguoi than","Co",3,"Co",5.9,4,"Khong",9.52,1
+670,90,"Nu","Cao","Song mot minh","Co",7,"Co",6.9,1,"Khong",0.41,1
+671,60,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",8.2,2,"Khong",0.71,1
+672,72,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Khong",5.6,2,"Khong",0.4,1
+673,83,"Nam","Cao","Song voi nguoi than","Co",10,"Khong",7.5,2,"Khong",8.95,1
+674,76,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Khong",7,2,"Co",3.87,1
+675,67,"Nam","Ngheo","Song mot minh","Co",6,"Co",6.7,2,"Khong",12,0
+676,74,"Nam","Ngheo","Song voi nguoi than","Co",9,"Co",5.9,4,"Khong",12,0
+677,85,"Nu","Cao","Song voi nguoi than","Khong",8,"Khong",6.4,2,"Khong",12,0
+678,75,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.5,5,"Co",7.69,0
+679,69,"Nam","Trung Binh","Khac","Khong",9,"Co",7.3,2,"Khong",2.76,1
+680,61,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",8.8,3,"Khong",8.75,1
+681,60,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Co",8.3,2,"Khong",12,0
+682,73,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",8.6,2,"Co",1.71,1
+683,71,"Nu","Ngheo","Song mot minh","Khong",12,"Co",8.7,0,"Khong",1.69,1
+684,78,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",9,5,"Khong",0.12,1
+685,74,"Nu","Trung Binh","Song mot minh","Khong",11,"Khong",6.7,2,"Khong",12,0
+686,87,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",6.8,1,"Khong",12,0
+687,61,"Nam","Cao","Song voi nguoi than","Khong",4,"Co",5.7,1,"Khong",9.45,1
+688,66,"Nu","Cao","Song mot minh","Co",10,"Co",6.2,5,"Khong",2.03,1
+689,89,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.1,2,"Khong",3.53,1
+690,90,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",8.1,1,"Khong",1.78,1
+691,73,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",4.4,2,"Khong",3.35,1
+692,74,"Nam","Trung Binh","Song mot minh","Co",8,"Co",4.2,3,"Khong",6.84,0
+693,60,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",7.3,3,"Khong",0.99,1
+694,86,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",9.3,3,"Khong",0.99,1
+695,67,"Nu","Cao","Song voi nguoi than","Co",3,"Khong",7.5,2,"Khong",3.18,1
+696,78,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",7.6,2,"Khong",12,0
+697,74,"Nu","Trung Binh","Khac","Khong",10,"Co",6.6,4,"Khong",0.15,1
+698,78,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",6.3,1,"Khong",2.26,1
+699,66,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",5.6,0,"Khong",1.39,1
+700,88,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Co",6.3,2,"Khong",12,0
+701,89,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Co",8.5,0,"Khong",3.49,1
+702,83,"Nu","Cao","Song mot minh","Khong",3,"Co",7.9,1,"Co",3.84,1
+703,80,"Nam","Trung Binh","Khac","Khong",5,"Co",7.5,0,"Co",9.62,1
+704,62,"Nu","Trung Binh","Song mot minh","Co",8,"Co",8.2,1,"Khong",3.16,1
+705,81,"Nu","Trung Binh","Song voi nguoi than","Co",13,"Co",8.7,2,"Khong",10.35,1
+706,90,"Nu","Cao","Song voi nguoi than","Co",3,"Co",6.9,1,"Khong",12,0
+707,81,"Nam","Trung Binh","Song mot minh","Khong",7,"Co",7.3,2,"Co",5.38,1
+708,90,"Nam","Cao","Song voi nguoi than","Khong",3,"Co",5.6,4,"Khong",5.73,1
+709,60,"Nu","Cao","Song mot minh","Co",5,"Co",8.8,2,"Khong",4.59,1
+710,68,"Nu","Trung Binh","Khac","Khong",11,"Co",6.1,2,"Khong",0.4,1
+711,66,"Nu","Cao","Song voi nguoi than","Khong",12,"Co",7.5,3,"Khong",1.44,0
+712,66,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8,1,"Khong",12,0
+713,70,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Khong",5.5,4,"Khong",11.34,1
+714,65,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",6.6,0,"Khong",1.57,1
+715,62,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.3,1,"Khong",9.33,1
+716,62,"Nu","Trung Binh","Khac","Khong",10,"Co",9.1,1,"Khong",3.9,1
+717,81,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.5,0,"Khong",2.02,1
+718,66,"Nam","Cao","Song voi nguoi than","Khong",4,"Co",7.2,4,"Co",1.11,1
+719,70,"Nu","Trung Binh","Khac","Khong",9,"Co",8.1,5,"Co",0.55,0
+720,71,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",4.6,0,"Khong",12,0
+721,80,"Nam","Cao","Song voi nguoi than","Co",5,"Co",5.5,1,"Khong",12,0
+722,71,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.8,3,"Khong",6.26,1
+723,84,"Nu","Cao","Song voi nguoi than","Khong",10,"Co",7,3,"Khong",4.95,1
+724,79,"Nu","Cao","Song voi nguoi than","Khong",7,"Co",9.5,2,"Khong",1.16,1
+725,68,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.1,4,"Khong",12,0
+726,61,"Nu","Trung Binh","Song mot minh","Khong",4,"Co",8,2,"Khong",8.95,1
+727,88,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Co",8.7,0,"Khong",12,0
+728,84,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",5.1,1,"Khong",1.94,1
+729,90,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",9.4,1,"Khong",4.64,1
+730,82,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",6.9,2,"Khong",2.64,0
+731,73,"Nu","Ngheo","Song mot minh","Khong",9,"Co",7.7,1,"Co",3.09,0
+732,67,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",7,2,"Khong",11.43,1
+733,82,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",8,3,"Khong",0.61,1
+734,82,"Nu","Ngheo","Khac","Khong",5,"Co",7.1,3,"Khong",0.31,1
+735,64,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",9.5,3,"Khong",1.62,1
+736,89,"Nu","Trung Binh","Song voi nguoi than","Khong",13,"Co",10,5,"Khong",3.03,1
+737,81,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",9.2,4,"Khong",6.86,1
+738,63,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.4,1,"Co",12,0
+739,72,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.1,3,"Khong",6.34,1
+740,66,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",6,0,"Co",12,0
+741,72,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.9,3,"Co",12,0
+742,71,"Nu","Trung Binh","Song mot minh","Khong",11,"Co",5.9,1,"Co",2.76,0
+743,79,"Nam","Cao","Song voi nguoi than","Khong",7,"Co",7.8,1,"Khong",12,0
+744,90,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.7,2,"Khong",6.06,1
+745,72,"Nu","Cao","Song mot minh","Co",14,"Khong",5.6,4,"Khong",8.33,1
+746,73,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",6.7,5,"Khong",0.27,1
+747,68,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Khong",7.4,4,"Khong",1.93,1
+748,64,"Nu","Ngheo","Song mot minh","Khong",10,"Co",5.2,1,"Khong",3.63,1
+749,70,"Nam","Cao","Khac","Khong",10,"Co",7.5,5,"Khong",1.23,0
+750,81,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.1,1,"Khong",8.5,1
+751,84,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",5,2,"Khong",12,0
+752,90,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",4.7,1,"Khong",7.56,1
+753,61,"Nam","Trung Binh","Song mot minh","Khong",7,"Co",7.9,1,"Khong",3.18,1
+754,85,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",8.2,0,"Co",12,0
+755,86,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",9.3,1,"Khong",1.3,1
+756,64,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",5.3,1,"Khong",5.95,1
+757,84,"Nu","Cao","Song voi nguoi than","Co",4,"Khong",8.4,3,"Co",5.23,1
+758,82,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",6.3,3,"Co",12,0
+759,88,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Khong",7.3,3,"Khong",7.58,1
+760,60,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",6.7,3,"Khong",1.82,1
+761,66,"Nam","Ngheo","Song voi nguoi than","Co",10,"Co",6.3,3,"Khong",12,0
+762,68,"Nu","Trung Binh","Song mot minh","Khong",3,"Khong",7.3,4,"Co",12,0
+763,63,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",5.9,1,"Co",12,0
+764,82,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",5,5,"Khong",12,0
+765,75,"Nam","Cao","Song voi nguoi than","Khong",11,"Khong",7.5,3,"Khong",6.04,0
+766,85,"Nu","Cao","Song voi nguoi than","Khong",7,"Co",6.6,2,"Khong",1.08,1
+767,82,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Co",6.3,1,"Khong",12,0
+768,87,"Nu","Cao","Song mot minh","Khong",8,"Co",7.5,2,"Khong",1.47,1
+769,76,"Nam","Ngheo","Song voi nguoi than","Co",9,"Co",6.5,2,"Khong",1.51,1
+770,86,"Nam","Trung Binh","Khac","Co",4,"Co",4.8,2,"Co",12,0
+771,84,"Nam","Trung Binh","Khac","Khong",7,"Co",9.5,3,"Khong",8.21,1
+772,90,"Nam","Ngheo","Song mot minh","Khong",13,"Khong",6.7,3,"Khong",9.09,1
+773,64,"Nu","Trung Binh","Song mot minh","Khong",4,"Khong",9,2,"Khong",4.01,1
+774,61,"Nam","Cao","Song mot minh","Khong",3,"Khong",9.7,3,"Khong",1.69,1
+775,85,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.7,3,"Khong",8.1,1
+776,65,"Nam","Trung Binh","Song voi nguoi than","Co",13,"Co",4.6,0,"Khong",0.09,1
+777,82,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",7.5,2,"Khong",0.28,1
+778,77,"Nam","Cao","Song mot minh","Khong",6,"Co",5.8,5,"Khong",7.3,0
+779,63,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Co",8.2,5,"Khong",0.57,1
+780,80,"Nam","Cao","Song voi nguoi than","Co",6,"Co",4.3,1,"Khong",1.66,1
+781,80,"Nu","Cao","Khac","Khong",5,"Co",7.6,2,"Co",1.68,1
+782,69,"Nam","Ngheo","Song mot minh","Khong",6,"Khong",7.7,0,"Khong",3.41,0
+783,86,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",9.2,0,"Khong",12,0
+784,73,"Nu","Trung Binh","Khac","Co",12,"Co",8.7,4,"Khong",10.61,1
+785,87,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Co",5.5,2,"Khong",1.76,1
+786,88,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",6.4,2,"Khong",1.49,1
+787,80,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Khong",4.3,2,"Khong",12,0
+788,65,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",6.7,1,"Khong",1.53,1
+789,75,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",6.2,3,"Khong",6.13,1
+790,71,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Khong",7.7,3,"Khong",9.03,1
+791,87,"Nu","Trung Binh","Song mot minh","Co",11,"Co",8,4,"Khong",3.11,1
+792,63,"Nu","Cao","Song voi nguoi than","Co",12,"Co",7.4,1,"Khong",3.34,1
+793,65,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Khong",6.9,2,"Co",10.65,1
+794,86,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",8.6,3,"Khong",2.35,0
+795,62,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",7.4,5,"Khong",5.81,1
+796,60,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.5,5,"Khong",8.43,1
+797,60,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",6.5,4,"Khong",0.94,1
+798,75,"Nu","Ngheo","Song mot minh","Khong",3,"Khong",6.9,1,"Khong",6.86,1
+799,70,"Nu","Ngheo","Khac","Khong",9,"Co",6.8,2,"Khong",0.42,1
+800,70,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",7.9,1,"Khong",2.64,1
+801,62,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",8,2,"Khong",2.56,1
+802,76,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",10,0,"Co",0.69,1
+803,81,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Co",7.5,3,"Khong",1.58,1
+804,65,"Nam","Ngheo","Song voi nguoi than","Co",9,"Co",9.7,2,"Khong",7.36,1
+805,77,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.6,4,"Khong",2.77,1
+806,76,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Co",7.1,4,"Khong",5.03,1
+807,60,"Nam","Trung Binh","Song mot minh","Khong",9,"Co",7.5,2,"Khong",1.43,1
+808,79,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",6.2,3,"Khong",12,0
+809,75,"Nu","Cao","Song voi nguoi than","Co",6,"Khong",8.8,1,"Khong",4.04,1
+810,88,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",6.7,1,"Co",5.12,1
+811,69,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.6,3,"Khong",12,0
+812,64,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Khong",5.7,3,"Khong",1.91,1
+813,90,"Nam","Cao","Song mot minh","Co",13,"Khong",6.5,0,"Khong",12,0
+814,70,"Nam","Ngheo","Song voi nguoi than","Co",7,"Co",6.9,2,"Khong",3.34,1
+815,84,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",6.3,3,"Khong",7.04,0
+816,82,"Nam","Ngheo","Song voi nguoi than","Co",13,"Co",5.8,0,"Khong",12,0
+817,66,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",4.4,2,"Khong",12,0
+818,75,"Nam","Cao","Song voi nguoi than","Khong",6,"Co",8.7,1,"Khong",11.19,1
+819,60,"Nam","Cao","Song mot minh","Khong",8,"Co",8.6,4,"Khong",0.53,1
+820,61,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",6.2,5,"Khong",0.68,1
+821,82,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Co",7.8,3,"Khong",12,0
+822,67,"Nu","Cao","Song voi nguoi than","Co",5,"Khong",6,0,"Khong",0.23,1
+823,90,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",7.7,2,"Khong",3.13,1
+824,89,"Nam","Cao","Song mot minh","Co",8,"Co",7.8,3,"Khong",11.37,1
+825,71,"Nu","Cao","Song voi nguoi than","Co",9,"Co",8.7,3,"Co",4.45,0
+826,71,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",10,1,"Khong",3.01,1
+827,76,"Nu","Cao","Song voi nguoi than","Khong",7,"Co",8.9,1,"Khong",1.23,1
+828,66,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",6.3,1,"Khong",1.68,1
+829,81,"Nu","Trung Binh","Song mot minh","Khong",3,"Co",7.1,3,"Khong",3.95,1
+830,88,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",8,3,"Khong",3.42,1
+831,67,"Nam","Cao","Song voi nguoi than","Khong",5,"Khong",6.1,5,"Khong",12,0
+832,86,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",7.1,5,"Khong",6.67,0
+833,78,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.9,2,"Khong",2.19,1
+834,81,"Nam","Trung Binh","Khac","Khong",6,"Co",4.4,1,"Khong",12,0
+835,85,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.3,1,"Khong",0.64,1
+836,70,"Nam","Ngheo","Khac","Khong",9,"Khong",8.9,1,"Khong",12,0
+837,81,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",8.5,5,"Khong",8.43,1
+838,60,"Nam","Cao","Song voi nguoi than","Co",13,"Co",6.9,2,"Khong",2.1,1
+839,67,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",7.6,3,"Khong",12,0
+840,73,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.4,4,"Khong",7.05,1
+841,77,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",4.3,3,"Co",12,0
+842,78,"Nam","Trung Binh","Song mot minh","Co",6,"Co",6.2,2,"Khong",8.15,0
+843,69,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",8.4,2,"Khong",0.96,1
+844,68,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",9.3,2,"Co",8.23,1
+845,80,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",7.6,1,"Khong",0.19,1
+846,75,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.7,5,"Khong",4.89,1
+847,87,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.2,3,"Khong",5.55,1
+848,78,"Nu","Trung Binh","Song mot minh","Co",7,"Co",10,4,"Khong",1.67,1
+849,63,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",5.6,1,"Khong",2.46,1
+850,89,"Nam","Ngheo","Song mot minh","Khong",11,"Co",9.3,5,"Co",8.07,0
+851,60,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Khong",9.5,4,"Co",0.71,0
+852,85,"Nu","Trung Binh","Khac","Co",4,"Khong",4,2,"Khong",7.89,0
+853,66,"Nu","Trung Binh","Khac","Co",9,"Co",7.6,0,"Co",0.47,1
+854,72,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.1,3,"Khong",0.68,1
+855,74,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",4.7,2,"Co",3.58,1
+856,80,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",5.2,3,"Khong",3.5,0
+857,76,"Nu","Trung Binh","Song mot minh","Co",10,"Co",6.7,2,"Khong",12,0
+858,61,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",7.5,3,"Khong",0.32,1
+859,72,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",7.6,3,"Khong",11.2,0
+860,80,"Nam","Trung Binh","Song mot minh","Khong",5,"Co",7.7,3,"Khong",0.79,0
+861,84,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Co",8.4,2,"Khong",0.95,0
+862,83,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",5.4,5,"Co",12,0
+863,88,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",9.3,1,"Khong",0.93,1
+864,76,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",5.5,4,"Khong",12,0
+865,71,"Nam","Trung Binh","Khac","Co",12,"Co",6,3,"Khong",12,0
+866,85,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Co",7.3,4,"Co",7.36,1
+867,64,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",8,2,"Khong",0.83,1
+868,70,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Co",7,5,"Khong",2.86,1
+869,88,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.6,1,"Khong",1.85,1
+870,78,"Nam","Ngheo","Song voi nguoi than","Co",8,"Khong",7.6,3,"Khong",12,0
+871,90,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.2,2,"Co",4.38,0
+872,82,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",5.7,2,"Khong",12,0
+873,62,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8.5,5,"Khong",0.34,1
+874,76,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",5.5,4,"Khong",2.91,1
+875,73,"Nam","Cao","Song voi nguoi than","Co",11,"Co",6.9,5,"Khong",12,0
+876,69,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.7,1,"Khong",1.12,1
+877,74,"Nu","Ngheo","Khac","Co",7,"Khong",7.7,3,"Co",8.09,1
+878,78,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",5.3,3,"Khong",5.05,0
+879,70,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.9,5,"Khong",8.33,1
+880,68,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",9.1,2,"Khong",12,0
+881,69,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",7.2,4,"Khong",10.22,1
+882,90,"Nu","Trung Binh","Khac","Khong",13,"Co",6.1,1,"Khong",3.8,1
+883,62,"Nu","Ngheo","Song voi nguoi than","Co",3,"Co",6.7,1,"Khong",3.54,0
+884,60,"Nu","Cao","Khac","Khong",6,"Co",9,1,"Khong",4.73,1
+885,85,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",8.3,4,"Khong",9.22,1
+886,89,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",8.3,3,"Khong",4.01,1
+887,60,"Nu","Cao","Song voi nguoi than","Co",9,"Co",7,1,"Khong",12,0
+888,90,"Nam","Trung Binh","Khac","Khong",7,"Co",5.9,2,"Khong",6.74,1
+889,75,"Nu","Cao","Song voi nguoi than","Khong",8,"Khong",3.6,3,"Khong",4.14,1
+890,75,"Nam","Trung Binh","Song mot minh","Co",6,"Khong",7.4,0,"Khong",7.42,1
+891,73,"Nu","Cao","Song voi nguoi than","Co",5,"Co",5.5,0,"Khong",9.27,1
+892,66,"Nam","Cao","Song voi nguoi than","Co",3,"Co",7.3,0,"Co",12,0
+893,71,"Nu","Trung Binh","Khac","Co",9,"Co",6.2,2,"Co",2.61,0
+894,78,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",6.7,2,"Khong",12,0
+895,87,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8.4,2,"Khong",6.6,1
+896,65,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",8.2,0,"Khong",12,0
+897,78,"Nu","Trung Binh","Khac","Khong",3,"Co",7.4,2,"Co",3.33,1
+898,89,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7,5,"Khong",3.28,1
+899,67,"Nu","Ngheo","Song mot minh","Khong",7,"Co",6.5,3,"Khong",10.29,1
+900,78,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",8.5,0,"Co",12,0
+901,81,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",10,3,"Khong",2.35,0
+902,73,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.7,5,"Co",12,0
+903,78,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.6,3,"Co",12,0
+904,64,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",4.2,3,"Khong",7.87,1
+905,69,"Nam","Cao","Song voi nguoi than","Khong",6,"Co",6,3,"Khong",8.52,1
+906,86,"Nu","Trung Binh","Khac","Khong",3,"Co",4.7,2,"Khong",5.94,1
+907,85,"Nam","Trung Binh","Song mot minh","Co",9,"Co",8.6,1,"Khong",2.1,1
+908,86,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",6.8,1,"Khong",12,0
+909,78,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",5.7,1,"Khong",7.73,1
+910,81,"Nam","Cao","Song voi nguoi than","Khong",6,"Khong",4.3,2,"Khong",12,0
+911,64,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.5,3,"Khong",4.97,1
+912,86,"Nam","Ngheo","Song voi nguoi than","Co",5,"Khong",3.8,2,"Khong",1.1,0
+913,89,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.4,2,"Khong",12,0
+914,69,"Nu","Trung Binh","Song mot minh","Co",3,"Co",8.9,1,"Khong",2.73,1
+915,65,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",3.7,3,"Khong",5.19,1
+916,81,"Nam","Ngheo","Song voi nguoi than","Co",9,"Co",6.8,5,"Khong",12,0
+917,70,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Khong",6.7,3,"Co",12,0
+918,65,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",5.1,1,"Khong",7.61,1
+919,71,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8,4,"Khong",2.66,1
+920,60,"Nam","Trung Binh","Khac","Khong",5,"Co",6.9,3,"Khong",0.75,0
+921,85,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",7.5,1,"Co",12,0
+922,87,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Co",6.5,2,"Khong",2.15,1
+923,75,"Nu","Cao","Song voi nguoi than","Khong",8,"Co",8.9,5,"Co",1.08,1
+924,62,"Nam","Ngheo","Song mot minh","Co",9,"Co",7.8,3,"Khong",12,0
+925,60,"Nam","Trung Binh","Song mot minh","Co",8,"Co",7.5,2,"Khong",4.64,1
+926,64,"Nu","Ngheo","Khac","Khong",3,"Khong",5.7,2,"Khong",10.84,1
+927,68,"Nu","Ngheo","Song voi nguoi than","Co",10,"Co",8,3,"Khong",5.68,1
+928,68,"Nam","Cao","Song voi nguoi than","Khong",7,"Khong",5.2,3,"Khong",3.05,1
+929,61,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",7.9,1,"Khong",12,0
+930,75,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Khong",7.1,1,"Khong",1.53,1
+931,60,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.5,3,"Khong",2.23,1
+932,83,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",5.5,1,"Khong",10.71,1
+933,84,"Nu","Cao","Song voi nguoi than","Co",9,"Co",6.9,1,"Khong",12,0
+934,86,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Khong",8.8,2,"Co",12,0
+935,63,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",8,2,"Khong",7.66,1
+936,83,"Nu","Ngheo","Song voi nguoi than","Co",7,"Co",7.1,2,"Khong",4.7,1
+937,61,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",5.3,2,"Khong",0.59,1
+938,66,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Co",7.6,3,"Khong",0.17,1
+939,78,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7,2,"Khong",0.34,1
+940,79,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Khong",8.8,0,"Khong",12,0
+941,75,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",6.7,3,"Co",11.53,1
+942,73,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.9,3,"Khong",12,0
+943,62,"Nam","Cao","Song voi nguoi than","Co",6,"Co",4,1,"Khong",12,0
+944,63,"Nam","Trung Binh","Khac","Khong",12,"Khong",8.3,4,"Khong",9.85,1
+945,82,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.5,3,"Khong",12,0
+946,63,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",5.8,0,"Khong",12,0
+947,81,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7,1,"Khong",12,0
+948,80,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Khong",6.8,1,"Khong",0.64,1
+949,69,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Co",7.6,5,"Khong",4.36,1
+950,62,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",6.6,4,"Khong",4.44,1
+951,87,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",6.2,3,"Co",4.49,0
+952,61,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.5,4,"Khong",1.64,1
+953,68,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",8.7,0,"Khong",7.24,1
+954,84,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",7.9,1,"Khong",1.68,1
+955,84,"Nu","Cao","Song voi nguoi than","Co",5,"Khong",8.5,0,"Khong",6.24,1
+956,77,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",10,3,"Khong",2.89,1
+957,62,"Nu","Cao","Song voi nguoi than","Co",10,"Khong",8.1,2,"Co",12,0
+958,86,"Nu","Trung Binh","Khac","Khong",9,"Co",6.7,1,"Khong",1.61,1
+959,84,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Khong",5.7,3,"Khong",8.42,1
+960,82,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",4.9,1,"Khong",3.27,1
+961,70,"Nu","Cao","Song voi nguoi than","Khong",9,"Khong",9.3,0,"Khong",3.8,1
+962,87,"Nu","Trung Binh","Song mot minh","Khong",7,"Co",6.7,0,"Khong",2,1
+963,81,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8.1,3,"Co",7.59,1
+964,81,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",9.9,2,"Khong",8.63,1
+965,82,"Nam","Cao","Song mot minh","Khong",9,"Co",7.3,2,"Khong",9.45,0
+966,70,"Nu","Cao","Song voi nguoi than","Co",7,"Co",7.3,3,"Khong",6.94,1
+967,60,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.4,4,"Khong",0.98,1
+968,65,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",8.6,1,"Khong",1.48,1
+969,75,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.1,4,"Khong",12,0
+970,70,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",5.4,2,"Khong",12,0
+971,78,"Nu","Trung Binh","Khac","Khong",14,"Co",6.1,1,"Khong",3.08,1
+972,81,"Nu","Cao","Song mot minh","Khong",7,"Co",7.9,1,"Khong",7.96,1
+973,61,"Nu","Cao","Song voi nguoi than","Khong",12,"Co",7.5,3,"Khong",2.12,1
+974,90,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",8.6,2,"Khong",12,0
+975,86,"Nu","Trung Binh","Song mot minh","Khong",3,"Co",7.3,1,"Khong",6.34,1
+976,77,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7.6,2,"Khong",1.54,0
+977,79,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.1,2,"Khong",11.66,1
+978,61,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",8.7,4,"Khong",0.23,1
+979,83,"Nu","Trung Binh","Khac","Khong",10,"Khong",7.9,4,"Khong",6.77,0
+980,84,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",7.9,3,"Khong",12,0
+981,90,"Nu","Cao","Song voi nguoi than","Co",8,"Khong",4.2,2,"Khong",12,0
+982,66,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",5.1,2,"Khong",4.5,1
+983,60,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",4.7,1,"Co",1.25,1
+984,81,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Co",6.5,4,"Khong",8.14,1
+985,68,"Nu","Trung Binh","Khac","Co",9,"Khong",8.2,1,"Khong",12,0
+986,79,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",9.2,2,"Khong",12,0
+987,62,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",8.3,5,"Khong",1.89,1
+988,82,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",5,4,"Co",9.75,0
+989,87,"Nu","Trung Binh","Song mot minh","Co",8,"Khong",7.9,2,"Co",12,0
+990,64,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",7.3,3,"Khong",4.52,1
+991,83,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",6.2,5,"Khong",11.67,1
+992,81,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",6.9,4,"Co",2.75,0
+993,89,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",8.2,4,"Khong",1.12,1
+994,79,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",9.9,2,"Khong",1.48,0
+995,64,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Khong",7.5,5,"Khong",5.04,1
+996,82,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Co",5.1,3,"Khong",10.61,1
+997,64,"Nu","Trung Binh","Song mot minh","Co",7,"Khong",7.6,4,"Khong",12,0
+998,82,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Khong",5.4,2,"Co",9.61,1
+999,77,"Nu","Ngheo","Khac","Co",8,"Co",6.5,4,"Khong",12,0
+1000,60,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",6.6,0,"Khong",12,0
+1001,83,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Co",6.2,3,"Co",5.3,1
+1002,90,"Nam","Ngheo","Khac","Khong",8,"Co",6.9,2,"Co",12,0
+1003,80,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",6.8,5,"Khong",12,0
+1004,85,"Nam","Cao","Song mot minh","Khong",4,"Co",7.3,1,"Khong",2.1,1
+1005,76,"Nu","Ngheo","Song mot minh","Co",3,"Co",5.9,1,"Khong",8.29,1
+1006,90,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",9,4,"Khong",3.43,1
+1007,81,"Nu","Cao","Song voi nguoi than","Khong",10,"Khong",8.2,2,"Khong",1.73,1
+1008,64,"Nu","Trung Binh","Song mot minh","Khong",3,"Co",8,2,"Co",1.26,1
+1009,81,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",9.9,3,"Khong",12,0
+1010,76,"Nu","Trung Binh","Song voi nguoi than","Co",10,"Co",6,1,"Khong",1.07,1
+1011,68,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Khong",8.7,2,"Khong",12,0
+1012,67,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Khong",5.5,2,"Khong",12,0
+1013,88,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",7.1,4,"Khong",11.14,1
+1014,62,"Nu","Trung Binh","Khac","Khong",7,"Khong",6.1,4,"Khong",2.34,0
+1015,84,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",4.4,3,"Khong",8,1
+1016,85,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",8.1,3,"Khong",5.73,1
+1017,86,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",5.4,2,"Khong",11.17,1
+1018,75,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",7,1,"Khong",6.41,1
+1019,63,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Khong",5.9,5,"Co",12,0
+1020,87,"Nam","Cao","Song voi nguoi than","Khong",7,"Khong",6.4,0,"Khong",12,0
+1021,68,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",5.6,3,"Khong",0.38,1
+1022,86,"Nam","Trung Binh","Song mot minh","Co",5,"Co",8.9,0,"Co",11,1
+1023,79,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",3.3,3,"Khong",12,0
+1024,60,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Co",8.8,3,"Khong",12,0
+1025,60,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",7.4,2,"Khong",1.31,1
+1026,77,"Nu","Ngheo","Khac","Khong",8,"Khong",5.9,0,"Khong",12,0
+1027,75,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.6,2,"Co",5.13,1
+1028,84,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Khong",10,2,"Khong",10.64,0
+1029,83,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.3,2,"Khong",12,0
+1030,70,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.5,3,"Khong",6.38,0
+1031,77,"Nam","Ngheo","Khac","Khong",7,"Co",7.2,2,"Co",7.62,1
+1032,78,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",8.4,0,"Khong",5.61,1
+1033,84,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6.5,4,"Khong",1.86,0
+1034,76,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.5,1,"Khong",5,1
+1035,67,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",6.4,0,"Khong",6.19,1
+1036,66,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",8,1,"Khong",10.74,1
+1037,86,"Nam","Ngheo","Song mot minh","Co",6,"Co",6,5,"Khong",12,0
+1038,86,"Nam","Cao","Song voi nguoi than","Co",9,"Khong",6.9,2,"Co",0.01,0
+1039,76,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",6,2,"Khong",5.88,1
+1040,85,"Nam","Trung Binh","Song mot minh","Khong",9,"Co",8,1,"Khong",9.58,1
+1041,72,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",6.4,2,"Khong",1.33,1
+1042,67,"Nam","Trung Binh","Khac","Khong",8,"Co",6.4,3,"Khong",3,1
+1043,72,"Nu","Trung Binh","Khac","Co",9,"Khong",4.1,2,"Khong",3.81,0
+1044,88,"Nam","Cao","Song voi nguoi than","Co",7,"Co",7.9,3,"Khong",1.15,1
+1045,62,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",6.5,1,"Khong",0.48,0
+1046,89,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Co",8.5,2,"Khong",6.11,1
+1047,89,"Nu","Ngheo","Song mot minh","Co",10,"Co",6.2,0,"Khong",12,0
+1048,90,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",6.8,1,"Co",6.28,1
+1049,86,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Khong",5.7,1,"Co",12,0
+1050,66,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Co",8.9,2,"Co",9.12,1
+1051,84,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Co",8.1,3,"Khong",12,0
+1052,89,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Khong",8.5,3,"Khong",12,0
+1053,61,"Nu","Ngheo","Song voi nguoi than","Co",12,"Co",8.7,4,"Co",9.09,1
+1054,89,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",8.1,1,"Khong",12,0
+1055,68,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.7,2,"Khong",1.74,1
+1056,60,"Nu","Ngheo","Song voi nguoi than","Co",8,"Khong",8.1,1,"Khong",9.33,1
+1057,61,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",5.8,3,"Khong",9.59,1
+1058,83,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",6.9,2,"Khong",0.41,1
+1059,90,"Nam","Cao","Song voi nguoi than","Co",6,"Co",8.7,4,"Khong",3.91,1
+1060,72,"Nu","Ngheo","Song mot minh","Khong",8,"Khong",7.3,5,"Co",12,0
+1061,84,"Nam","Trung Binh","Song mot minh","Co",5,"Co",6.9,3,"Khong",6.73,1
+1062,83,"Nu","Trung Binh","Khac","Khong",11,"Co",7.4,2,"Co",1.69,1
+1063,88,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",8.4,3,"Khong",12,0
+1064,75,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6,4,"Khong",10.53,1
+1065,87,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Co",3.7,3,"Khong",12,0
+1066,86,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",9.1,4,"Co",12,0
+1067,79,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Khong",10,1,"Khong",12,0
+1068,88,"Nam","Cao","Song voi nguoi than","Khong",8,"Khong",6.9,1,"Khong",4,1
+1069,80,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.2,2,"Khong",0.37,1
+1070,86,"Nu","Ngheo","Song voi nguoi than","Co",5,"Co",5.6,5,"Co",12,0
+1071,76,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Co",8.7,5,"Khong",3.58,1
+1072,72,"Nu","Trung Binh","Song mot minh","Co",6,"Khong",5.6,4,"Khong",3.61,1
+1073,78,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.6,1,"Khong",4.49,1
+1074,77,"Nam","Ngheo","Song voi nguoi than","Co",8,"Khong",5.7,3,"Khong",12,0
+1075,78,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.7,4,"Co",12,0
+1076,60,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Khong",5.8,0,"Khong",3.45,1
+1077,72,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",7.4,3,"Khong",12,0
+1078,68,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",5.1,0,"Khong",0.87,1
+1079,87,"Nam","Trung Binh","Song mot minh","Khong",6,"Co",6.5,2,"Khong",12,0
+1080,81,"Nam","Cao","Song mot minh","Khong",13,"Co",7.3,2,"Khong",3.69,1
+1081,90,"Nu","Cao","Song voi nguoi than","Co",6,"Khong",4.6,1,"Khong",9.22,0
+1082,82,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",7,1,"Khong",7,1
+1083,72,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Co",4.7,0,"Co",12,0
+1084,62,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Khong",5.3,0,"Co",0.25,1
+1085,84,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",8.8,0,"Khong",1.68,1
+1086,71,"Nam","Trung Binh","Song mot minh","Khong",3,"Co",6.2,5,"Khong",6.57,1
+1087,76,"Nam","Ngheo","Song voi nguoi than","Co",10,"Khong",8.7,2,"Khong",10.56,1
+1088,71,"Nam","Trung Binh","Song mot minh","Khong",12,"Khong",6.3,0,"Khong",8.16,1
+1089,64,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",4.5,2,"Khong",0.13,1
+1090,78,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",5.3,5,"Co",12,0
+1091,65,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.8,1,"Khong",0.03,1
+1092,66,"Nu","Trung Binh","Song mot minh","Khong",5,"Co",5.6,2,"Khong",2.89,1
+1093,77,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Khong",9.1,3,"Khong",0.83,1
+1094,69,"Nam","Cao","Khac","Khong",11,"Khong",8.5,3,"Khong",6.21,0
+1095,74,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",7,2,"Khong",1.4,1
+1096,68,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",6.2,1,"Khong",11.63,1
+1097,67,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",8.2,1,"Khong",2.42,1
+1098,87,"Nam","Trung Binh","Song voi nguoi than","Co",5,"Co",6.5,4,"Khong",6.28,1
+1099,75,"Nam","Trung Binh","Song mot minh","Co",8,"Co",6.4,5,"Khong",9.83,1
+1100,81,"Nu","Trung Binh","Song mot minh","Co",3,"Co",7.1,2,"Khong",0.39,1
+1101,67,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",7.3,3,"Khong",0.56,1
+1102,87,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",7.2,0,"Khong",2.22,1
+1103,75,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",6.2,5,"Khong",7.62,1
+1104,76,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",9.3,5,"Khong",3.39,1
+1105,70,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",9.2,2,"Khong",1.72,1
+1106,66,"Nam","Ngheo","Song mot minh","Co",3,"Co",6.8,1,"Khong",5.76,1
+1107,80,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.6,3,"Khong",1.92,0
+1108,88,"Nu","Cao","Song voi nguoi than","Co",4,"Khong",7.1,4,"Khong",12,0
+1109,89,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",5.9,2,"Co",1.69,1
+1110,63,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",4.7,4,"Khong",1.59,1
+1111,76,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",7.5,3,"Khong",5.13,1
+1112,81,"Nam","Trung Binh","Khac","Khong",14,"Khong",6.2,2,"Co",6.86,1
+1113,87,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.5,2,"Khong",0.31,1
+1114,78,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",5.2,4,"Co",6.09,1
+1115,77,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Co",6.3,1,"Co",12,0
+1116,78,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",7.2,3,"Khong",10.13,1
+1117,70,"Nam","Ngheo","Song voi nguoi than","Khong",7,"Co",5.2,2,"Khong",10.14,1
+1118,80,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.4,2,"Khong",5.34,1
+1119,77,"Nam","Ngheo","Song voi nguoi than","Co",3,"Co",6.9,1,"Khong",12,0
+1120,75,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",6.2,5,"Khong",3.52,1
+1121,65,"Nam","Cao","Song voi nguoi than","Khong",10,"Co",6.9,2,"Co",12,0
+1122,83,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",8.6,2,"Khong",6.25,1
+1123,61,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",6.8,5,"Khong",0.59,1
+1124,81,"Nu","Cao","Song voi nguoi than","Khong",6,"Khong",5.8,0,"Khong",12,0
+1125,82,"Nu","Trung Binh","Song voi nguoi than","Khong",12,"Khong",6.9,2,"Khong",4.4,0
+1126,70,"Nam","Cao","Song voi nguoi than","Khong",16,"Khong",8,1,"Khong",2.68,1
+1127,78,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Khong",7,4,"Khong",5.05,1
+1128,80,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",4.7,3,"Khong",0.44,1
+1129,83,"Nam","Ngheo","Song voi nguoi than","Co",7,"Khong",9.2,0,"Khong",12,0
+1130,70,"Nam","Trung Binh","Song mot minh","Co",6,"Co",7.3,3,"Khong",0.09,1
+1131,89,"Nu","Trung Binh","Song mot minh","Khong",10,"Co",8.6,0,"Khong",10.42,1
+1132,66,"Nu","Cao","Khac","Co",6,"Co",6.8,0,"Khong",12,0
+1133,67,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.7,0,"Khong",8.58,1
+1134,61,"Nu","Cao","Song voi nguoi than","Co",9,"Co",5.7,4,"Khong",0.35,1
+1135,62,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Co",6.8,2,"Khong",10.63,1
+1136,83,"Nu","Trung Binh","Song mot minh","Khong",5,"Co",6.7,2,"Co",5.71,1
+1137,82,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.8,2,"Co",1.39,1
+1138,73,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",8,5,"Khong",11.96,1
+1139,65,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Khong",8.6,1,"Khong",0.03,1
+1140,73,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.1,2,"Khong",0.07,1
+1141,66,"Nu","Cao","Khac","Khong",7,"Khong",8.5,1,"Khong",0.01,1
+1142,65,"Nu","Cao","Song voi nguoi than","Khong",13,"Khong",5.3,3,"Khong",3.11,1
+1143,65,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.5,3,"Co",12,0
+1144,70,"Nu","Cao","Song voi nguoi than","Co",9,"Khong",6.6,1,"Khong",5.84,1
+1145,80,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",4.2,3,"Khong",12,0
+1146,70,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.5,4,"Khong",12,0
+1147,87,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",6.8,1,"Khong",2.28,1
+1148,64,"Nu","Trung Binh","Khac","Khong",11,"Co",5.8,5,"Khong",6.52,1
+1149,83,"Nu","Cao","Song mot minh","Khong",4,"Co",8.9,5,"Khong",5.74,0
+1150,71,"Nam","Trung Binh","Khac","Co",9,"Co",6.8,2,"Khong",5.99,0
+1151,81,"Nam","Trung Binh","Song mot minh","Khong",7,"Khong",6.7,1,"Khong",11.69,0
+1152,81,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",4.3,1,"Khong",8.33,1
+1153,85,"Nam","Ngheo","Song voi nguoi than","Khong",10,"Co",6.9,1,"Khong",12,0
+1154,64,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",4.1,0,"Khong",1.12,1
+1155,65,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",9.3,2,"Khong",6.45,1
+1156,74,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Khong",5.6,3,"Khong",0.94,1
+1157,78,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",6.7,5,"Khong",4.25,1
+1158,67,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.2,2,"Khong",12,0
+1159,67,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.7,0,"Khong",5.53,1
+1160,74,"Nam","Cao","Song voi nguoi than","Khong",8,"Khong",6.5,1,"Khong",5.61,1
+1161,62,"Nam","Ngheo","Khac","Co",13,"Co",4.7,5,"Khong",12,0
+1162,63,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.6,2,"Khong",5.93,0
+1163,85,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",8.8,5,"Khong",12,0
+1164,89,"Nu","Ngheo","Song mot minh","Co",8,"Khong",6.6,2,"Khong",0.3,0
+1165,60,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Khong",7.8,1,"Khong",3.91,1
+1166,72,"Nu","Trung Binh","Song mot minh","Khong",6,"Khong",4.4,2,"Khong",6.37,1
+1167,69,"Nu","Ngheo","Song voi nguoi than","Co",4,"Co",6.6,2,"Khong",4.17,1
+1168,83,"Nam","Ngheo","Khac","Co",7,"Khong",5.3,1,"Khong",3.06,0
+1169,74,"Nam","Ngheo","Song voi nguoi than","Co",8,"Co",4.9,1,"Khong",2.09,1
+1170,82,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",8.1,2,"Khong",1.25,1
+1171,85,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.1,2,"Khong",6.2,1
+1172,67,"Nam","Ngheo","Khac","Khong",11,"Co",8.3,2,"Khong",6.47,1
+1173,81,"Nam","Cao","Song voi nguoi than","Khong",4,"Co",5.4,0,"Khong",5.66,0
+1174,80,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",9,1,"Khong",7.09,0
+1175,63,"Nam","Trung Binh","Khac","Khong",10,"Co",7.2,0,"Khong",6.69,1
+1176,67,"Nu","Cao","Song voi nguoi than","Co",9,"Co",6.1,3,"Khong",0.66,1
+1177,86,"Nu","Trung Binh","Song mot minh","Co",5,"Khong",10,1,"Khong",12,0
+1178,86,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",8.7,0,"Khong",12,0
+1179,79,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Khong",8,4,"Co",12,0
+1180,90,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",7.3,1,"Khong",12,0
+1181,86,"Nu","Cao","Song voi nguoi than","Co",3,"Co",6.2,3,"Co",12,0
+1182,60,"Nu","Cao","Song mot minh","Khong",7,"Co",7.4,1,"Khong",7.01,1
+1183,69,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Khong",8.1,2,"Co",12,0
+1184,64,"Nu","Cao","Song voi nguoi than","Khong",6,"Khong",6,1,"Co",12,0
+1185,75,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Khong",8.9,1,"Khong",2.51,1
+1186,86,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",7.9,3,"Khong",0.34,1
+1187,90,"Nu","Trung Binh","Song mot minh","Khong",6,"Co",5.3,2,"Khong",7.55,1
+1188,68,"Nam","Ngheo","Song mot minh","Co",7,"Co",5.5,1,"Khong",5.05,0
+1189,63,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",6.4,1,"Khong",3.55,1
+1190,72,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.2,2,"Khong",3.51,1
+1191,63,"Nu","Ngheo","Song voi nguoi than","Co",8,"Co",6.1,2,"Khong",12,0
+1192,75,"Nu","Ngheo","Song mot minh","Co",8,"Co",7.9,2,"Khong",3.95,1
+1193,90,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",8,2,"Khong",12,0
+1194,89,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",4.7,2,"Khong",0.68,1
+1195,81,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.6,3,"Khong",2.01,0
+1196,64,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Khong",4.6,2,"Khong",6.62,1
+1197,89,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.8,2,"Co",11.06,1
+1198,84,"Nu","Cao","Song voi nguoi than","Co",3,"Co",7.5,3,"Co",2.91,1
+1199,66,"Nam","Cao","Song voi nguoi than","Khong",3,"Co",7.7,3,"Khong",0.73,1
+1200,66,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.9,4,"Khong",5.31,1
+1201,85,"Nu","Ngheo","Khac","Co",9,"Co",8.7,3,"Khong",0.72,1
+1202,75,"Nam","Trung Binh","Song mot minh","Khong",12,"Co",7.3,2,"Khong",7.55,1
+1203,85,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.7,1,"Khong",12,0
+1204,63,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Khong",7.7,1,"Khong",3.02,1
+1205,87,"Nu","Cao","Song voi nguoi than","Co",7,"Co",7.2,1,"Khong",1.09,1
+1206,61,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",6.1,5,"Khong",0.17,1
+1207,88,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",7,3,"Co",4.47,1
+1208,60,"Nam","Cao","Song voi nguoi than","Khong",9,"Co",3.9,4,"Khong",0.26,1
+1209,88,"Nu","Ngheo","Song mot minh","Co",5,"Khong",7.3,2,"Khong",12,0
+1210,76,"Nu","Trung Binh","Khac","Khong",9,"Co",6.5,2,"Khong",4.47,1
+1211,64,"Nu","Trung Binh","Song mot minh","Khong",10,"Khong",7.1,3,"Khong",6.58,1
+1212,64,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",7.2,2,"Khong",0.06,1
+1213,80,"Nu","Trung Binh","Song mot minh","Co",7,"Khong",6.8,1,"Khong",12,0
+1214,61,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",7.7,1,"Khong",12,0
+1215,70,"Nam","Ngheo","Song mot minh","Co",8,"Co",8.8,2,"Khong",1.5,1
+1216,61,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",9.5,4,"Khong",12,0
+1217,67,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",8.5,1,"Khong",11.71,1
+1218,74,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",7,3,"Khong",0.9,1
+1219,88,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",7.9,0,"Khong",4.57,0
+1220,69,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.5,3,"Khong",10.7,1
+1221,89,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.7,5,"Co",2.81,1
+1222,78,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Khong",4.3,4,"Khong",12,0
+1223,79,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",9.8,2,"Khong",12,0
+1224,73,"Nam","Cao","Song voi nguoi than","Co",8,"Co",9.2,2,"Khong",1.96,1
+1225,74,"Nu","Cao","Khac","Khong",10,"Co",6.9,3,"Khong",0.23,1
+1226,75,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",7.2,1,"Co",12,0
+1227,68,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",8.7,2,"Khong",1.25,1
+1228,69,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",8.5,2,"Khong",12,0
+1229,66,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Khong",7.4,5,"Co",12,0
+1230,68,"Nu","Cao","Song voi nguoi than","Khong",6,"Khong",8.7,3,"Khong",4.89,1
+1231,83,"Nam","Trung Binh","Song mot minh","Co",6,"Co",7.9,2,"Khong",12,0
+1232,89,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",7.8,3,"Khong",1.16,1
+1233,89,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Co",4.8,2,"Khong",5.18,1
+1234,78,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",7.7,2,"Khong",12,0
+1235,87,"Nu","Ngheo","Song voi nguoi than","Co",8,"Co",5.3,5,"Khong",2.99,1
+1236,89,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",10,1,"Khong",7.82,0
+1237,87,"Nam","Ngheo","Song voi nguoi than","Khong",4,"Co",8.3,4,"Khong",4.5,1
+1238,75,"Nu","Ngheo","Khac","Co",9,"Co",8.6,3,"Khong",1.59,1
+1239,89,"Nu","Trung Binh","Song voi nguoi than","Co",11,"Co",8.3,2,"Khong",3.12,1
+1240,77,"Nam","Ngheo","Song mot minh","Co",5,"Co",5.7,2,"Khong",12,0
+1241,84,"Nam","Cao","Song voi nguoi than","Khong",9,"Co",7.5,0,"Khong",12,0
+1242,72,"Nam","Ngheo","Song voi nguoi than","Co",4,"Co",6.5,5,"Khong",5.59,1
+1243,81,"Nam","Trung Binh","Song mot minh","Co",8,"Co",7.7,2,"Khong",3.67,0
+1244,77,"Nu","Ngheo","Song voi nguoi than","Khong",13,"Co",7.5,5,"Khong",6.32,1
+1245,61,"Nu","Cao","Song voi nguoi than","Khong",9,"Khong",4.9,1,"Khong",12,0
+1246,82,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",6.3,3,"Khong",0.57,1
+1247,90,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Khong",7.2,1,"Khong",12,0
+1248,68,"Nu","Ngheo","Song mot minh","Khong",7,"Co",5.7,5,"Khong",0.82,1
+1249,73,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Co",4.8,2,"Khong",12,0
+1250,67,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.2,3,"Co",1.35,1
+1251,81,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",6.2,3,"Khong",1.97,1
+1252,78,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",8.8,2,"Khong",2.63,0
+1253,88,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",8.6,5,"Khong",12,0
+1254,78,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",5.8,2,"Khong",6.59,1
+1255,61,"Nam","Cao","Khac","Khong",6,"Co",2.3,3,"Co",4.01,1
+1256,66,"Nu","Cao","Song voi nguoi than","Khong",5,"Co",5.7,2,"Khong",12,0
+1257,63,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",4.5,4,"Khong",7.69,1
+1258,77,"Nu","Cao","Song mot minh","Khong",7,"Khong",6.4,2,"Co",6.96,1
+1259,75,"Nu","Trung Binh","Khac","Khong",12,"Khong",4.7,4,"Khong",9.52,1
+1260,78,"Nam","Cao","Song voi nguoi than","Khong",9,"Co",6,5,"Khong",5.01,1
+1261,72,"Nam","Ngheo","Khac","Khong",5,"Co",5.3,5,"Khong",12,0
+1262,65,"Nu","Cao","Song mot minh","Khong",9,"Co",5.8,2,"Khong",0.86,1
+1263,87,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Khong",5.9,1,"Co",1.27,1
+1264,89,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.6,1,"Khong",12,0
+1265,74,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",6.2,4,"Khong",5.16,1
+1266,61,"Nam","Trung Binh","Song mot minh","Co",15,"Co",6.5,0,"Khong",9.9,1
+1267,76,"Nu","Cao","Song voi nguoi than","Khong",10,"Co",8,0,"Khong",0.82,1
+1268,75,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Khong",7.1,1,"Khong",12,0
+1269,83,"Nam","Trung Binh","Song mot minh","Khong",13,"Khong",6.6,0,"Khong",6.03,1
+1270,66,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Khong",7.5,2,"Khong",12,0
+1271,83,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",5.8,0,"Co",3.89,0
+1272,70,"Nam","Cao","Song voi nguoi than","Khong",7,"Co",8.7,0,"Co",12,0
+1273,67,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.8,0,"Khong",12,0
+1274,71,"Nu","Cao","Song mot minh","Khong",10,"Khong",9.6,5,"Khong",8.2,1
+1275,76,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",6.3,2,"Co",12,0
+1276,88,"Nu","Ngheo","Song voi nguoi than","Co",5,"Khong",6.7,3,"Khong",12,0
+1277,83,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Co",5.5,1,"Khong",12,0
+1278,67,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",7.3,2,"Khong",12,0
+1279,64,"Nu","Cao","Song voi nguoi than","Co",7,"Khong",5.4,1,"Khong",11.49,1
+1280,89,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",6.2,4,"Khong",5.89,1
+1281,90,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.9,1,"Khong",0.03,0
+1282,60,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",3.9,3,"Co",11.58,1
+1283,73,"Nam","Trung Binh","Khac","Co",7,"Co",5.6,2,"Khong",10.11,1
+1284,83,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.3,1,"Co",3.93,1
+1285,67,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.9,2,"Khong",12,0
+1286,71,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",6.4,5,"Khong",4.45,1
+1287,77,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.2,2,"Khong",6.38,1
+1288,86,"Nu","Cao","Song voi nguoi than","Khong",10,"Khong",9.1,1,"Khong",7.85,1
+1289,71,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",10,0,"Khong",12,0
+1290,87,"Nu","Trung Binh","Song mot minh","Co",10,"Khong",6,1,"Khong",12,0
+1291,64,"Nu","Cao","Song voi nguoi than","Co",8,"Co",4.4,3,"Khong",1.21,1
+1292,86,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Khong",6.9,5,"Khong",4.08,1
+1293,77,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6.2,3,"Khong",0.01,1
+1294,71,"Nam","Trung Binh","Song mot minh","Khong",9,"Co",6.6,2,"Khong",3.73,1
+1295,61,"Nu","Cao","Song voi nguoi than","Co",8,"Co",7.5,1,"Khong",0.48,1
+1296,69,"Nu","Ngheo","Song voi nguoi than","Co",4,"Co",5.2,2,"Khong",12,0
+1297,86,"Nam","Ngheo","Khac","Co",11,"Co",7.3,3,"Co",12,0
+1298,61,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Co",6.7,2,"Co",12,0
+1299,66,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.9,2,"Khong",0.55,1
+1300,60,"Nam","Trung Binh","Song mot minh","Co",7,"Co",7.6,3,"Co",6.55,1
+1301,73,"Nam","Cao","Song voi nguoi than","Khong",12,"Co",6.4,0,"Khong",6.63,1
+1302,80,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",7.9,2,"Co",11.97,1
+1303,67,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Khong",9,2,"Khong",12,0
+1304,61,"Nu","Cao","Khac","Khong",5,"Khong",7.2,2,"Khong",6.74,1
+1305,79,"Nu","Trung Binh","Song mot minh","Co",4,"Co",8.7,3,"Co",12,0
+1306,88,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Khong",6.6,2,"Khong",1.27,1
+1307,67,"Nu","Cao","Song voi nguoi than","Co",6,"Khong",8,5,"Khong",12,0
+1308,67,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Co",6.9,0,"Khong",7.99,1
+1309,60,"Nu","Trung Binh","Song mot minh","Khong",7,"Khong",8.7,2,"Khong",1.97,1
+1310,62,"Nu","Trung Binh","Song mot minh","Co",13,"Co",4.5,5,"Khong",8.06,1
+1311,71,"Nu","Cao","Song voi nguoi than","Khong",11,"Co",8.2,3,"Khong",11.84,1
+1312,76,"Nu","Ngheo","Song voi nguoi than","Khong",3,"Khong",2.3,2,"Khong",12,0
+1313,73,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",7,0,"Khong",4.43,1
+1314,78,"Nu","Trung Binh","Khac","Khong",8,"Co",8,1,"Khong",8.72,1
+1315,75,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",5.8,2,"Co",0.96,1
+1316,69,"Nu","Trung Binh","Khac","Co",6,"Khong",4.4,2,"Khong",12,0
+1317,85,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Khong",5,2,"Co",12,0
+1318,77,"Nam","Trung Binh","Khac","Khong",11,"Co",6.3,1,"Khong",12,0
+1319,77,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",7.3,0,"Khong",4.49,1
+1320,63,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.1,3,"Khong",1.16,1
+1321,78,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6,2,"Khong",3.68,1
+1322,75,"Nam","Cao","Song voi nguoi than","Co",8,"Co",5.7,1,"Khong",8.46,1
+1323,88,"Nu","Ngheo","Song voi nguoi than","Co",6,"Co",7.5,2,"Khong",5.06,1
+1324,66,"Nu","Ngheo","Song voi nguoi than","Co",11,"Co",4.5,1,"Co",0.52,0
+1325,88,"Nam","Trung Binh","Song mot minh","Co",5,"Khong",5.7,1,"Khong",1.21,0
+1326,71,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",9,5,"Khong",0.79,1
+1327,80,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Khong",8.5,3,"Khong",12,0
+1328,65,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",7.1,1,"Khong",1.51,1
+1329,70,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",7.6,5,"Khong",2.93,1
+1330,87,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.8,0,"Khong",4.24,1
+1331,77,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Co",5.2,3,"Khong",12,0
+1332,61,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",9.9,2,"Co",4.02,1
+1333,66,"Nu","Trung Binh","Khac","Co",5,"Co",5.7,3,"Khong",9.35,1
+1334,90,"Nam","Ngheo","Song mot minh","Khong",9,"Co",6.3,2,"Khong",9.79,1
+1335,84,"Nu","Trung Binh","Song voi nguoi than","Khong",14,"Khong",5,4,"Khong",1.18,0
+1336,73,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Khong",9.4,1,"Khong",7.89,1
+1337,76,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",3.7,1,"Khong",2.53,0
+1338,90,"Nam","Cao","Song voi nguoi than","Co",7,"Co",7.3,3,"Khong",12,0
+1339,71,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Khong",4.9,2,"Co",2.75,0
+1340,65,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.8,4,"Khong",3.19,1
+1341,60,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Khong",3,3,"Khong",12,0
+1342,85,"Nam","Trung Binh","Song mot minh","Co",4,"Co",4,0,"Khong",12,0
+1343,90,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",3.9,0,"Khong",0.46,1
+1344,87,"Nu","Cao","Song voi nguoi than","Khong",5,"Co",6.9,2,"Khong",2.23,1
+1345,65,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",9.4,4,"Khong",4.63,1
+1346,79,"Nu","Cao","Song mot minh","Khong",4,"Co",6.1,1,"Khong",1.82,1
+1347,82,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",8.4,2,"Khong",0.88,1
+1348,83,"Nu","Ngheo","Song voi nguoi than","Co",8,"Khong",7.4,3,"Khong",8.67,1
+1349,67,"Nam","Cao","Song voi nguoi than","Co",9,"Co",6.5,0,"Khong",6.66,1
+1350,64,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",4.8,4,"Khong",4.93,1
+1351,68,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",8.3,3,"Khong",3.56,1
+1352,75,"Nu","Cao","Song voi nguoi than","Co",8,"Khong",6.5,1,"Khong",0.67,1
+1353,88,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",8.8,3,"Khong",4.44,1
+1354,73,"Nam","Cao","Song voi nguoi than","Co",6,"Co",6.4,1,"Co",3.87,1
+1355,84,"Nu","Ngheo","Song mot minh","Co",3,"Co",6.8,3,"Khong",0.14,1
+1356,80,"Nu","Trung Binh","Khac","Khong",4,"Co",6.5,2,"Khong",0.23,1
+1357,82,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.7,1,"Khong",8.31,1
+1358,68,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",6.8,1,"Khong",4.51,1
+1359,63,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",9,0,"Khong",3.26,1
+1360,68,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",7.4,2,"Khong",12,0
+1361,86,"Nu","Cao","Khac","Khong",4,"Khong",7.4,0,"Khong",1.02,1
+1362,62,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",8,2,"Khong",7.8,0
+1363,80,"Nam","Ngheo","Khac","Khong",11,"Co",7.6,2,"Khong",6.26,1
+1364,63,"Nu","Trung Binh","Song mot minh","Khong",8,"Co",3.2,1,"Khong",10.97,1
+1365,76,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",6.8,3,"Khong",3.79,1
+1366,70,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.7,4,"Khong",7.16,0
+1367,78,"Nam","Cao","Song voi nguoi than","Khong",7,"Khong",6.3,3,"Khong",3.86,1
+1368,89,"Nam","Ngheo","Song voi nguoi than","Khong",8,"Co",6.5,5,"Khong",6.63,0
+1369,79,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",5.8,2,"Khong",0.97,1
+1370,69,"Nam","Ngheo","Song voi nguoi than","Co",7,"Co",8.2,1,"Khong",6.93,1
+1371,84,"Nu","Cao","Song voi nguoi than","Khong",13,"Khong",3.8,2,"Khong",12,0
+1372,68,"Nu","Ngheo","Song voi nguoi than","Co",13,"Khong",6.1,1,"Co",12,0
+1373,80,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",7.2,0,"Khong",10.44,1
+1374,62,"Nam","Ngheo","Khac","Khong",11,"Co",7.2,0,"Khong",3.05,1
+1375,64,"Nu","Trung Binh","Song mot minh","Khong",4,"Khong",6.1,2,"Khong",6.98,1
+1376,81,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",9.6,2,"Co",4.05,1
+1377,63,"Nu","Ngheo","Song voi nguoi than","Khong",14,"Co",8.4,2,"Co",11.45,0
+1378,64,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",9.2,1,"Khong",9.57,1
+1379,87,"Nam","Cao","Song mot minh","Khong",7,"Co",10,3,"Khong",12,0
+1380,75,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",5.7,0,"Co",12,0
+1381,71,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",8.8,5,"Khong",12,0
+1382,89,"Nu","Trung Binh","Khac","Khong",3,"Co",6,1,"Khong",3.33,1
+1383,64,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",8.1,1,"Khong",12,0
+1384,62,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",7.3,0,"Khong",10.84,1
+1385,78,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",3.6,2,"Khong",12,0
+1386,63,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",6.6,2,"Khong",8.63,1
+1387,69,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Khong",6.9,3,"Khong",11.86,1
+1388,61,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",9.4,0,"Khong",1.98,1
+1389,79,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Khong",6.3,1,"Khong",12,0
+1390,62,"Nam","Trung Binh","Song mot minh","Co",3,"Co",3.6,0,"Khong",12,0
+1391,86,"Nam","Trung Binh","Song voi nguoi than","Khong",9,"Co",6.7,2,"Khong",7.04,0
+1392,71,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",7.7,2,"Khong",0.34,1
+1393,64,"Nam","Cao","Song voi nguoi than","Khong",3,"Khong",9,3,"Khong",8.31,1
+1394,67,"Nu","Cao","Song voi nguoi than","Khong",6,"Co",4.5,1,"Khong",0.56,0
+1395,81,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Khong",7,2,"Khong",3.87,1
+1396,78,"Nu","Trung Binh","Khac","Co",5,"Co",6.2,2,"Khong",12,0
+1397,88,"Nu","Cao","Khac","Khong",8,"Khong",6.9,2,"Khong",7.87,1
+1398,62,"Nam","Ngheo","Song voi nguoi than","Co",7,"Khong",8.1,0,"Khong",3.58,0
+1399,68,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Khong",6.4,2,"Khong",9.24,1
+1400,60,"Nu","Trung Binh","Song mot minh","Co",8,"Khong",9.8,1,"Khong",3.46,0
+1401,63,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",6.4,1,"Khong",3.83,1
+1402,81,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Khong",4.4,2,"Khong",12,0
+1403,76,"Nu","Cao","Song voi nguoi than","Co",9,"Co",8.3,0,"Khong",0.9,1
+1404,86,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.9,3,"Khong",0.69,1
+1405,71,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",7.5,2,"Khong",3.01,1
+1406,84,"Nu","Ngheo","Song voi nguoi than","Co",4,"Co",10,4,"Khong",12,0
+1407,80,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",6.5,4,"Khong",10.7,1
+1408,88,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",10,3,"Khong",1.15,0
+1409,78,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",6.8,3,"Khong",4.43,1
+1410,71,"Nam","Cao","Song voi nguoi than","Co",7,"Co",6.3,0,"Khong",12,0
+1411,75,"Nu","Trung Binh","Khac","Co",5,"Co",5,5,"Khong",2.55,1
+1412,79,"Nu","Cao","Song voi nguoi than","Co",8,"Co",6.2,1,"Khong",12,0
+1413,81,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",7.3,3,"Khong",12,0
+1414,64,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",9.1,4,"Khong",3.42,1
+1415,87,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.6,2,"Khong",0.09,1
+1416,77,"Nu","Ngheo","Song voi nguoi than","Co",6,"Khong",7.6,1,"Khong",9.26,1
+1417,70,"Nu","Trung Binh","Khac","Co",9,"Co",5.5,2,"Khong",12,0
+1418,77,"Nam","Trung Binh","Song voi nguoi than","Khong",11,"Co",5,4,"Khong",12,0
+1419,62,"Nam","Trung Binh","Song voi nguoi than","Co",10,"Khong",4.6,2,"Khong",12,0
+1420,83,"Nu","Cao","Song voi nguoi than","Khong",8,"Khong",7.5,0,"Khong",2.97,1
+1421,80,"Nam","Trung Binh","Khac","Khong",6,"Co",7,5,"Khong",2.94,1
+1422,85,"Nu","Trung Binh","Song mot minh","Khong",10,"Co",8,4,"Co",12,0
+1423,62,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",6.6,2,"Khong",2.94,1
+1424,89,"Nu","Trung Binh","Song mot minh","Khong",3,"Co",5.8,1,"Khong",1.56,1
+1425,73,"Nu","Trung Binh","Song mot minh","Co",11,"Co",7.3,2,"Khong",6.12,1
+1426,66,"Nam","Ngheo","Khac","Khong",13,"Khong",8.9,2,"Khong",1.62,0
+1427,88,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",5.9,5,"Khong",12,0
+1428,68,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",5.8,2,"Khong",9.21,1
+1429,78,"Nu","Trung Binh","Song voi nguoi than","Khong",12,"Co",8.4,1,"Khong",0.46,1
+1430,66,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.9,4,"Khong",8.27,1
+1431,65,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Khong",9.2,5,"Khong",5.43,1
+1432,62,"Nam","Cao","Song voi nguoi than","Khong",9,"Co",7.1,1,"Khong",10.09,1
+1433,72,"Nam","Cao","Song voi nguoi than","Khong",6,"Co",5.9,2,"Co",10.63,1
+1434,87,"Nu","Trung Binh","Song voi nguoi than","Khong",13,"Co",8.7,1,"Khong",1.31,1
+1435,77,"Nam","Cao","Song voi nguoi than","Co",9,"Co",10,3,"Khong",12,0
+1436,64,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Co",3,3,"Khong",8.63,1
+1437,80,"Nu","Ngheo","Song voi nguoi than","Khong",7,"Co",9.1,3,"Khong",1.32,1
+1438,62,"Nu","Trung Binh","Song mot minh","Co",9,"Co",6.6,3,"Co",12,0
+1439,78,"Nu","Cao","Song voi nguoi than","Khong",6,"Khong",6.6,2,"Khong",4.92,1
+1440,75,"Nu","Trung Binh","Song mot minh","Khong",8,"Khong",7.8,3,"Khong",12,0
+1441,65,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Khong",5.1,4,"Khong",2.42,1
+1442,81,"Nu","Trung Binh","Khac","Co",10,"Co",7.7,4,"Khong",5.8,1
+1443,72,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",7,2,"Khong",12,0
+1444,68,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",8.9,2,"Khong",4.71,1
+1445,61,"Nu","Trung Binh","Song mot minh","Co",3,"Co",6.4,0,"Khong",1.72,0
+1446,78,"Nam","Cao","Song voi nguoi than","Khong",3,"Co",5.7,1,"Khong",5.53,1
+1447,69,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",6.2,4,"Khong",1.38,0
+1448,82,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",7.6,2,"Khong",2.88,1
+1449,66,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",6.4,4,"Khong",12,0
+1450,75,"Nam","Ngheo","Song voi nguoi than","Khong",11,"Khong",7.2,3,"Khong",12,0
+1451,73,"Nu","Cao","Song mot minh","Khong",5,"Co",7.9,5,"Khong",2.27,1
+1452,84,"Nam","Cao","Song voi nguoi than","Khong",8,"Co",7.6,3,"Khong",5.07,1
+1453,64,"Nam","Cao","Song mot minh","Co",6,"Khong",9.2,4,"Khong",2.81,1
+1454,75,"Nu","Trung Binh","Khac","Khong",6,"Co",8.3,4,"Khong",0.9,1
+1455,82,"Nu","Cao","Khac","Khong",9,"Khong",7.4,1,"Khong",7.84,1
+1456,80,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",7.3,3,"Khong",11.35,1
+1457,79,"Nu","Ngheo","Song voi nguoi than","Co",8,"Co",7,5,"Khong",5.14,0
+1458,67,"Nam","Cao","Song voi nguoi than","Khong",9,"Co",5.7,3,"Co",12,0
+1459,62,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Khong",7.8,2,"Khong",6.87,1
+1460,75,"Nam","Ngheo","Song voi nguoi than","Khong",3,"Co",9.4,4,"Khong",1.41,1
+1461,73,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Co",6.3,2,"Co",4.03,0
+1462,67,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.9,5,"Khong",1.47,1
+1463,67,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6.4,2,"Khong",8.68,1
+1464,78,"Nu","Cao","Song mot minh","Khong",7,"Co",7.3,3,"Khong",1.27,1
+1465,71,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",4.7,2,"Khong",12,0
+1466,65,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",7.8,4,"Khong",0.75,1
+1467,63,"Nam","Trung Binh","Song voi nguoi than","Co",13,"Co",7.4,2,"Khong",5.34,1
+1468,69,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",8.9,1,"Khong",12,0
+1469,88,"Nam","Ngheo","Song voi nguoi than","Khong",6,"Co",10,2,"Khong",5.42,1
+1470,82,"Nu","Cao","Song voi nguoi than","Co",8,"Co",5,5,"Co",9.95,1
+1471,71,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",5.6,3,"Khong",12,0
+1472,86,"Nu","Trung Binh","Song mot minh","Co",3,"Khong",5.9,1,"Khong",12,0
+1473,65,"Nu","Ngheo","Song voi nguoi than","Khong",6,"Co",7.7,2,"Co",2.8,1
+1474,86,"Nam","Ngheo","Khac","Co",8,"Co",8.6,5,"Khong",1.32,1
+1475,76,"Nu","Trung Binh","Song voi nguoi than","Khong",9,"Co",7.8,0,"Khong",1.98,1
+1476,69,"Nu","Trung Binh","Song mot minh","Co",4,"Khong",5.2,5,"Khong",0.7,1
+1477,83,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Khong",7.6,3,"Khong",1.64,1
+1478,90,"Nam","Cao","Song voi nguoi than","Khong",4,"Co",5.8,1,"Co",3.38,1
+1479,65,"Nam","Trung Binh","Song mot minh","Khong",6,"Khong",6.5,1,"Khong",3.48,0
+1480,88,"Nu","Trung Binh","Song voi nguoi than","Khong",8,"Co",7,2,"Co",5.27,1
+1481,81,"Nu","Trung Binh","Song mot minh","Co",3,"Co",7.2,2,"Khong",7.99,1
+1482,83,"Nam","Trung Binh","Song voi nguoi than","Khong",13,"Co",5.7,2,"Khong",10.53,1
+1483,60,"Nu","Trung Binh","Song voi nguoi than","Co",5,"Co",5.6,3,"Khong",0.53,1
+1484,68,"Nam","Cao","Song voi nguoi than","Khong",5,"Khong",5.7,3,"Khong",0.55,1
+1485,89,"Nu","Trung Binh","Song voi nguoi than","Khong",6,"Co",9.2,4,"Khong",1.83,1
+1486,63,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.9,5,"Khong",0.75,1
+1487,90,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",9.7,2,"Co",12,0
+1488,72,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Khong",8.2,1,"Co",12,0
+1489,63,"Nu","Cao","Song voi nguoi than","Co",4,"Co",6.4,2,"Khong",4.63,1
+1490,72,"Nu","Cao","Song mot minh","Khong",7,"Co",9.1,2,"Khong",1.77,1
+1491,84,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",4.7,1,"Khong",2.64,1
+1492,61,"Nam","Trung Binh","Song voi nguoi than","Co",3,"Co",10,3,"Khong",4,1
+1493,86,"Nam","Cao","Song voi nguoi than","Khong",5,"Co",6.3,4,"Khong",3.08,1
+1494,84,"Nam","Ngheo","Song mot minh","Khong",7,"Khong",8.4,1,"Khong",2.15,1
+1495,67,"Nam","Trung Binh","Song mot minh","Co",10,"Co",3.5,5,"Khong",12,0
+1496,75,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Co",5.9,2,"Khong",1.08,1
+1497,67,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",6.3,4,"Khong",9.55,0
+1498,70,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",8,2,"Khong",6.81,1
+1499,88,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",8.5,3,"Khong",0.67,1
+1500,82,"Nu","Ngheo","Song voi nguoi than","Khong",13,"Co",7.2,1,"Khong",0.22,1
+1501,68,"Nu","Trung Binh","Song mot minh","Khong",8,"Co",4.2,2,"Khong",12,0
+1502,66,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",7.1,2,"Khong",5.57,1
+1503,76,"Nu","Ngheo","Khac","Khong",7,"Khong",8,2,"Khong",6.8,0
+1504,77,"Nu","Ngheo","Khac","Khong",9,"Khong",7.7,2,"Khong",12,0
+1505,78,"Nu","Trung Binh","Khac","Co",9,"Khong",8.3,1,"Khong",0.91,1
+1506,60,"Nu","Cao","Song voi nguoi than","Co",8,"Co",7.9,2,"Khong",2.45,1
+1507,84,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",6.7,3,"Khong",7.04,1
+1508,88,"Nu","Cao","Song voi nguoi than","Co",8,"Khong",6.8,5,"Khong",12,0
+1509,77,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Co",6.7,2,"Co",12,0
+1510,89,"Nu","Trung Binh","Song mot minh","Khong",13,"Co",4.8,2,"Khong",3.2,1
+1511,83,"Nam","Trung Binh","Khac","Co",4,"Co",6.1,1,"Khong",12,0
+1512,67,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",4.7,0,"Co",2.63,1
+1513,66,"Nam","Trung Binh","Khac","Co",11,"Co",4.6,0,"Khong",11.47,1
+1514,82,"Nam","Trung Binh","Song voi nguoi than","Co",14,"Co",7,3,"Khong",0.18,1
+1515,70,"Nu","Trung Binh","Song voi nguoi than","Co",8,"Khong",7,0,"Co",12,0
+1516,64,"Nu","Trung Binh","Khac","Khong",3,"Khong",3.5,2,"Khong",12,0
+1517,83,"Nu","Cao","Song voi nguoi than","Khong",9,"Co",4.1,3,"Khong",3.09,1
+1518,69,"Nu","Cao","Song mot minh","Co",9,"Co",7.8,1,"Khong",9.75,1
+1519,83,"Nam","Trung Binh","Song voi nguoi than","Co",4,"Co",8.8,2,"Khong",12,0
+1520,73,"Nu","Trung Binh","Song mot minh","Co",5,"Co",7.5,4,"Khong",1.18,1
+1521,63,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Khong",5.7,4,"Khong",6.2,1
+1522,78,"Nam","Ngheo","Song voi nguoi than","Khong",10,"Co",5.2,2,"Khong",2.4,1
+1523,89,"Nu","Trung Binh","Song voi nguoi than","Khong",10,"Khong",10,1,"Khong",12,0
+1524,60,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.2,2,"Khong",12,0
+1525,64,"Nu","Cao","Song mot minh","Co",3,"Co",4.5,2,"Khong",4.32,1
+1526,89,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",4,2,"Khong",12,0
+1527,72,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",5.9,3,"Khong",12,0
+1528,87,"Nam","Ngheo","Song voi nguoi than","Khong",5,"Co",6.2,2,"Khong",1.11,0
+1529,76,"Nu","Ngheo","Song voi nguoi than","Khong",10,"Co",6.8,5,"Khong",0.67,1
+1530,83,"Nam","Trung Binh","Song voi nguoi than","Co",11,"Co",6.1,2,"Khong",3.3,0
+1531,88,"Nu","Ngheo","Song voi nguoi than","Co",8,"Co",7.7,2,"Co",0.61,1
+1532,81,"Nu","Trung Binh","Song voi nguoi than","Co",3,"Co",4.5,1,"Co",1.3,1
+1533,63,"Nu","Trung Binh","Song mot minh","Khong",13,"Khong",7.9,2,"Khong",8.26,1
+1534,68,"Nam","Ngheo","Song voi nguoi than","Khong",9,"Co",5.9,1,"Khong",7.48,1
+1535,79,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",4.7,0,"Co",4.78,1
+1536,65,"Nam","Cao","Song voi nguoi than","Co",5,"Khong",7.9,3,"Khong",1.56,0
+1537,84,"Nam","Cao","Song mot minh","Khong",11,"Co",3.8,2,"Khong",5.26,1
+1538,61,"Nam","Cao","Song voi nguoi than","Khong",4,"Khong",6.7,5,"Khong",1.96,1
+1539,81,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Co",7.7,2,"Khong",0.47,1
+1540,66,"Nu","Cao","Song voi nguoi than","Khong",5,"Co",6.3,3,"Khong",3.7,1
+1541,71,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",6.9,1,"Khong",3.91,1
+1542,67,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",6.9,1,"Khong",1.63,0
+1543,66,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",7.3,3,"Khong",2.94,1
+1544,89,"Nu","Trung Binh","Song mot minh","Khong",4,"Khong",7.4,0,"Khong",12,0
+1545,66,"Nu","Trung Binh","Song mot minh","Co",10,"Co",5.4,4,"Khong",4.57,1
+1546,89,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.3,2,"Khong",1.24,1
+1547,85,"Nu","Trung Binh","Song voi nguoi than","Co",12,"Co",3.6,0,"Co",3.54,1
+1548,86,"Nam","Trung Binh","Song voi nguoi than","Co",7,"Co",3.9,2,"Khong",12,0
+1549,65,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",5.3,1,"Khong",9.98,0
+1550,67,"Nu","Trung Binh","Song voi nguoi than","Co",7,"Co",5.5,4,"Khong",9.05,1
+1551,86,"Nu","Trung Binh","Khac","Khong",12,"Co",7.8,2,"Khong",9.46,1
+1552,86,"Nam","Cao","Song voi nguoi than","Co",10,"Co",7.2,2,"Co",12,0
+1553,75,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",8,3,"Khong",1.16,1
+1554,89,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Khong",8.8,1,"Khong",12,0
+1555,81,"Nam","Cao","Song mot minh","Khong",9,"Co",8,3,"Khong",4.44,1
+1556,81,"Nu","Ngheo","Song voi nguoi than","Khong",4,"Khong",7,5,"Khong",6.92,1
+1557,72,"Nam","Trung Binh","Song voi nguoi than","Khong",4,"Co",8.5,0,"Khong",1.56,0
+1558,77,"Nu","Ngheo","Song voi nguoi than","Co",9,"Khong",6.8,4,"Co",12,0
+1559,90,"Nam","Ngheo","Song voi nguoi than","Co",6,"Co",8.4,2,"Khong",7.24,1
+1560,75,"Nu","Trung Binh","Song voi nguoi than","Khong",3,"Co",5.1,2,"Khong",5.87,1
+1561,90,"Nu","Cao","Song voi nguoi than","Khong",10,"Khong",8.6,3,"Khong",12,0
+1562,86,"Nam","Cao","Song voi nguoi than","Co",4,"Co",8.1,2,"Khong",12,0
+1563,70,"Nu","Ngheo","Song voi nguoi than","Khong",9,"Khong",9.2,2,"Khong",12,0
+1564,60,"Nam","Ngheo","Khac","Co",5,"Co",6.9,2,"Khong",5.57,1
+1565,80,"Nu","Trung Binh","Song voi nguoi than","Co",6,"Khong",5.5,3,"Khong",5.58,1
+1566,62,"Nam","Trung Binh","Song voi nguoi than","Co",8,"Co",5.5,1,"Khong",12,0
+1567,77,"Nam","Trung Binh","Song voi nguoi than","Khong",8,"Khong",7.6,3,"Khong",7.51,1
+1568,88,"Nu","Ngheo","Song voi nguoi than","Khong",5,"Khong",8.2,5,"Khong",4.52,1
+1569,82,"Nam","Trung Binh","Song voi nguoi than","Khong",6,"Co",8.1,2,"Khong",0.34,1
+1570,86,"Nu","Cao","Song voi nguoi than","Khong",4,"Co",6.9,3,"Co",6.31,1
+1571,65,"Nam","Trung Binh","Song voi nguoi than","Khong",7,"Co",9.1,0,"Khong",0.18,1
+1572,87,"Nu","Trung Binh","Khac","Co",6,"Co",7.6,2,"Khong",1.36,1
+1573,80,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",6.4,3,"Khong",4.22,1
+1574,79,"Nam","Trung Binh","Song mot minh","Khong",6,"Co",7.8,1,"Khong",12,0
+1575,73,"Nam","Trung Binh","Song voi nguoi than","Khong",3,"Co",7.4,2,"Co",12,0
+1576,87,"Nam","Trung Binh","Khac","Khong",6,"Khong",10,4,"Khong",1.67,0
+1577,74,"Nu","Trung Binh","Song voi nguoi than","Co",9,"Co",4.9,2,"Co",12,0
+1578,79,"Nu","Ngheo","Song mot minh","Khong",10,"Co",8.7,2,"Khong",1.92,0
+1579,78,"Nu","Cao","Song voi nguoi than","Khong",10,"Khong",8.3,4,"Khong",7.87,0
+1580,76,"Nu","Ngheo","Song voi nguoi than","Khong",13,"Co",7.1,2,"Co",12,0
+1581,73,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",9.2,2,"Khong",1.53,1
+1582,78,"Nu","Trung Binh","Song voi nguoi than","Khong",11,"Co",5.5,2,"Khong",0.48,0
+1583,66,"Nam","Cao","Khac","Khong",6,"Khong",5.8,5,"Khong",12,0
+1584,85,"Nam","Trung Binh","Song voi nguoi than","Khong",10,"Co",5.8,5,"Khong",12,0
+1585,79,"Nam","Cao","Khac","Khong",11,"Khong",8.1,0,"Khong",4.75,0
+1586,61,"Nu","Cao","Song voi nguoi than","Khong",3,"Co",10,5,"Khong",3.41,1
+1587,88,"Nu","Trung Binh","Song mot minh","Khong",3,"Khong",7.3,1,"Co",4.71,1
+1588,81,"Nam","Trung Binh","Song voi nguoi than","Co",12,"Khong",8.1,2,"Khong",5.81,1
+1589,73,"Nu","Trung Binh","Song voi nguoi than","Co",4,"Co",6.2,1,"Khong",12,0
+1590,79,"Nam","Trung Binh","Song voi nguoi than","Co",9,"Co",7.7,2,"Khong",2.44,1
+1591,79,"Nu","Trung Binh","Song voi nguoi than","Khong",12,"Co",5.7,3,"Khong",3,1
+1592,87,"Nam","Trung Binh","Song voi nguoi than","Co",6,"Co",8.7,3,"Co",12,0
+1593,63,"Nam","Trung Binh","Song voi nguoi than","Khong",5,"Khong",6.5,4,"Co",5.01,1
+1594,79,"Nu","Trung Binh","Song voi nguoi than","Khong",7,"Co",5.9,0,"Khong",1.2,1
+1595,70,"Nam","Ngheo","Khac","Khong",3,"Co",5,2,"Khong",12,0
+1596,86,"Nam","Trung Binh","Song voi nguoi than","Khong",12,"Co",5,4,"Khong",2.59,0
+1597,87,"Nu","Trung Binh","Song voi nguoi than","Khong",5,"Co",6.3,4,"Co",10.56,1
+1598,71,"Nu","Trung Binh","Song voi nguoi than","Khong",4,"Co",6.8,5,"Khong",2.73,1
+1599,73,"Nu","Ngheo","Song voi nguoi than","Co",9,"Co",8,1,"Khong",12,0
+1600,86,"Nu","Ngheo","Song voi nguoi than","Khong",8,"Khong",5.4,3,"Khong",12,0
