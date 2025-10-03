@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.4.2",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "final-exam/GD2-bai_cuoi_mon.html",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "Bài tập thực hành số 1.docx": {
+      "checksum": "cba6e684da455f9f71d46594583fbfcf"
+    },
+    "Bài tập thực hành số 2.docx": {
+      "checksum": "814aa0a5d6715a844d9f2db4561ba40b"
+    },
+    "Bài tập thực hành số 3.docx": {
+      "checksum": "ca70d63b7bc30293414eeb1799d9d0a4"
+    },
+    "Bài tập thực hành số 4.docx": {
+      "checksum": "4861c1324195c7f7b45f3aeee3df3b24"
+    },
+    "Bài tập thực hành số 5.docx": {
+      "checksum": "537ac870649add65ef1e24468f9740af"
+    },
+    "Bài tập thực hành số 6.docx": {
+      "checksum": "719d989ff56ada8373e162f0e040d1b2"
+    },
+    "data/data1.csv": {
+      "checksum": "970f106e5f3938f4c81b7ea27e5e3187"
+    },
+    "data/data2.csv": {
+      "checksum": "d3366b00668378a1665c6d5667bd196c"
+    },
+    "data/data3.csv": {
+      "checksum": "7b1d51648ab01e6de38f0b62406cccb8"
+    },
+    "data/data4.csv": {
+      "checksum": "51a10b0f42f3698e53d0c689c718f87c"
+    },
+    "data/data5.csv": {
+      "checksum": "879d0131c7e3180322a37ad2e0e95f97"
+    },
+    "data/data6.csv": {
+      "checksum": "fd3f395be0da7b1e637b07a10dc732d4"
+    },
+    "final-exam/GD2-bai_cuoi_mon.html": {
+      "checksum": "e122570e8598855e3699a20bd53b8d6c"
+    },
+    "final-exam/GD2-bai_cuoi_mon.Rmd": {
+      "checksum": "d63682a410f64b1388e469bbbc7a3f8d"
+    },
+    "final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/ab.sav": {
+      "checksum": "617e88adb2ff8975c4896f60a433efb5"
+    },
+    "final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/ch.sav": {
+      "checksum": "a96947fced26290a7bbb045e3ec9ff9e"
+    },
+    "final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/hh.sav": {
+      "checksum": "132eb8c3af4e8fc052ec99de7ad0d5aa"
+    },
+    "final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/hl.sav": {
+      "checksum": "5d6415e8bab4127f506c1f2bab5edf5d"
+    },
+    "final-exam/Viet Nam_MICS5_Datasets/Viet Nam MICS 2013-14 SPSS Datasets/hh.sav": {
+      "checksum": "8235038250c4e78d8f8c03086af194cd"
+    },
+    "practice/draft.py": {
+      "checksum": "386c11a274060c553c47b96de1d82515"
+    },
+    "practice/Practice1.ipynb": {
+      "checksum": "4d53a734c15e1964c971c4b3b7db3ff0"
+    },
+    "practice/practice1.r": {
+      "checksum": "82a7a44a5638bd1c4eac684fc509af61"
+    },
+    "practice/practice2.r": {
+      "checksum": "b52813e512e5b07444eb212ae759a766"
+    },
+    "practice/Practice3.ipynb": {
+      "checksum": "4144d7fcd9b168774fc1a4ba04947487"
+    },
+    "practice/practice4.py": {
+      "checksum": "b59e61c4d9f945f1e7f6cb5392514bb9"
+    },
+    "practice/Prc6.ipynb": {
+      "checksum": "24ce81e0117b2417497a3212cfff3f58"
+    },
+    "README.md": {
+      "checksum": "aa8b95a831873e3e8363d9d03811b355"
+    },
+    "slide/00- Gioi thieu mon hoc_2025.pptx": {
+      "checksum": "d2e5bb0491e090d96da28e6fd18eb5c5"
+    },
+    "slide/01- Bai 1 - Gioi thieu mo hinh hoi qui.pptx": {
+      "checksum": "193b4e15454d2be6c97c36253904f6d1"
+    },
+    "slide/02- Bai 2.1 - Hoi quy tuyen tinh.pptx": {
+      "checksum": "8bb6f5e54a1794dc79db2841d3cca570"
+    },
+    "slide/03- Bai 2.2 - Hoi quy logistics.pptx": {
+      "checksum": "80756038ea5d37f741314f5eef11d572"
+    },
+    "slide/04- Bai 2.3 - Hoi quy Poison.pptx": {
+      "checksum": "ac1e0f2d5fe06769260b4a0b23b4df6b"
+    },
+    "slide/05- Bai 2.4 - Hoi quy Negative biominal.pptx": {
+      "checksum": "14d5dd9bfc5c9ddd84abca6fba2be9d4"
+    },
+    "slide/06- Bai 2.5 - Survival analysis.pptx": {
+      "checksum": "76ce89471c6ea00eac7ac29d039c3186"
+    }
+  },
+  "users": null
+}
