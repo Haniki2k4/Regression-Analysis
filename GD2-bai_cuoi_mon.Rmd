@@ -23,11 +23,13 @@ library(ggplot2)    # trực quan hóa
 library(janitor)    # tabyl tần số
 library(tidyr)      # reshape dữ liệu
 library(scales)     # hiển thị %
+library(knitr)
+library(kableExtra)
 ```
 
-## 1. Đọc và làm sạch dữ liệu
+## **1. Kết quả làm sạch dữ liệu**
 
-```{r load-data}
+```{r load-data, results = 'hide'}
 # Chỉ lấy các biến cần thiết
 hh <- read_sav("E:/regression-analysis/final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/hh.sav") %>% 
   select(WS1, WS11, HH6, windex5, helevel, HC2, HH2, HH1)
@@ -42,27 +44,43 @@ ch %>% summarise(across(everything(), ~ mean(is.na(.)) * 100))
 # Loại bỏ missing
 hh_clean <- hh %>% drop_na()
 ch_clean <- ch %>% drop_na()
-
-hh_before <- nrow(hh)
-hh_after  <- nrow(hh_clean)
-data.frame(
-  rows_before = hh_before,
-  rows_after  = hh_after,
-  dropped     = hh_before - hh_after
-)
-
-ch_before <- nrow(ch)
-ch_after  <- nrow(ch_clean)
-data.frame(
-  rows_before = ch_before,
-  rows_after  = ch_after,
-  dropped     = ch_before - ch_after
-)
 ```
 
-**Nhận xét:** Một số biến có tỷ lệ missing nhỏ, đã được loại bỏ để đảm bảo phân tích chính xác. \## 2. Tạo biến mới
+Số lượng giá trị missing đã được loại bỏ trong các file dữ liệu:
 
-```{r create-vars}
+```{r op-missing}
+# Số dòng trước và sau của hh
+hh_before <- nrow(hh)
+hh_after  <- nrow(hh_clean)
+
+# Số dòng trước và sau của ch
+ch_before <- nrow(ch)
+ch_after  <- nrow(ch_clean)
+
+# Gộp thành 1 bảng
+summary_table <- tibble(
+  dataset     = c("hh.sav", "ch.sav"),
+  rows_before = c(hh_before, ch_before),
+  rows_after  = c(hh_after, ch_after),
+  dropped     = c(hh_before - hh_after,
+                  ch_before - ch_after)
+)
+
+summary_table
+
+```
+
+Các biến mới đã được tạo:
+
+-   Biến diarrhea: bằng 1 nếu trẻ trong hộ được báo cáo là bị tiêu chảy trong vòng 2 tuần trước khảo sát, bằng 0 nếu không bị.
+
+-   Biến any_diarrhea: bằng 1 nếu trong hộ có ít nhất một trẻ bị tiêu chảy, bằng 0 nếu không có.
+
+-   Biến safe_water: bằng 1 nếu nguồn nước sinh hoạt thuộc nhóm an toàn, bằng 0 nếu không thuộc nhóm an toàn.
+
+-   Biến improved_sanitation: bằng 1 nếu hộ có nhà tiêu hợp vệ sinh và bằng 0 nếu không có.
+
+```{r create-vars, f}
 # Biến tiêu chảy ở trẻ
 ch_clean <- ch_clean %>% 
   mutate(diarrhea = if_else(CA1 == 1, 1, 0))
@@ -90,17 +108,22 @@ hh_clean <- hh_clean %>%
       TRUE ~ NA_real_
     )
   )
+
 ```
 
-## 3. Thống kê mô tả
+## **2. Thống kê mô tả và trực quan hóa**
 
 ```{r descriptives}
 # Tần số nước sạch & nhà tiêu
-tabyl(hh_clean, safe_water)
-tabyl(hh_clean, improved_sanitation)
+tabyl(hh_clean, safe_water) %>%
+  kable(caption = "Bảng tần số hộ gia đình theo biến Safe Water")
+
+# Bảng Improved Sanitation
+tabyl(hh_clean, improved_sanitation) %>%
+  kable(caption = "Bảng tần số hộ gia đình theo biến Improved Sanitation")
 ```
 
-### Biểu đồ tròn {.tabset .tabset-fade .tabset-pills}
+### *Biểu đồ tròn tỷ lệ* {.tabset .tabset-fade .tabset-pills}
 
 #### Tỷ lệ hộ sử dụng nước sạch
 
@@ -124,6 +147,7 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
 ```
 
 #### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
+
 ```{r pie-sanitation, echo=FALSE}
 san_tab <- hh_clean %>% 
   filter(!is.na(improved_sanitation)) %>% 
@@ -143,8 +167,10 @@ ggplot(san_tab, aes(x = "", y = n, fill = factor(improved_sanitation))) +
   theme_void()
 ```
 
-## 4. So sánh theo khu vực (HH6: Thành thị/Nông thôn) {.tabset .tabset-fade .tabset-pills}
-### Nước sạch
+### *Biểu đồ cột so sánh theo khu vực* {.tabset .tabset-fade .tabset-pills}
+
+#### Nước sạch
+
 ```{r bar-area-safe, echo=FALSE}
 # Nước sạch theo khu vực
 water_by_area <- hh_clean %>% 
@@ -162,12 +188,13 @@ ggplot(water_by_area, aes(x = factor(HH6), y = pct, fill = factor(safe_water))) 
   labs(
     title = "Tỷ lệ hộ sử dụng nước sạch theo khu vực",
     x = "Khu vực (1=Thành thị, 2=Nông thôn)", y = "Tỷ lệ (%)",
-    fill = "Nước sạch"
+    fill = "Nước sạch (0=Không, 1=Có)"
   ) +
   theme_minimal()
 ```
 
-### Nhà tiêu hợp vệ sinh
+#### Nhà tiêu hợp vệ sinh
+
 ```{r bar-area-san, echo=FALSE}
 # Nhà tiêu theo khu vực
 san_by_area <- hh_clean %>% 
@@ -185,22 +212,23 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
   labs(
     title = "Tỷ lệ hộ có nhà tiêu hợp vệ sinh theo khu vực",
     x = "Khu vực (1=Thành thị, 2=Nông thôn)", y = "Tỷ lệ (%)",
-    fill = "Nhà tiêu hợp vệ sinh"
+    fill = "Nhà tiêu hợp vệ sinh (0=Không, 1=Có)"
   ) +
   theme_minimal()
 ```
 
-## 5. Phân tích hai biến: Nước sạch và Tiêu chảy ở trẻ
+## **3. Kết quả phân tích hai biến**
+
+### Kiểm định Chi-squared 
 
 ```{r chi-square}
-# Bảng chéo
-xtabs(~ safe_water + any_diarrhea, data = hh_clean)
-
-# Kiểm định Chi-square
-chisq.test(hh_clean$safe_water, hh_clean$any_diarrhea)
+chisq_res <- chisq.test(hh_clean$safe_water, hh_clean$any_diarrhea)
+knitr::kable(as.data.frame(chisq_res$observed),
+             caption = "Bảng chéo: Nước sạch và tiêu chảy ở trẻ")
+chisq_res
 ```
 
-## 6. Phân tích hồi quy logistic
+### Phân tích hồi quy logistic
 
 ```{r regression}
 # Hồi quy logistic
