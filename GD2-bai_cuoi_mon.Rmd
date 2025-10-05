@@ -314,6 +314,11 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 chisq_res <- chisq.test(hh_clean$safe_water, hh_clean$any_diarrhea)
 knitr::kable(as.data.frame(chisq_res$observed),
              caption="Bảng 4. Bảng chéo giữa Nước sạch và Tiêu chảy")
+```
+
+[Bảng 5. Kết quả kiểm định Chi-squared]{style="color: gray;"}
+
+``` {r chi-square-2}
 chisq_res
 ```
 
@@ -321,7 +326,7 @@ chisq_res
 
 ### Phân tích hồi quy logistic
 
-[Bảng 5. Kết quả hồi quy logistic (Odds Ratio)]{style="color: gray;"}
+[Bảng 6. Kết quả hồi quy logistic (Odds Ratio)]{style="color: gray;"}
 
 ```{r regression}
 # Hồi quy logistic
