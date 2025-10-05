@@ -33,7 +33,7 @@ library(knitr)
 library(kableExtra)
 ```
 
-## **Chủ đề nghiên cứu:** Mối liên quan giữa điều kiện vệ sinh, nguồn nước, và sức khỏe của các thành viên trong hộ gia đình.
+### **Chủ đề nghiên cứu:** Mối liên quan giữa điều kiện vệ sinh, nguồn nước, và sức khỏe của các thành viên trong hộ gia đình.
 
 **Câu hỏi nghiên cứu:**
 
