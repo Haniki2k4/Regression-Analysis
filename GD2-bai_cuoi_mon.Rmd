@@ -10,6 +10,7 @@ output:
 ```{css, echo=FALSE}
     body {
       font-size: 16px;
+      font-family: Times New Roman;
     }
 ```
 
