@@ -42,6 +42,30 @@ library(kableExtra)
 2.  Kiểm định giả thuyết: Liệu các hộ gia đình sử dụng nguồn nước không an toàn có tỷ lệ trẻ em (\< 5 tuổi) bị tiêu chảy cao hơn so với các hộ gia đình dùng nước sạch hay không?
 3.  Xây dựng mô hình hồi quy logistic để xác định các yếu tố kinh tế - xã hội (mức sống, trình độ học vấn của chủ hộ) dự đoán khả năng một hộ gia đình sở hữu nhà tiêu hợp vệ sinh.
 
+**Mô tả số liệu:**
+
+Bộ dữ liệu được lấy từ khảo sát MICS 6 (2021) của UNICEF tại Việt Nam, bao gồm các thông tin về hộ gia đình, trẻ em và các yếu tố liên quan đến sức khỏe cộng đồng.
+
+Các biến số chính được sử dụng
+
+-   Biến phụ thuộc:
+
+    -   WS11: Loại nhà vệ sinh của hộ gia đình.
+
+    -   WS1: Nguồn nước uống chính của hộ gia đình
+
+    -   CA1: Trẻ có bị tiêu chảy trong 2 tuần qua không.
+
+-   Biến độc lập:
+
+    -   HH6: Khu vực sinh sống
+
+    -   windex5: Mức sống kinh tế của hộ gia đình
+
+    -   helevel: Trình độ học vấn của chủ hộ
+
+    -   HC2: Dân tộc chủ hộ
+
 ## **1. Kết quả làm sạch dữ liệu**
 
 ```{r load-data, results = 'hide'}
@@ -293,7 +317,7 @@ knitr::kable(as.data.frame(chisq_res$observed),
 chisq_res
 ```
 
-**Nhận xét:** - p = 0.4051 \> 0.05 -\> Không có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này
+**Nhận xét:** p = 0.4051 \> 0.05 -\> Không có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này
 
 ### Phân tích hồi quy logistic
 
@@ -308,6 +332,10 @@ model <- glm(improved_sanitation ~ windex5 + helevel + HH6 + HC2,
 summary(model) 
 ```
 
-**Nhận xét:** - Các yếu tố (windex5) và (helevel) có ảnh hưởng tích cực và có ý nghĩa thống kê rất cao đến khả năng có nhà tiêu hợp vệ sinh. - HH6 và HC2 có ý nghĩa thống kê -\> có thể làm giảm xác suất có điều kiện vệ sinh tốt
+**Nhận xét:**
+
+-   Các yếu tố (windex5) và (helevel) có ảnh hưởng tích cực và có ý nghĩa thống kê rất cao đến khả năng có nhà tiêu hợp vệ sinh.
+
+-   HH6 và HC2 có ý nghĩa thống kê -\> có thể làm giảm xác suất có điều kiện vệ sinh tốt
 
 ------------------------------------------------------------------------

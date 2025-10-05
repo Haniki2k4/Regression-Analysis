@@ -603,6 +603,26 @@ gia đình dùng nước sạch hay không?</li>
 xã hội (mức sống, trình độ học vấn của chủ hộ) dự đoán khả năng một hộ
 gia đình sở hữu nhà tiêu hợp vệ sinh.</li>
 </ol>
+<p><strong>Mô tả số liệu:</strong></p>
+<p>Bộ dữ liệu được lấy từ khảo sát MICS 6 (2021) của UNICEF tại Việt
+Nam, bao gồm các thông tin về hộ gia đình, trẻ em và các yếu tố liên
+quan đến sức khỏe cộng đồng.</p>
+<p>Các biến số chính được sử dụng</p>
+<ul>
+<li><p>Biến phụ thuộc:</p>
+<ul>
+<li><p>WS11: Loại nhà vệ sinh của hộ gia đình.</p></li>
+<li><p>WS1: Nguồn nước uống chính của hộ gia đình</p></li>
+<li><p>CA1: Trẻ có bị tiêu chảy trong 2 tuần qua không.</p></li>
+</ul></li>
+<li><p>Biến độc lập:</p>
+<ul>
+<li><p>HH6: Khu vực sinh sống</p></li>
+<li><p>windex5: Mức sống kinh tế của hộ gia đình</p></li>
+<li><p>helevel: Trình độ học vấn của chủ hộ</p></li>
+<li><p>HC2: Dân tộc chủ hộ</p></li>
+</ul></li>
+</ul>
 </div>
 <div id="kết-quả-làm-sạch-dữ-liệu" class="section level2">
 <h2><strong>1. Kết quả làm sạch dữ liệu</strong></h2>
@@ -852,7 +872,7 @@ thấp hơn 13.6 % so với thành thị,</p>
 ## 
 ## data:  hh_clean$safe_water and hh_clean$any_diarrhea
 ## X-squared = 0.69319, df = 1, p-value = 0.4051</code></pre>
-<p><strong>Nhận xét:</strong> - p = 0.4051 &gt; 0.05 -&gt; Không có mối
+<p><strong>Nhận xét:</strong> p = 0.4051 &gt; 0.05 -&gt; Không có mối
 liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng
 tiêu chảy ở trẻ em trong mẫu khảo sát này</p>
 </div>
@@ -882,10 +902,13 @@ Ratio)</span></p>
 ## AIC: 10504
 ## 
 ## Number of Fisher Scoring iterations: 6</code></pre>
-<p><strong>Nhận xét:</strong> - Các yếu tố (windex5) và (helevel) có ảnh
-hưởng tích cực và có ý nghĩa thống kê rất cao đến khả năng có nhà tiêu
-hợp vệ sinh. - HH6 và HC2 có ý nghĩa thống kê -&gt; có thể làm giảm xác
-suất có điều kiện vệ sinh tốt</p>
+<p><strong>Nhận xét:</strong></p>
+<ul>
+<li><p>Các yếu tố (windex5) và (helevel) có ảnh hưởng tích cực và có ý
+nghĩa thống kê rất cao đến khả năng có nhà tiêu hợp vệ sinh.</p></li>
+<li><p>HH6 và HC2 có ý nghĩa thống kê -&gt; có thể làm giảm xác suất có
+điều kiện vệ sinh tốt</p></li>
+</ul>
 <hr />
 </div>
 </div>
