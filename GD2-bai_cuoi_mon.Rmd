@@ -208,11 +208,11 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
     values = c("0" = "#e74c3c", "1" = "#2ecc71"),  # màu: đỏ/ xanh
     labels = c("0" = "Không", "1" = "Có")         # đổi nhãn
   ) +
-  labs(title = "Tỉ lệ hộ sử dung nguồn nước an toàn tại Việt Nam năm 2021") +
+  labs(title = "Tỉ lệ hộ sử dụng nguồn nước an toàn tại Việt Nam năm 2021") +
   theme_void()
 ```
 
-**Nhận xét:** Phần lớn các hộ gia đình (96%) có nguồn nước sử dụng an toàn.Tuy nhiên, vẫn còn 4% hộ chưa được tiếp cận nước sạch -\> nguy cơ cao gặp các vấn đề về sức khỏe, bệnh tật do nguồn nước ô nhiễm
+**Nhận xét:** Phần lớn các hộ gia đình (96%) có nguồn nước sử dụng an toàn.Tuy nhiên, vẫn còn 4% hộ chưa được tiếp cận nước sạch -\> các hộ này có nguy cơ cao gặp các vấn đề về sức khỏe, bệnh tật do nguồn nước ô nhiễm
 
 #### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
 
@@ -272,7 +272,8 @@ ggplot(water_by_area, aes(x = factor(HH6), y = pct, fill = factor(safe_water))) 
 
 ```
 
-**Nhận xét:** Tỷ lệ hộ thành thị sử dụng nước sạch (99.5%) cao hơn rõ rệt so với nông thôn (94.4%) -\> thể hiện được sự chênh lệch hạ tầng cấp nước giữa hai khu vực
+**Nhận xét:** Việt Nam đạt tỷ lệ hộ sử dụng nước sạch rất cao, đặc biệt tại khu vực thành thị.
+Tuy nhiên, chênh lệch giữa nông thôn và thành thị (~5%) cho thấy vẫn cần tiếp tục đầu tư và cải thiện hệ thống cấp nước ở nông thôn để đảm bảo công bằng trong tiếp cận nguồn nước an toàn.
 
 #### Nhà tiêu hợp vệ sinh
 
@@ -322,7 +323,7 @@ knitr::kable(as.data.frame(chisq_res$observed),
 chisq_res
 ```
 
-**Nhận xét:** p = 0.4051 \> 0.05 -\> Không có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này
+**Nhận xét:** p = 0.01291 \< 0.05 -\> Có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này.
 
 ### Phân tích hồi quy logistic
 
@@ -339,8 +340,8 @@ summary(model)
 
 **Nhận xét:**
 
--   Các yếu tố (windex5) và (helevel) có ảnh hưởng tích cực và có ý nghĩa thống kê rất cao đến khả năng có nhà tiêu hợp vệ sinh.
+-  windex5 và helevel có tác động tích cực và có ý nghĩa thống kê cao đến khả năng hộ có nhà tiêu hợp vệ sinh.
 
--   HH6 và HC2 có ý nghĩa thống kê -\> có thể làm giảm xác suất có điều kiện vệ sinh tốt
+-  HH6 và HC2 có hệ số âm và có ý nghĩa thống kê, cho thấy hộ nông thôn và dân tộc thiểu số có khả năng thấp hơn về điều kiện vệ sinh.
 
 ------------------------------------------------------------------------
