@@ -32,6 +32,7 @@ library(tidyr)      # reshape dữ liệu
 library(scales)     # hiển thị %
 library(knitr)
 library(kableExtra)
+library(MASS)
 ```
 
 ### **Chủ đề nghiên cứu:** Mối liên quan giữa điều kiện vệ sinh, nguồn nước, và sức khỏe của các thành viên trong hộ gia đình.
@@ -62,6 +63,10 @@ Các biến số chính được sử dụng
 
     -   windex5: Mức sống kinh tế của hộ gia đình
 
+    -   windex5r: Mức sống kinh tế của hộ gia đình ở nông thôn
+
+    -   windex5u: Mức sống kinh tế của hộ gia đình ở thành thị
+
     -   helevel: Trình độ học vấn của chủ hộ
 
     -   HC2: Dân tộc chủ hộ
@@ -70,11 +75,11 @@ Các biến số chính được sử dụng
 
 ```{r load-data, results = 'hide'}
 # Chỉ lấy các biến cần thiết
-hh <- read_sav("E:/regression-analysis/final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/hh.sav") %>% 
-  select(WS1, WS11, HH6, windex5, helevel, HC2, HH2, HH1)
+hh <- read_sav("E:/regression-analysis/final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/hh.sav") %>%
+  dplyr::select(HH1, HH2, HH6, WS1, WS11, helevel, HC2, windex5, windex5r, windex5u)
 
 ch <- read_sav("E:/regression-analysis/final-exam/Viet Nam MICS6 Datasets/Viet Nam MICS6 SPSS Datasets/ch.sav") %>% 
-  select(HH1, HH2, CA1)
+  dplyr::select(HH1, HH2, CA1)
 ```
 
 Xử lý missing:
@@ -83,41 +88,34 @@ Xử lý missing:
 
 -   Những dòng bị loại chủ yếu là các hộ không có thông tin đầy đủ về nguồn nước hoặc nhà tiêu.
 
-    ```{r find_mising}
-    # Kiểm tra missing
-    hh %>% summarise(across(everything(), ~ mean(is.na(.)) * 100))
-    ch %>% summarise(across(everything(), ~ mean(is.na(.)) * 100))
+```{r find_mising}
+# Kiểm tra missing
+hh_missing <- hh %>% summarise(across(everything(), ~ mean(is.na(.)) * 100))
+ch_missing <- ch %>% summarise(across(everything(), ~ mean(is.na(.)) * 100))
 
-    ```
+kable(hh_missing)
+kable(ch_missing, caption="Bảng 1. Tỷ lệ thiếu của các biến trong file hh.sav và ch.sav")
+
+```
 
 Số lượng giá trị missing đã được loại bỏ trong các file dữ liệu:
 
 ```{r op-missing}
-# Loại bỏ missing
-hh_clean <- hh %>% drop_na()
-ch_clean <- ch %>% drop_na()
+# Xử lý missing: thay bằng median, nhưng KHÔNG động đến windex5r và windex5u
+hh_clean <- hh %>%
+  mutate(across(
+    .cols = c(where(is.numeric), -c(windex5r, windex5u)),
+    .fns  = ~ if_else(is.na(.), median(., na.rm = TRUE), .)
+  ))
 
-# Số dòng trước và sau của hh
-hh_before <- nrow(hh)
-hh_after  <- nrow(hh_clean)
-
-# Số dòng trước và sau của ch
-ch_before <- nrow(ch)
-ch_after  <- nrow(ch_clean)
-
-# Gộp thành 1 bảng
-summary_table <- tibble(
-  dataset     = c("hh.sav", "ch.sav"),
-  rows_before = c(hh_before, ch_before),
-  rows_after  = c(hh_after, ch_after),
-  dropped     = c(hh_before - hh_after,
-                  ch_before - ch_after)
-)
-
-kable(summary_table, caption="Bảng 1. Số dòng trước và sau khi xử lý missing") %>%
-  kable_styling(full_width=FALSE)
+ch_clean <- ch %>%
+  mutate(across(where(is.numeric),
+                ~ if_else(is.na(.),
+                          median(., na.rm = TRUE),
+                          .)))
 
 ```
+
 
 ```{r create-vars, f}
 # Biến tiêu chảy ở trẻ
@@ -331,11 +329,22 @@ chisq_res
 
 ```{r regression}
 # Hồi quy logistic
-model <- glm(improved_sanitation ~ windex5 + helevel + HH6 + HC2,
+model1 <- glm(improved_sanitation ~ windex5 + helevel + HH6 + HC2,
+             data = hh_clean,
+             family = binomial)
+model2 <- glm(improved_sanitation ~ windex5r + helevel + HH6 + HC2,
+             data = hh_clean,
+             family = binomial)
+model3 <- glm(improved_sanitation ~ windex5u + helevel + HH6 + HC2,
              data = hh_clean,
              family = binomial)
 
-summary(model) 
+cat("**Bảng x. Kết quả hồi quy logistic với windex5**\n\n")
+summary(model1)
+cat("**Bảng xx. Kết quả hồi quy logistic với windex5r**\n\n")
+summary(model2) 
+cat("**Bảng xxx. Kết quả hồi quy logistic với windex5u**\n\n")
+summary(model3) 
 ```
 
 **Nhận xét:**
@@ -343,5 +352,7 @@ summary(model)
 -  windex5 và helevel có tác động tích cực và có ý nghĩa thống kê cao đến khả năng hộ có nhà tiêu hợp vệ sinh.
 
 -  HH6 và HC2 có hệ số âm và có ý nghĩa thống kê, cho thấy hộ nông thôn và dân tộc thiểu số có khả năng thấp hơn về điều kiện vệ sinh.
+
+
 
 ------------------------------------------------------------------------
