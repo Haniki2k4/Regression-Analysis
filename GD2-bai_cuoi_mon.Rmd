@@ -116,7 +116,6 @@ ch_clean <- ch %>%
 
 ```
 
-
 ```{r create-vars, f}
 # Biến tiêu chảy ở trẻ
 ch_clean <- ch_clean %>% 
@@ -182,7 +181,7 @@ tabyl(hh_clean, improved_sanitation) %>%
         align = "lcc") 
 ```
 
-*Nhận xét:* Hơn 96% hộ sử dụng nguồn nước an toàn và gần 79% hộ có nhà tiêu hợp vệ sinh, cho thấy điều kiện vệ sinh nhìn chung khá tốt.
+*Nhận xét:* Hơn 96% hộ sử dụng nguồn nước an toàn và khoảng 80% hộ có nhà tiêu hợp vệ sinh, cho thấy điều kiện vệ sinh nhìn chung khá tốt.
 
 ### *Biểu đồ tròn tỷ lệ* {.tabset .tabset-fade .tabset-pills}
 
@@ -210,7 +209,7 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
   theme_void()
 ```
 
-**Nhận xét:** Phần lớn các hộ gia đình (96%) có nguồn nước sử dụng an toàn.Tuy nhiên, vẫn còn 4% hộ chưa được tiếp cận nước sạch -\> các hộ này có nguy cơ cao gặp các vấn đề về sức khỏe, bệnh tật do nguồn nước ô nhiễm
+**Nhận xét:** Tỷ lệ hộ có nguồn nước an toàn là 96,2% cho thấy đa số hộ gia đình sử dụng nước sạch, cho thấy hạ tầng cấp nước khá tốt.
 
 #### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
 
@@ -236,7 +235,7 @@ ggplot(san_tab, aes(x = "", y = n, fill = factor(improved_sanitation))) +
   theme_void()
 ```
 
-**Nhận xét:** Khoảng 79.4% hộ có nhà tiêu hợp vệ sinh. Tuy nhiên còn 20.6% hộ chưa có công trình vệ sinh hợp chuẩn -\> có thể gây ô nhiễm môi trường và lây lan bệnh tật.
+**Nhận xét:** Tỷ lệ hộ có nhà tiêu hợp vệ sinh là 80,3%, vẫn còn 19,7% hộ chưa có nhà tiêu đạt chuẩn, tiềm ẩn nguy cơ ô nhiễm.
 
 ### *Biểu đồ cột so sánh theo khu vực* {.tabset .tabset-fade .tabset-pills}
 
@@ -270,8 +269,7 @@ ggplot(water_by_area, aes(x = factor(HH6), y = pct, fill = factor(safe_water))) 
 
 ```
 
-**Nhận xét:** Việt Nam đạt tỷ lệ hộ sử dụng nước sạch rất cao, đặc biệt tại khu vực thành thị.
-Tuy nhiên, chênh lệch giữa nông thôn và thành thị (~5%) cho thấy vẫn cần tiếp tục đầu tư và cải thiện hệ thống cấp nước ở nông thôn để đảm bảo công bằng trong tiếp cận nguồn nước an toàn.
+**Nhận xét:** Việt Nam đạt tỷ lệ hộ sử dụng nước sạch rất cao, đặc biệt tại khu vực thành thị. Tuy nhiên, chênh lệch giữa nông thôn và thành thị (5%) cho thấy vẫn cần tiếp tục đầu tư và cải thiện hệ thống cấp nước ở nông thôn để đảm bảo công bằng trong tiếp cận nguồn nước an toàn.
 
 #### Nhà tiêu hợp vệ sinh
 
@@ -303,11 +301,11 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 
 ```
 
-**Nhận xét:** Khu vực thành thị có điều kiện vệ sinh tốt hơn nhiều so với nông thôn. Tỷ lệ hộ có nhà tiêu hợp vệ sinh ở nông thôn thấp hơn 18.4 % so với thành thị.
+**Nhận xét:** Khu vực thành thị có điều kiện vệ sinh tốt hơn nhiều so với nông thôn. Tỷ lệ hộ có nhà tiêu hợp vệ sinh ở nông thôn thấp hơn 17.9 % so với thành thị.
 
 ## **3. Kết quả phân tích hai biến**
 
-### Kiểm định Chi-squared
+### 3.1. Kiểm định Chi-squared
 
 ```{r chi-square}
 chisq_res <- chisq.test(hh_clean$safe_water, hh_clean$any_diarrhea)
@@ -317,13 +315,15 @@ knitr::kable(as.data.frame(chisq_res$observed),
 
 [Bảng 5. Kết quả kiểm định Chi-squared]{style="color: gray;"}
 
-``` {r chi-square-2}
+```{r chi-square-2}
 chisq_res
 ```
 
-**Nhận xét:** p = 0.01291 \< 0.05 -\> Có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này.
+**Nhận xét:** p = 0.013 \< 0.05 -\> Có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này.
 
-### Phân tích hồi quy logistic
+### 3.2. Phân tích hồi quy logistic
+
+#### **3.2.1. Phân tích mối liên quan giữa yếu tố về điều kiện kinh tế và học vấn với khả năng có nhà tiêu hợp vệ sinh.**
 
 [Bảng 6. Kết quả hồi quy logistic (Odds Ratio)]{style="color: gray;"}
 
@@ -332,27 +332,52 @@ chisq_res
 model1 <- glm(improved_sanitation ~ windex5 + helevel + HH6 + HC2,
              data = hh_clean,
              family = binomial)
+
+summary(model1)
+```
+
+**Nhận xét:** Tất cả các biến đều có ý nghĩa thống kê. Mô hình cho thấy **điều kiện kinh tế** và **học vấn** là **yếu tố quyết định tích cực**, trong khi **khu vực và dân tộc** là rào cản đối với vệ sinh cải thiện.
+
+-   windex5 (0.56181): Mức sống cao → xác suất có nhà tiêu hợp vệ sinh **tăng**
+
+-   helevel (0.27874): Học vấn chủ hộ cao → **tăng khả năng có** nhà tiêu hợp vệ sinh**.**
+
+-   HH6 (-0.52970): Khu vực (thành thị/nông thôn) có ảnh hưởng **âm**, cho thấy khả năng có nhà tiêu hợp vệ sinh ở nông thôn kém hơn.
+
+-   HC2 (-0.23412): Dân tộc thiểu số có khả năng có khả năng có nhà tiêu hợp vệ sinh thấp hơn.
+
+#### **3.2.2. Phân tích mối liên quan giữa yếu tố về điều kiện kinh tế (ở thành thị hoặc nông thôn) và học vấn với khả năng có nhà tiêu hợp vệ sinh.** {.tabset .tabset-fade .tabset-pills}
+
+##### Điều kiện kinh tế ở nông thôn
+
+```{r regression_r}
 model2 <- glm(improved_sanitation ~ windex5r + helevel + HH6 + HC2,
              data = hh_clean,
              family = binomial)
+
+summary(model2)
+```
+
+**Nhận xét:** Ở khu vực nông thôn, mức sống và học vấn vẫn là hai yếu tố có ảnh hưởng rõ rệt nhất đến khả năng có nhà tiêu hợp vệ sinh. - windex5r, helevel, HC2 có ý nghĩa thống kê rất mạnh (p \< 0.001). - HH6 không còn ý nghĩa (p = 0.908).
+
+##### Điều kiện kinh tế ở thành thị
+
+```{r regression_u}
 model3 <- glm(improved_sanitation ~ windex5u + helevel + HH6 + HC2,
              data = hh_clean,
              family = binomial)
 
-cat("**Bảng x. Kết quả hồi quy logistic với windex5**\n\n")
-summary(model1)
-cat("**Bảng xx. Kết quả hồi quy logistic với windex5r**\n\n")
-summary(model2) 
-cat("**Bảng xxx. Kết quả hồi quy logistic với windex5u**\n\n")
 summary(model3) 
 ```
 
-**Nhận xét:**
+**Nhận xét:** Ở thành thị, các yếu tố mức sống và học vấn vẫn là yếu tố chính quyết định việc có nhà tiêu hợp vệ sinh.
 
--  windex5 và helevel có tác động tích cực và có ý nghĩa thống kê cao đến khả năng hộ có nhà tiêu hợp vệ sinh.
+-   windex5u, helevel, HC2 có ý nghĩa thống kê (p \< 0.001).
 
--  HH6 và HC2 có hệ số âm và có ý nghĩa thống kê, cho thấy hộ nông thôn và dân tộc thiểu số có khả năng thấp hơn về điều kiện vệ sinh.
+-   HH6 không còn ý nghĩa (p = 0.961).
 
+#### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+**--\>Kết luận:** Các mô hình đều chỉ ra rằng điều kiện kinh tế và trình độ học vấn của chủ hộ là hai yếu tố có tác động tích cực mạnh mẽ nhất đến khả năng có nhà tiêu hợp vệ sinh. Ngược lại, yếu tố dân tộc và khu vực sinh sống là những rào cản đáng kể, đặc biệt ở vùng nông thôn hoặc trong các nhóm dân tộc thiểu số.
 
 ------------------------------------------------------------------------
