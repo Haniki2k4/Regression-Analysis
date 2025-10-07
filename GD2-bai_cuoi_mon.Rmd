@@ -51,25 +51,25 @@ Các biến số chính được sử dụng
 
 -   Biến phụ thuộc:
 
-    -   WS11: Loại nhà vệ sinh của hộ gia đình.
+    -   `WS11`: Loại nhà vệ sinh của hộ gia đình.
 
-    -   WS1: Nguồn nước uống chính của hộ gia đình
+    -   `WS1`: Nguồn nước uống chính của hộ gia đình
 
-    -   CA1: Trẻ có bị tiêu chảy trong 2 tuần qua không.
+    -   `CA1`: Trẻ có bị tiêu chảy trong 2 tuần qua không.
 
 -   Biến độc lập:
 
-    -   HH6: Khu vực sinh sống
+    -   `HH6`: Khu vực sinh sống
 
-    -   windex5: Mức sống kinh tế của hộ gia đình
+    -   `windex5`: Mức sống kinh tế của hộ gia đình
 
-    -   windex5r: Mức sống kinh tế của hộ gia đình ở nông thôn
+    -   `windex5r`: Mức sống kinh tế của hộ gia đình ở nông thôn
 
-    -   windex5u: Mức sống kinh tế của hộ gia đình ở thành thị
+    -   `windex5u`: Mức sống kinh tế của hộ gia đình ở thành thị
 
-    -   helevel: Trình độ học vấn của chủ hộ
+    -   `helevel`: Trình độ học vấn của chủ hộ
 
-    -   HC2: Dân tộc chủ hộ
+    -   `HC2`: Dân tộc chủ hộ
 
 ## **1. Kết quả làm sạch dữ liệu**
 
@@ -82,11 +82,7 @@ ch <- read_sav("E:/regression-analysis/final-exam/Viet Nam MICS6 Datasets/Viet N
   dplyr::select(HH1, HH2, CA1)
 ```
 
-Xử lý missing:
-
--   Các biến có tỷ lệ thiếu nhỏ hơn 5% được loại bỏ trực tiếp bằng drop_na() để đảm bảo tính toàn vẹn dữ liệu.
-
--   Những dòng bị loại chủ yếu là các hộ không có thông tin đầy đủ về nguồn nước hoặc nhà tiêu.
+**Xử lý missing:**
 
 ```{r find_mising}
 # Kiểm tra missing
@@ -98,7 +94,15 @@ kable(ch_missing, caption="Bảng 1. Tỷ lệ thiếu của các biến trong f
 
 ```
 
-Số lượng giá trị missing đã được loại bỏ trong các file dữ liệu:
+**Tỷ lệ dữ liệu thiếu:** đa phần các biến có tỷ lệ thiếu thấp 0–4.6%.
+
+-   **Hai biến có tỷ lệ thiếu cao:** `windex5r` (30.06%) và `windex5u` (65.36%) do áp dụng cho nhóm khu vực khác nhau.
+
+**Cách xử lý:**
+
+-   Thay giá trị thiếu bằng **trung vị** của biến tương ứng (không loại bỏ quan sát).
+
+-   Giữ nguyên giá trị trong `windex5r, windex5u`.
 
 ```{r op-missing}
 # Xử lý missing: thay bằng median, nhưng KHÔNG động đến windex5r và windex5u
@@ -147,15 +151,15 @@ hh_clean <- hh_clean %>%
 
 ```
 
-Các biến mới đã được tạo:
+**Các biến mới đã được tạo:**
 
--   Biến diarrhea: bằng 1 nếu trẻ trong hộ được báo cáo là bị tiêu chảy trong vòng 2 tuần trước khảo sát, bằng 0 nếu không bị.
+-   Biến `diarrhea`: bằng 1 nếu trẻ trong hộ được báo cáo là bị tiêu chảy trong vòng 2 tuần trước khảo sát, bằng 0 nếu không bị.
 
--   Biến any_diarrhea: bằng 1 nếu trong hộ có ít nhất một trẻ bị tiêu chảy, bằng 0 nếu không có.
+-   Biến `any_diarrhea`: bằng 1 nếu trong hộ có ít nhất một trẻ bị tiêu chảy, bằng 0 nếu không có.
 
--   Biến safe_water: bằng 1 nếu nguồn nước sinh hoạt thuộc nhóm an toàn (nước máy, giếng khoan), bằng 0 nếu không thuộc nhóm an toàn (nước, sông, ao hồ).
+-   Biến `safe_water`: bằng 1 nếu nguồn nước sinh hoạt thuộc nhóm an toàn (nước máy, giếng khoan), bằng 0 nếu không thuộc nhóm an toàn (nước, sông, ao hồ).
 
--   Biến improved_sanitation: bằng 1 nếu hộ có nhà tiêu hợp vệ sinh và bằng 0 nếu không có.
+-   Biến `improved_sanitation`: bằng 1 nếu hộ có nhà tiêu hợp vệ sinh và bằng 0 nếu không có.
 
 ## **2. Thống kê mô tả và trực quan hóa**
 
@@ -338,13 +342,13 @@ summary(model1)
 
 **Nhận xét:** Tất cả các biến đều có ý nghĩa thống kê. Mô hình cho thấy **điều kiện kinh tế** và **học vấn** là **yếu tố quyết định tích cực**, trong khi **khu vực và dân tộc** là rào cản đối với vệ sinh cải thiện.
 
--   windex5 (0.56181): Mức sống cao → xác suất có nhà tiêu hợp vệ sinh **tăng**
+-   `windex5` (0.56181): Mức sống cao → xác suất có nhà tiêu hợp vệ sinh **tăng**
 
--   helevel (0.27874): Học vấn chủ hộ cao → **tăng khả năng có** nhà tiêu hợp vệ sinh**.**
+-   `helevel` (0.27874): Học vấn chủ hộ cao → **tăng khả năng có** nhà tiêu hợp vệ sinh**.**
 
--   HH6 (-0.52970): Khu vực (thành thị/nông thôn) có ảnh hưởng **âm**, cho thấy khả năng có nhà tiêu hợp vệ sinh ở nông thôn kém hơn.
+-   `HH6` (-0.52970): Khu vực (thành thị/nông thôn) có ảnh hưởng **âm**, cho thấy khả năng có nhà tiêu hợp vệ sinh ở nông thôn kém hơn.
 
--   HC2 (-0.23412): Dân tộc thiểu số có khả năng có khả năng có nhà tiêu hợp vệ sinh thấp hơn.
+-   `HC2` (-0.23412): Dân tộc thiểu số có khả năng có khả năng có nhà tiêu hợp vệ sinh thấp hơn.
 
 #### **3.2.2. Phân tích mối liên quan giữa yếu tố về điều kiện kinh tế (ở thành thị hoặc nông thôn) và học vấn với khả năng có nhà tiêu hợp vệ sinh.** {.tabset .tabset-fade .tabset-pills}
 
@@ -358,7 +362,11 @@ model2 <- glm(improved_sanitation ~ windex5r + helevel + HH6 + HC2,
 summary(model2)
 ```
 
-**Nhận xét:** Ở khu vực nông thôn, mức sống và học vấn vẫn là hai yếu tố có ảnh hưởng rõ rệt nhất đến khả năng có nhà tiêu hợp vệ sinh. - windex5r, helevel, HC2 có ý nghĩa thống kê rất mạnh (p \< 0.001). - HH6 không còn ý nghĩa (p = 0.908).
+**Nhận xét:** Ở khu vực nông thôn, mức sống và học vấn vẫn là hai yếu tố có ảnh hưởng rõ rệt nhất đến khả năng có nhà tiêu hợp vệ sinh.
+
+-   `windex5r`, `helevel`, `HC2` có ý nghĩa thống kê rất mạnh (p \< 0.001).
+
+-   `HH6` không còn ý nghĩa (p = 0.908).
 
 ##### Điều kiện kinh tế ở thành thị
 
@@ -372,9 +380,9 @@ summary(model3)
 
 **Nhận xét:** Ở thành thị, các yếu tố mức sống và học vấn vẫn là yếu tố chính quyết định việc có nhà tiêu hợp vệ sinh.
 
--   windex5u, helevel, HC2 có ý nghĩa thống kê (p \< 0.001).
+-   `windex5u`, `helevel`, `HC2` có ý nghĩa thống kê (p \< 0.001).
 
--   HH6 không còn ý nghĩa (p = 0.961).
+-   `HH6` không còn ý nghĩa (p = 0.961).
 
 #### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

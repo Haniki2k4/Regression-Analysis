@@ -387,30 +387,27 @@ quan đến sức khỏe cộng đồng.</p>
 <ul>
 <li><p>Biến phụ thuộc:</p>
 <ul>
-<li><p>WS11: Loại nhà vệ sinh của hộ gia đình.</p></li>
-<li><p>WS1: Nguồn nước uống chính của hộ gia đình</p></li>
-<li><p>CA1: Trẻ có bị tiêu chảy trong 2 tuần qua không.</p></li>
+<li><p><code>WS11</code>: Loại nhà vệ sinh của hộ gia đình.</p></li>
+<li><p><code>WS1</code>: Nguồn nước uống chính của hộ gia đình</p></li>
+<li><p><code>CA1</code>: Trẻ có bị tiêu chảy trong 2 tuần qua
+không.</p></li>
 </ul></li>
 <li><p>Biến độc lập:</p>
 <ul>
-<li><p>HH6: Khu vực sinh sống</p></li>
-<li><p>windex5: Mức sống kinh tế của hộ gia đình</p></li>
-<li><p>windex5r: Mức sống kinh tế của hộ gia đình ở nông thôn</p></li>
-<li><p>windex5u: Mức sống kinh tế của hộ gia đình ở thành thị</p></li>
-<li><p>helevel: Trình độ học vấn của chủ hộ</p></li>
-<li><p>HC2: Dân tộc chủ hộ</p></li>
+<li><p><code>HH6</code>: Khu vực sinh sống</p></li>
+<li><p><code>windex5</code>: Mức sống kinh tế của hộ gia đình</p></li>
+<li><p><code>windex5r</code>: Mức sống kinh tế của hộ gia đình ở nông
+thôn</p></li>
+<li><p><code>windex5u</code>: Mức sống kinh tế của hộ gia đình ở thành
+thị</p></li>
+<li><p><code>helevel</code>: Trình độ học vấn của chủ hộ</p></li>
+<li><p><code>HC2</code>: Dân tộc chủ hộ</p></li>
 </ul></li>
 </ul>
 </div>
 <div id="kết-quả-làm-sạch-dữ-liệu" class="section level2">
 <h2><strong>1. Kết quả làm sạch dữ liệu</strong></h2>
-<p>Xử lý missing:</p>
-<ul>
-<li><p>Các biến có tỷ lệ thiếu nhỏ hơn 5% được loại bỏ trực tiếp bằng
-drop_na() để đảm bảo tính toàn vẹn dữ liệu.</p></li>
-<li><p>Những dòng bị loại chủ yếu là các hộ không có thông tin đầy đủ về
-nguồn nước hoặc nhà tiêu.</p></li>
-</ul>
+<p><strong>Xử lý missing:</strong></p>
 <table style="width:100%;">
 <caption>Bảng 1. Tỷ lệ thiếu của các biến trong file hh.sav và
 ch.sav</caption>
@@ -471,18 +468,32 @@ ch.sav</caption>
 </tr>
 </tbody>
 </table>
-<p>Số lượng giá trị missing đã được loại bỏ trong các file dữ liệu:</p>
-<p>Các biến mới đã được tạo:</p>
+<p><strong>Tỷ lệ dữ liệu thiếu:</strong> đa phần các biến có tỷ lệ thiếu
+thấp 0–4.6%.</p>
 <ul>
-<li><p>Biến diarrhea: bằng 1 nếu trẻ trong hộ được báo cáo là bị tiêu
-chảy trong vòng 2 tuần trước khảo sát, bằng 0 nếu không bị.</p></li>
-<li><p>Biến any_diarrhea: bằng 1 nếu trong hộ có ít nhất một trẻ bị tiêu
-chảy, bằng 0 nếu không có.</p></li>
-<li><p>Biến safe_water: bằng 1 nếu nguồn nước sinh hoạt thuộc nhóm an
-toàn (nước máy, giếng khoan), bằng 0 nếu không thuộc nhóm an toàn (nước,
-sông, ao hồ).</p></li>
-<li><p>Biến improved_sanitation: bằng 1 nếu hộ có nhà tiêu hợp vệ sinh
-và bằng 0 nếu không có.</p></li>
+<li><strong>Hai biến có tỷ lệ thiếu cao:</strong> <code>windex5r</code>
+(30.06%) và <code>windex5u</code> (65.36%) do áp dụng cho nhóm khu vực
+khác nhau.</li>
+</ul>
+<p><strong>Cách xử lý:</strong></p>
+<ul>
+<li><p>Thay giá trị thiếu bằng <strong>trung vị</strong> của biến tương
+ứng (không loại bỏ quan sát).</p></li>
+<li><p>Giữ nguyên giá trị trong
+<code>windex5r, windex5u</code>.</p></li>
+</ul>
+<p><strong>Các biến mới đã được tạo:</strong></p>
+<ul>
+<li><p>Biến <code>diarrhea</code>: bằng 1 nếu trẻ trong hộ được báo cáo
+là bị tiêu chảy trong vòng 2 tuần trước khảo sát, bằng 0 nếu không
+bị.</p></li>
+<li><p>Biến <code>any_diarrhea</code>: bằng 1 nếu trong hộ có ít nhất
+một trẻ bị tiêu chảy, bằng 0 nếu không có.</p></li>
+<li><p>Biến <code>safe_water</code>: bằng 1 nếu nguồn nước sinh hoạt
+thuộc nhóm an toàn (nước máy, giếng khoan), bằng 0 nếu không thuộc nhóm
+an toàn (nước, sông, ao hồ).</p></li>
+<li><p>Biến <code>improved_sanitation</code>: bằng 1 nếu hộ có nhà tiêu
+hợp vệ sinh và bằng 0 nếu không có.</p></li>
 </ul>
 </div>
 <div id="thống-kê-mô-tả-và-trực-quan-hóa" class="section level2">
@@ -655,15 +666,15 @@ vấn</strong> là <strong>yếu tố quyết định tích cực</strong>, tron
 <strong>khu vực và dân tộc</strong> là rào cản đối với vệ sinh cải
 thiện.</p>
 <ul>
-<li><p>windex5 (0.56181): Mức sống cao → xác suất có nhà tiêu hợp vệ
-sinh <strong>tăng</strong></p></li>
-<li><p>helevel (0.27874): Học vấn chủ hộ cao → <strong>tăng khả năng
-có</strong> nhà tiêu hợp vệ sinh<strong>.</strong></p></li>
-<li><p>HH6 (-0.52970): Khu vực (thành thị/nông thôn) có ảnh hưởng
-<strong>âm</strong>, cho thấy khả năng có nhà tiêu hợp vệ sinh ở nông
-thôn kém hơn.</p></li>
-<li><p>HC2 (-0.23412): Dân tộc thiểu số có khả năng có khả năng có nhà
-tiêu hợp vệ sinh thấp hơn.</p></li>
+<li><p><code>windex5</code> (0.56181): Mức sống cao → xác suất có nhà
+tiêu hợp vệ sinh <strong>tăng</strong></p></li>
+<li><p><code>helevel</code> (0.27874): Học vấn chủ hộ cao → <strong>tăng
+khả năng có</strong> nhà tiêu hợp vệ sinh<strong>.</strong></p></li>
+<li><p><code>HH6</code> (-0.52970): Khu vực (thành thị/nông thôn) có ảnh
+hưởng <strong>âm</strong>, cho thấy khả năng có nhà tiêu hợp vệ sinh ở
+nông thôn kém hơn.</p></li>
+<li><p><code>HC2</code> (-0.23412): Dân tộc thiểu số có khả năng có khả
+năng có nhà tiêu hợp vệ sinh thấp hơn.</p></li>
 </ul>
 </div>
 <div id="phân-tích-mối-liên-quan-giữa-yếu-tố-về-điều-kiện-kinh-tế-ở-thành-thị-hoặc-nông-thôn-và-học-vấn-với-khả-năng-có-nhà-tiêu-hợp-vệ-sinh." class="section level4 tabset tabset-fade tabset-pills">
@@ -697,8 +708,12 @@ và học vấn với khả năng có nhà tiêu hợp vệ sinh.</strong></h4>
 ## Number of Fisher Scoring iterations: 15</code></pre>
 <p><strong>Nhận xét:</strong> Ở khu vực nông thôn, mức sống và học vấn
 vẫn là hai yếu tố có ảnh hưởng rõ rệt nhất đến khả năng có nhà tiêu hợp
-vệ sinh. - windex5r, helevel, HC2 có ý nghĩa thống kê rất mạnh (p &lt;
-0.001). - HH6 không còn ý nghĩa (p = 0.908).</p>
+vệ sinh.</p>
+<ul>
+<li><p><code>windex5r</code>, <code>helevel</code>, <code>HC2</code> có
+ý nghĩa thống kê rất mạnh (p &lt; 0.001).</p></li>
+<li><p><code>HH6</code> không còn ý nghĩa (p = 0.908).</p></li>
+</ul>
 </div>
 <div id="điều-kiện-kinh-tế-ở-thành-thị" class="section level5">
 <h5>Điều kiện kinh tế ở thành thị</h5>
@@ -728,9 +743,9 @@ vệ sinh. - windex5r, helevel, HC2 có ý nghĩa thống kê rất mạnh (p &l
 <p><strong>Nhận xét:</strong> Ở thành thị, các yếu tố mức sống và học
 vấn vẫn là yếu tố chính quyết định việc có nhà tiêu hợp vệ sinh.</p>
 <ul>
-<li><p>windex5u, helevel, HC2 có ý nghĩa thống kê (p &lt;
-0.001).</p></li>
-<li><p>HH6 không còn ý nghĩa (p = 0.961).</p></li>
+<li><p><code>windex5u</code>, <code>helevel</code>, <code>HC2</code> có
+ý nghĩa thống kê (p &lt; 0.001).</p></li>
+<li><p><code>HH6</code> không còn ý nghĩa (p = 0.961).</p></li>
 </ul>
 </div>
 </div>
