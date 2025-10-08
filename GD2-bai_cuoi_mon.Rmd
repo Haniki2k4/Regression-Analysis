@@ -213,7 +213,7 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
   theme_void()
 ```
 
-**Nhận xét:** Tỷ lệ hộ có nguồn nước an toàn là 96,2% cho thấy đa số hộ gia đình sử dụng nước sạch, cho thấy hạ tầng cấp nước khá tốt.
+**Nhận xét:** Tỷ lệ hộ có nguồn nước an toàn là 96.2% cho thấy đa số hộ gia đình sử dụng nước sạch, cho thấy hạ tầng cấp nước khá tốt.
 
 #### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
 
@@ -239,7 +239,7 @@ ggplot(san_tab, aes(x = "", y = n, fill = factor(improved_sanitation))) +
   theme_void()
 ```
 
-**Nhận xét:** Tỷ lệ hộ có nhà tiêu hợp vệ sinh là 80,3%, vẫn còn 19,7% hộ chưa có nhà tiêu đạt chuẩn, tiềm ẩn nguy cơ ô nhiễm.
+**Nhận xét:** Tỷ lệ hộ có nhà tiêu hợp vệ sinh là 80.3%, vẫn còn 19.7% hộ chưa có nhà tiêu đạt chuẩn, tiềm ẩn nguy cơ ô nhiễm.
 
 ### *Biểu đồ cột so sánh theo khu vực* {.tabset .tabset-fade .tabset-pills}
 
@@ -305,7 +305,7 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 
 ```
 
-**Nhận xét:** Khu vực thành thị có điều kiện vệ sinh tốt hơn nhiều so với nông thôn. Tỷ lệ hộ có nhà tiêu hợp vệ sinh ở nông thôn thấp hơn 17.9 % so với thành thị.
+**Nhận xét:** Khu vực thành thị có điều kiện vệ sinh tốt hơn nhiều so với nông thôn. Tỷ lệ hộ có nhà tiêu hợp vệ sinh ở nông thôn thấp hơn 17.9% so với thành thị.
 
 ## **3. Kết quả phân tích hai biến**
 
@@ -364,9 +364,9 @@ summary(model2)
 
 **Nhận xét:** Ở khu vực nông thôn, mức sống và học vấn vẫn là hai yếu tố có ảnh hưởng rõ rệt nhất đến khả năng có nhà tiêu hợp vệ sinh.
 
--   `windex5r`, `helevel`, `HC2` có ý nghĩa thống kê rất mạnh (p \< 0.001).
-
--   `HH6` không còn ý nghĩa (p = 0.908).
+  -   `windex5r`, `helevel`, `HC2` có ý nghĩa thống kê rất mạnh (p \< 0.001).
+  
+  -   `HH6` không còn ý nghĩa (p = 0.908).
 
 ##### Điều kiện kinh tế ở thành thị
 
