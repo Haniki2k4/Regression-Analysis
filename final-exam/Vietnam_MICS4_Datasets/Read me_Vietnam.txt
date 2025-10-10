@@ -1,0 +1,40 @@
+In this compressed WINZIP folder you will find the MICS4 datasets for the selected 
+country. 
+
+Four SPSS data files were produced, corresponding to the units of analysis: 
+Households - hh.sav 
+Household members - hl.sav
+Women in reproductive age (15-49 years of age) – wm.sav
+Mothers or primary caretakers of children under the age of five – ch.sav
+
+The characteristics of the data such as sample size, weights, variable labels and 
+information on recoded or imputed variables can be found within the survey archive 
+which will be made available shortly on http://www.childinfo.org/mics4_surveys.html.
+The survey archive will also contain the questionnaires and information on the sampling and 
+implementation of the survey.  
+
+Access Conditions:
+
+Survey datasets are distributed at no cost for legitimate research, with the condition that 
+we receive a description of the objectives of any research project that will be using the 
+data prior to authorizing their distribution. 
+
+Copies of all reports and publications based on the requested data must be sent to the 
+following:
+
+1. Mr. Nguyen Dinh Chung 
+Deputy Director 
+Social and Environment Statistic Department, General Statistic Office, Ministry of Planning and Investment
+No 6B, Hoang Dieu street, Ba Dinh District - Hanoi - Viet Nam
+Telephone: (84-4) 38464348
+Email: ndchung@gso.gov.vn 
+
+2. Ms. Sigrid Breddy 
+Monitoring and Evaluation Specialist & Chief, Social Policy and Governance (a.i.)
+Social Policy and Governance Programme, UNICEF Viet Nam
+No 81A, Tran Quoc Toan street, Hanoi - Viet Nam
+Telephone: (84-4) 9425706. Ext. 298
+Email: sbreddy@unicef.org
+
+The above contact details are as of July 2012. Please contact: Vu Manh Hong (vmhong@unicef.org) or Nguyen Ngoc Trieu (nntrieu@unicef.org) for any updates.
+

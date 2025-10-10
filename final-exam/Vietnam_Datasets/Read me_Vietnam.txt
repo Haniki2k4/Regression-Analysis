@@ -1,0 +1,49 @@
+In this compressed WINZIP folder you will find the MICS3 datasets for the selected country. 
+
+Four SPSS data files were produced, corresponding to the four main units of analysis: 
+Households - hh.sav 
+Household members - hl.sav
+Women in reproductive age (15-49 years of age) – wm.sav
+Mother’s or primary caretaker’s of children under the age of five. – ch.sav
+
+The characteristics of the data such as year of the survey, sample sizes, weights, dictionary of 
+variables, variable labels, codes and information on recoded or imputed variables can be found 
+within the survey archive which is available on http://www.childinfo.org/mics3_surveys.html. 
+The survey archive also contains the questionnaires and information on the sampling and 
+implementation of the survey.  
+
+Notes on the Viet Nam datasets: 
+
+1.	In this survey, non-responding households were substituted with other households. The 
+substitute households which are included in the data sets are shown with a variable called 
+“replace”, where 1 = substitute household (or household members, women or under-5 
+children interviewed in the substitute households)
+2.	Please note that substitution is not a recommended practice in MICS surveys. Please refer 
+to the Global MICS Manual.
+3.	The women’s (wm.sav) and under-5s (ch.sav) data sets only include data on the 
+completed interviews. This is also not recommended MICS practice. However, basic 
+demographic and background information on the women and under-5s whose interviews 
+were not completed and are therefore absent from the wm.sav and ch.sav data sets, can be 
+found in hl.sav data file (Household listing).
+
+Access Conditions: 
+
+Survey datasets are distributed at no cost for legitimate research, with the condition that we 
+receive a description of the research objectives that will be using the data prior to authorizing 
+their distribution.
+
+Copies of all reports and publications based on the requested data must be sent to the General 
+Statistics Office and UNICEF.
+
+General Statistics Office
+Social and Environmental Statistics Department
+Tel: (+844) 8439871; (+844) 8464348
+Email: xahoimoitruong@gso.gov.vn; nphong@gso.gov.vn; ndchung@gso.gov.vn
+
+United Nations Children's Fund
+Viet Nam Country Office
+81A Tran Quoc Toan, 
+Hanoi, Vietnam
+Tel: (+844) 9425706 - 11 
+Fax: (+844) 9425705
+Email: hanoi.registry@unicef.org
