@@ -130,7 +130,7 @@ read_ch <- function(path, vars, mics) {
 }
 ```
 
-``` {r load-data, results = 'hide'}
+```{r load-data, results = 'hide'}
 # --- Đọc dữ liệu các năm MICS ---
 # MICS6
 vars_hh_ms6 <- c("HH1","HH2","HH6","WS1","WS11","helevel","HC2","windex5","windex5r","windex5u","HH5Y")
@@ -610,7 +610,7 @@ ggplot(summary_stats, aes(x = year, y = pct_improved_water, color = factor(area)
 
 ```
 
-**Nhận xét: **
+**Nhận xét:**
 
 ##### Nhà tiêu Hợp vệ sinh
 
@@ -634,10 +634,10 @@ ggplot(summary_stats, aes(x = year, y = pct_improved_sanitation, color = factor(
   theme_minimal(base_size = 14)
 ```
 
-**Nhận xét:** 
-
+**Nhận xét:**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 #### **Mô hình hóa và Dự báo bằng ARIMA** {.tabset .tabset-fade .tabset-pills}
 
 Do dữ liệu được thu thập không đều -\> Sử dụng phương pháp **nội suy tuyến tính** để tạo chuỗi thời gian hàng năm, sau đó áp dụng mô hình `auto.arima` để tìm ra mô hình phù hợp nhất và dự báo cho 10 năm tới.
@@ -692,7 +692,7 @@ create_forecast <- function(data, value_col, area_filter, title_text) {
 f_water_rural <- create_forecast(summary_stats, "pct_improved_water", 2, "Tỷ lệ  sử dụng Nguồn nước sạch")
 ```
 
-**Diễn giải kết quả:** 
+**Diễn giải kết quả:**
 
 ##### Nhà tiêu - Nông thôn
 
@@ -700,7 +700,7 @@ f_water_rural <- create_forecast(summary_stats, "pct_improved_water", 2, "Tỷ l
 f_sanitation_rural <- create_forecast(summary_stats, "pct_improved_sanitation", 2, "Tỷ lệ tiếp cận Nhà tiêu Hợp vệ sinh")
 ```
 
-**Diễn giải kết quả:** 
+**Diễn giải kết quả:**
 
 ##### Nguồn nước - Thành thị
 
@@ -708,7 +708,7 @@ f_sanitation_rural <- create_forecast(summary_stats, "pct_improved_sanitation", 
 f_water_urban <- create_forecast(summary_stats, "pct_improved_water", 1, "Tỷ lệ sử dụng Nguồn nước sạch")
 ```
 
-**Diễn giải kết quả:** 
+**Diễn giải kết quả:**
 
 ##### Nhà tiêu - Thành thị
 
@@ -716,7 +716,7 @@ f_water_urban <- create_forecast(summary_stats, "pct_improved_water", 1, "Tỷ l
 f_sanitation_urban <- create_forecast(summary_stats, "pct_improved_sanitation", 1, "Tỷ lệ tiếp cận Nhà tiêu Hợp vệ sinh")
 ```
 
-**Diễn giải kết quả:** 
+**Diễn giải kết quả:**
 
 #### 
 
