@@ -799,7 +799,7 @@ ggplot(diarrhea_trends, aes(x = year, y = diarrhea_rate, color = water_status, g
   geom_point(size = 4) +
   scale_y_continuous(labels = scales::percent_format()) +
   labs(
-    title = "Mô hình xu hướng Tỷ lệ Tiêu chảy ở Trẻ em theo Chất lượng Nguồn nước (2000-2021)",
+    title = "Kiểm định giả thuyết về Nước sạch và Bệnh Tiêu chảy qua 20 năm (2000-2021)",
     subtitle = "So sánh giữa các hộ gia đình sử dụng nước sạch và nước không sạch",
     x = "Năm",
     y = "Tỷ lệ Trẻ em bị Tiêu chảy (%)",
