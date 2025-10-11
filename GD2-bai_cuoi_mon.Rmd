@@ -79,7 +79,7 @@ Các biến số chính được sử dụng
 
     -   `HH5Y`: Năm tiến hành nghiên cứu
 
-## **I.** 
+## **I. MỐI LIÊN QUAN GIỮA ĐIỀU KIỆN VỆ SINH, NGUỒN NƯỚC, VÀ SỨC KHỎE CỦA CÁC THÀNH VIÊN TRONG HỘ GIA ĐÌNH**
 
 ### **1. Kết quả làm sạch dữ liệu**
 
@@ -775,7 +775,7 @@ f_sanitation_urban <- create_forecast(summary_stats, "pct_improved_sanitation", 
 
 #### 
 
-### **2. Kiểm định Giả thuyết về Nước sạch và Bệnh Tiêu chảy qua 20 năm**
+### **2. K**iểm định mối quan hệ giữa Nước sạch và Bệnh Tiêu chảy ở trẻ trong 20 năm
 
 [Bảng 8. Bảng tổng hợp Tỷ lệ tiêu chảy theo năm và chất lượng nước]{style="color: gray;"}
 
