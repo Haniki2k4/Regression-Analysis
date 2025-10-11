@@ -79,7 +79,8 @@ Các biến số chính được sử dụng
 
     -   `HH5Y`: Năm tiến hành nghiên cứu
 
-## **1. Kết quả làm sạch dữ liệu**
+## **I. ** 
+### **1. Kết quả làm sạch dữ liệu**
 
 ```{r func-load-data, results = 'hide'}
 read_hh <- function(path, vars, mics) {
@@ -249,7 +250,7 @@ hh6_clean <- hh6_clean %>%
 
 -   Biến `improved_sanitation`: bằng 1 nếu hộ có nhà tiêu hợp vệ sinh và bằng 0 nếu không có.
 
-## **2. Thống kê mô tả và trực quan hóa**
+### **2. Thống kê mô tả và trực quan hóa**
 
 ```{r descriptives}
 # Tần số nước sạch & nhà tiêu
@@ -275,9 +276,9 @@ tabyl(hh6_clean, improved_sanitation) %>%
 
 *Nhận xét:* Khoảng 96% hộ sử dụng nguồn nước sạch và khoảng 79% hộ có nhà tiêu hợp vệ sinh, cho thấy điều kiện vệ sinh nhìn chung khá tốt.
 
-### *Biểu đồ tròn tỷ lệ* {.tabset .tabset-fade .tabset-pills}
+#### *Biểu đồ tròn tỷ lệ* {.tabset .tabset-fade .tabset-pills}
 
-#### Tỷ lệ hộ sử dụng nước sạch
+##### Tỷ lệ hộ sử dụng nước sạch
 
 ```{r pie-safe-water, echo=FALSE}
 safe_tab <- hh6_clean %>% 
@@ -303,7 +304,7 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
 
 **Nhận xét:** Tỷ lệ hộ có nguồn nước sạch là 96% cho thấy đa số hộ gia đình sử dụng nước sạch, cho thấy hạ tầng cấp nước khá tốt.
 
-#### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
+##### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
 
 ```{r pie-sanitation, echo=FALSE}
 san_tab <- hh6_clean %>% 
@@ -329,9 +330,9 @@ ggplot(san_tab, aes(x = "", y = n, fill = factor(improved_sanitation))) +
 
 **Nhận xét:** Tỷ lệ hộ có nhà tiêu hợp vệ sinh là 79.4%, vẫn còn 20.6% hộ chưa có nhà tiêu đạt chuẩn, tiềm ẩn nguy cơ ô nhiễm.
 
-### *Biểu đồ cột so sánh theo khu vực* {.tabset .tabset-fade .tabset-pills}
+#### *Biểu đồ cột so sánh theo khu vực* {.tabset .tabset-fade .tabset-pills}
 
-#### Nước sạch
+##### Nước sạch
 
 ```{r bar-area-safe, echo=FALSE}
 # Nước sạch theo khu vực
@@ -363,7 +364,7 @@ ggplot(water_by_area, aes(x = factor(HH6), y = pct, fill = factor(safe_water))) 
 
 **Nhận xét:** Việt Nam đạt tỷ lệ hộ sử dụng nước sạch rất cao, đặc biệt tại khu vực thành thị. Tuy nhiên, chênh lệch giữa nông thôn và thành thị (5%) cho thấy vẫn cần tiếp tục đầu tư và cải thiện hệ thống cấp nước ở nông thôn để đảm bảo công bằng trong tiếp cận nguồn nước sạch.
 
-#### Nhà tiêu hợp vệ sinh
+##### Nhà tiêu hợp vệ sinh
 
 ```{r bar-area-san, echo=FALSE}
 # Nhà tiêu theo khu vực
@@ -395,9 +396,9 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 
 **Nhận xét:** Khu vực thành thị có điều kiện vệ sinh tốt hơn nhiều so với nông thôn. Tỷ lệ hộ có nhà tiêu hợp vệ sinh ở nông thôn thấp hơn 18.4% so với thành thị.
 
-## **3. Kết quả phân tích hai biến**
+### **3. Kết quả phân tích mối liên quan**
 
-### 3.1. Kiểm định Chi-squared
+#### 3.1. Kiểm định Chi-squared
 
 ```{r chi-square}
 chisq_res <- chisq.test(hh6_clean$safe_water, hh6_clean$any_diarrhea)
@@ -413,7 +414,7 @@ chisq_res
 
 **Nhận xét:** p = 0.01291 \< 0.05 -\> Có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này.
 
-### 3.2. Phân tích hồi quy logistic
+#### 3.2. Phân tích hồi quy logistic
 
 #### **3.2.1. Phân tích mối liên quan giữa yếu tố về điều kiện kinh tế và học vấn với khả năng có nhà tiêu hợp vệ sinh.**
 
@@ -474,7 +475,7 @@ summary(model3)
 
 ------------------------------------------------------------------------
 
-## **4. Sự thay đổi của các vấn đề trong 20 năm (2000-2021)**
+## **II. Sự thay đổi của các vấn đề trong 20 năm (2000-2021)**
 
 ```{r load_data1}
 # Xử lý MICS 2000
@@ -561,7 +562,7 @@ all_mics_data <- bind_rows(
 )
 ```
 
-### **4.1. Xu hướng và Dự báo Chuỗi thời gian (2000-2021)**
+### **1. Xu hướng và Dự báo Chuỗi thời gian (2000-2021)**
 
 #### Trực quan hóa Xu hướng Tỷ lệ Tiếp cận nước sạch và Nhà tiêu hợp vệ sinh {.tabset .tabset-fade .tabset-pills}
 
@@ -665,7 +666,7 @@ create_forecast <- function(data, value_col, area_filter, title_text) {
   plot <- forecast::autoplot(arima_forecast) +
     geom_point(data = ts_data_sparse, aes_string(x = "year", y = value_col),
                color = "red", size = 3) +
-    scale_y_continuous(labels = scales::percent) +
+    scale_y_continuous(labels = scales::percent, limits = c(0.3, 1)) +
     labs(
       title = paste("Dự báo:", title_text, "-", area_label),
       subtitle = "Dữ liệu nội suy từ các điểm khảo sát (màu đỏ)",
@@ -673,8 +674,8 @@ create_forecast <- function(data, value_col, area_filter, title_text) {
     ) +
     theme_minimal(base_size = 14) +
     theme(
-      plot.title = element_text(family = "Times New Roman", face = "bold", size = 16),
-      plot.subtitle = element_text(family = "Times New Roman", size = 13)
+      plot.title = element_text(face = "bold", size = 16),
+      plot.subtitle = element_text(size = 13)
     )
   
   print(plot)
@@ -720,7 +721,7 @@ f_sanitation_urban <- create_forecast(summary_stats, "pct_improved_sanitation", 
 
 #### 
 
-### **4.2. Kiểm định Giả thuyết về Nước sạch và Bệnh Tiêu chảy qua 20 năm**
+### **2. Kiểm định Giả thuyết về Nước sạch và Bệnh Tiêu chảy qua 20 năm**
 
 ```{r chi_square_test, fig.dim = c(10,8)}
 # Tạo một hàm xử lý để tránh lặp code.
