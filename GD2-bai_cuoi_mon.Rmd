@@ -467,7 +467,7 @@ summary(model3)
 
 **Nhận xét:** Ở thành thị, các yếu tố mức sống và học vấn vẫn là yếu tố chính quyết định việc có nhà tiêu hợp vệ sinh.
 
--   `windex5u` có ý nghĩa thống kê (p \< 0.001).
+-   `windex5u`, `helevel` có ý nghĩa thống kê (p \< 0.001).
 
 #### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
