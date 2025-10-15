@@ -623,13 +623,13 @@ ggplot(summary_stats, aes(x = year, y = pct_improved_water, color = factor(area)
 
 Khu vực thành thị: Tỷ lệ hộ gia đình có nguồn nước hợp vệ sinh duy trì ở mức cao (\~95–100%) từ năm 2000 đến 2010.
 
--   Tuy nhiên, năm 2015 sụt giảm đột ngột nhưng sau đó phục hồi lại lên gần 100% vào năm 2021.
+-   Tuy nhiên, năm 2013-2014 sụt giảm đột ngột nhưng sau đó phục hồi lại lên gần 100% vào năm 2021. **Lý do** là vì sự thay đổi trong tiêu chuẩn xét nguồn nước sạch, không công nhận nước đóng chai phù hợp để uống.
 
 → Xu hướng tổng thể: cao, ổn định, có một giai đoạn biến động giữa kỳ.
 
 Khu vực nông thôn: Xuất phát từ mức thấp hơn (\~75% năm 2000), tăng dần đến \~90% năm 2010.
 
--   Cũng có sự giảm mạnh năm 2015 xuống gần 80% và phục hồi rõ rệt lên khoảng 95% vào năm 2021.
+-   Cũng có sự giảm mạnh năm 2013-2014 xuống gần 80% và phục hồi rõ rệt lên khoảng 95% vào năm 2021.
 
 → Xu hướng tổng thể: cải thiện mạnh mẽ, dù có một giai đoạn gián đoạn tạm thời.
 
