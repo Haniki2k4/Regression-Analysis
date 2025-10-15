@@ -422,7 +422,16 @@ chisq_res
 
 ```{r regression}
 # Hồi quy logistic
-model1 <- glm(improved_sanitation ~ windex5 + helevel + HH6 + HC2,
+hh6_clean <- hh6_clean %>%
+  mutate(
+    windex5_factor = factor(windex5, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
+    windex5r_factor = factor(windex5r, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
+    windex5u_factor = factor(windex5u, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
+    helevel_factor = factor(helevel, labels = c("Không bằng cấp", "Tiểu học", "THCS", "THPT", "Trung cấp", "Cao đẳng/Đại học", "Không biết")) 
+  )
+
+# Chạy lại mô hình
+model1 <- glm(improved_sanitation ~ windex5_factor + helevel_factor + HH6 + HC2,
              data = hh6_clean,
              family = binomial)
 
@@ -444,7 +453,7 @@ summary(model1)
 ##### Điều kiện ở nông thôn
 
 ```{r regression_r}
-model2 <- glm(improved_sanitation ~ windex5r + helevel + HC2,
+model2 <- glm(improved_sanitation ~ windex5r_factor + helevel_factor + HC2,
              data = hh6_clean,
              family = binomial)
 
@@ -458,7 +467,7 @@ summary(model2)
 ##### Điều kiện ở thành thị
 
 ```{r regression_u}
-model3 <- glm(improved_sanitation ~ windex5u + helevel + HC2,
+model3 <- glm(improved_sanitation ~ windex5u_factor + helevel_factor + HC2,
              data = hh6_clean,
              family = binomial)
 
