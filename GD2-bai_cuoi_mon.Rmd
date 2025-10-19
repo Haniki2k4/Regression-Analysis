@@ -50,7 +50,7 @@ library(purrr)
 
 **Mô tả số liệu:**
 
-Bộ dữ liệu được lấy từ khảo sát MICS 6 (2021) của UNICEF tại Việt Nam, bao gồm các thông tin về hộ gia đình, trẻ em và các yếu tố liên quan đến sức khỏe cộng đồng.
+Bộ dữ liệu được lấy từ khảo sát `MICS6 (2021)`, `MICS5 (2013 -14)`, `MICS4 (2010 -11)`, `MICS3 (2006)`, `MICS2 (2000)` của UNICEF tại Việt Nam, bao gồm các thông tin về hộ gia đình, trẻ em và các yếu tố liên quan đến sức khỏe cộng đồng.
 
 Các biến số chính được sử dụng
 
