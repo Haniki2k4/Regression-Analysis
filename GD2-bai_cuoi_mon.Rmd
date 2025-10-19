@@ -398,7 +398,7 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 
 ### **3. Kết quả phân tích mối liên quan**
 
-#### 3.1. Kiểm định Chi-squared
+#### **3.1. Kiểm định Chi-squared**
 
 ```{r chi-square}
 chisq_res <- chisq.test(hh6_clean$safe_water, hh6_clean$any_diarrhea)
@@ -414,7 +414,7 @@ chisq_res
 
 **Nhận xét:** p = 0.01291 \< 0.05 -\> Có mối liên hệ thống kê có ý nghĩa giữa việc sử dụng nước sạch và tình trạng tiêu chảy ở trẻ em trong mẫu khảo sát này.
 
-#### 3.2. Phân tích hồi quy logistic
+#### **3.2. Phân tích hồi quy logistic**
 
 #### **3.2.1. Phân tích mối liên quan giữa yếu tố về điều kiện kinh tế và học vấn với khả năng có nhà tiêu hợp vệ sinh.**
 
@@ -623,7 +623,8 @@ ggplot(summary_stats, aes(x = year, y = pct_improved_water, color = factor(area)
 
 Khu vực thành thị: Tỷ lệ hộ gia đình có nguồn nước hợp vệ sinh duy trì ở mức cao (\~95–100%) từ năm 2000 đến 2010.
 
--   Tuy nhiên, năm 2013-2014 sụt giảm đột ngột nhưng sau đó phục hồi lại lên gần 100% vào năm 2021. **Lý do** là vì sự thay đổi trong tiêu chuẩn xét nguồn nước sạch, không công nhận nước đóng chai phù hợp để uống.
+-   Tuy nhiên, năm 2013-2014 sụt giảm đột ngột nhưng sau đó phục hồi lại lên gần 100% vào năm 2021. 
+**Lý do** cho vấn đề sụt giảm đột ngột này là vì sự thay đổi trong tiêu chuẩn xét nguồn nước sạch, không công nhận nước đóng chai phù hợp để uống.
 
 → Xu hướng tổng thể: cao, ổn định, có một giai đoạn biến động giữa kỳ.
 
