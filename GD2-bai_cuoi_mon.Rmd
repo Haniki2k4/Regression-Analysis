@@ -32,10 +32,10 @@ library(tidyr)      # reshape dữ liệu
 library(scales)     # hiển thị %
 library(knitr)
 library(kableExtra)
-library(MASS)
-library(zoo)      # Cần cho việc nội suy na.approx()
-library(forecast) # Thư viện chính cho mô hình chuỗi thời gian (ARIMA, Holt)
-library(ggfortify)# Để vẽ đồ thị forecast đẹp hơn với ggplot2
+library(MASS)       # Chứa các hàm và bộ dữ liệu cho thống kê ứng dụng
+library(zoo)        # Cần cho việc nội suy na.approx()
+library(forecast)   # Thư viện chính cho mô hình chuỗi thời gian (ARIMA, Holt)
+library(ggfortify)  # Để vẽ đồ thị forecast đẹp hơn với ggplot2
 library(purrr)
 ```
 
@@ -83,6 +83,7 @@ Các biến số chính được sử dụng
 ### **1. Kết quả làm sạch dữ liệu**
 
 ```{r func-load-data, results = 'hide'}
+# Định nghĩa hàm đọc dữ liệu từ file hộ gia đình (hh.sav)
 read_hh <- function(path, vars, mics) {
   df <- read_sav(path)
   
@@ -107,6 +108,7 @@ read_hh <- function(path, vars, mics) {
   return(df)
 }
 
+# Định nghĩa hàm đọc dữ liệu từ file trẻ em (ch.sav)
 read_ch <- function(path, vars, mics) {
   df <- read_sav(path) 
   
@@ -253,7 +255,7 @@ hh6_clean <- hh6_clean %>%
 ### **2. Thống kê mô tả và trực quan hóa**
 
 ```{r descriptives}
-# Tần số nước sạch & nhà tiêu
+# Bảng tần số cho biến nước sạch 
 tabyl(hh6_clean, safe_water) %>%
   mutate(safe_water = case_when(
     safe_water == 1 ~ "Có",
@@ -263,7 +265,7 @@ tabyl(hh6_clean, safe_water) %>%
   kable(caption = "Bảng 2. Tần số hộ có nước sạch",
         align = "lcc")
 
-# Bảng Improved Sanitation
+# Bảng tần số cho biến nhà tiêu hợp vệ sinh
 tabyl(hh6_clean, improved_sanitation) %>%
   mutate(improved_sanitation = case_when(
     improved_sanitation == 1 ~ "Có",
@@ -281,12 +283,14 @@ tabyl(hh6_clean, improved_sanitation) %>%
 ##### Tỷ lệ hộ sử dụng nước sạch
 
 ```{r pie-safe-water, echo=FALSE}
+# Chuẩn bị dữ liệu cho biểu đồ nước sạch
 safe_tab <- hh6_clean %>% 
   filter(!is.na(safe_water)) %>% 
   count(safe_water) %>% 
   mutate(pct = round(n / sum(n) * 100, 1),
          label = paste0(pct, "%"))
 
+# Vẽ biểu đồ tròn tỷ lệ hộ sử dụng nước sạch bằng ggplot2 
 ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
   geom_col(width = 1) +
   coord_polar(theta = "y") +
@@ -307,12 +311,14 @@ ggplot(safe_tab, aes(x = "", y = n, fill = factor(safe_water))) +
 ##### Tỷ lệ hộ có nhà tiêu hợp vệ sinh
 
 ```{r pie-sanitation, echo=FALSE}
+# Chuẩn bị dữ liệu cho biểu đồ nhà tiêu 
 san_tab <- hh6_clean %>% 
   filter(!is.na(improved_sanitation)) %>% 
   count(improved_sanitation) %>% 
   mutate(pct = round(n / sum(n) * 100, 1),
          label = paste0(pct, "%"))
 
+# Vẽ biểu đồ tròn tỷ lệ nhà tiêu hợp vệ sinh bằng ggplot2 
 ggplot(san_tab, aes(x = "", y = n, fill = factor(improved_sanitation))) +
   geom_col(width = 1) +
   coord_polar(theta = "y") +
@@ -367,7 +373,7 @@ ggplot(water_by_area, aes(x = factor(HH6), y = pct, fill = factor(safe_water))) 
 ##### Nhà tiêu hợp vệ sinh
 
 ```{r bar-area-san, echo=FALSE}
-# Nhà tiêu theo khu vực
+# Nhà tiêu hợp vệ sinh theo khu vực
 san_by_area <- hh6_clean %>% 
   filter(!is.na(improved_sanitation)) %>% 
   group_by(HH6, improved_sanitation) %>% 
@@ -401,7 +407,10 @@ ggplot(san_by_area, aes(x = factor(HH6), y = pct, fill = factor(improved_sanitat
 #### **3.1. Kiểm định Chi-squared**
 
 ```{r chi-square}
+# Thực hiện kiểm định Chi-bình phương (Chi-squared) 
 chisq_res <- chisq.test(hh6_clean$safe_water, hh6_clean$any_diarrhea)
+
+# Hiển thị bảng chéo để xem tần suất thực tế bằng knitr
 knitr::kable(as.data.frame(chisq_res$observed),
              caption="Bảng 4. Bảng chéo giữa Nước sạch và Tiêu chảy")
 ```
@@ -421,16 +430,16 @@ chisq_res
 [Bảng 6. Kết quả hồi quy logistic (Odds Ratio)]{style="color: gray;"}
 
 ```{r regression}
-# Hồi quy logistic
+# Chuyển các biến phân loại sang dạng factor với nhãn rõ ràng
 hh6_clean <- hh6_clean %>%
   mutate(
-    windex5_factor = factor(windex5, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
-    windex5r_factor = factor(windex5r, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
-    windex5u_factor = factor(windex5u, labels = c("Nghèo nhất", "Nhóm_2", "Nhóm_3", "Nhóm_4", "Giàu nhất")),
-    helevel_factor = factor(helevel, labels = c("Không bằng cấp", "Tiểu học", "THCS", "THPT", "Trung cấp", "Cao đẳng/Đại học", "Không biết")) 
+    windex5_factor = factor(windex5, labels = c("_Nghèo_nhất", "_Nhóm_2", "_Nhóm_3", "_Nhóm_4", "Giàu nhất")),
+    windex5r_factor = factor(windex5r, labels = c("_Nghèo_nhất", "_Nhóm_2", "_Nhóm_3", "_Nhóm_4", "Giàu nhất")),
+    windex5u_factor = factor(windex5u, labels = c("_Nghèo_nhất", "_Nhóm_2", "_Nhóm_3", "_Nhóm_4", "Giàu nhất")),
+    helevel_factor = factor(helevel, labels = c("_Không_bằng_cấp", "_Tiểu_học", "_THCS", "_THPT", "_Trung cấp", "_Cao_đẳng/Đại_học", "_Không_biết")) 
   )
 
-# Chạy lại mô hình
+# Chạy mô hình logistic tổng quát
 model1 <- glm(improved_sanitation ~ windex5_factor + helevel_factor + HH6 + HC2,
              data = hh6_clean,
              family = binomial)
@@ -453,6 +462,7 @@ summary(model1)
 ##### Điều kiện ở nông thôn
 
 ```{r regression_r}
+# Chạy mô hình logistic cho khu vực nông thôn
 model2 <- glm(improved_sanitation ~ windex5r_factor + helevel_factor + HC2,
              data = hh6_clean,
              family = binomial)
@@ -467,6 +477,7 @@ summary(model2)
 ##### Điều kiện ở thành thị
 
 ```{r regression_u}
+# Chạy mô hình logistic cho khu vực nông thôn
 model3 <- glm(improved_sanitation ~ windex5u_factor + helevel_factor + HC2,
              data = hh6_clean,
              family = binomial)
@@ -564,6 +575,7 @@ clean_mics6 <- hh6 %>%
     improved_sanitation = ifelse(toilet_type %in% c(11,12,21,22,31), 1, 0)
   )
 
+# Gộp tất cả các bộ dữ liệu đã được làm sạch vào một dataframe duy nhất
 all_mics_data <- bind_rows(
   clean_mics6,
   clean_mics5,
@@ -844,7 +856,7 @@ all_diarrhea_data <- pmap_dfr(
   process_mics_data
 )
 
-# --- Bước 2: Tính toán tỷ lệ tiêu chảy theo năm và nhóm nguồn nước ---
+# Tính toán tỷ lệ tiêu chảy theo năm và nhóm nguồn nước 
 diarrhea_trends <- all_diarrhea_data %>%
   na.omit() %>%
   group_by(year, improved_water) %>%
@@ -859,7 +871,7 @@ diarrhea_trends <- all_diarrhea_data %>%
 print(diarrhea_trends)
 
 
-# --- Bước 3: Trực quan hóa chuỗi thời gian ---
+# Trực quan hóa chuỗi thời gian
 ggplot(diarrhea_trends, aes(x = year, y = diarrhea_rate, color = water_status, group = water_status)) +
   geom_line(linewidth = 1.2) +
   geom_point(size = 4) +
